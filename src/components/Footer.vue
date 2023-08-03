@@ -22,14 +22,11 @@
     <div class="space-y-2 sm:ml-16">
       <h3 class="text-white">Réseaux sociaux</h3>
       <ul class="flex flex-row sm:flex-col gap-5 sm:gap-0 text-slate-500">
-        <a href="#" class="transition hover:text-slate-300 duration-300"
-          ><li>Facebook</li></a
-        >
         <a
-          href="https://twitter.com/LBPrestacar"
+          href="https://www.facebook.com/lbprestacar"
           target="_blank"
           class="transition hover:text-slate-300 duration-300"
-          ><li>Twitter</li></a
+          ><li>Facebook</li></a
         >
         <a
           href="https://www.instagram.com/lbprestacar/"

@@ -84,6 +84,14 @@ const images = [
   { id: 3, src: getVehiculeImageUrl("cadillac_escalade/cadillac3.jpg") },
   { id: 4, src: getVehiculeImageUrl("cadillac_escalade/cadillac4.jpg") },
   { id: 5, src: getVehiculeImageUrl("cadillac_escalade/cadillac5.jpg") },
+  { id: 6, src: getVehiculeImageUrl("cadillac_escalade/cadillac6.jpg") },
+  { id: 7, src: getVehiculeImageUrl("cadillac_escalade/cadillac7.jpg") },
+  { id: 8, src: getVehiculeImageUrl("cadillac_escalade/cadillac8.jpg") },
+  { id: 9, src: getVehiculeImageUrl("cadillac_escalade/cadillac9.jpg") },
+  { id: 10, src: getVehiculeImageUrl("cadillac_escalade/cadillac10.jpg") },
+  { id: 11, src: getVehiculeImageUrl("cadillac_escalade/cadillac11.jpg") },
+  { id: 12, src: getVehiculeImageUrl("cadillac_escalade/cadillac12.jpg") },
+  { id: 13, src: getVehiculeImageUrl("cadillac_escalade/cadillac13.jpg") },
 ];
 
 onMounted(() => {

@@ -49,14 +49,7 @@
             <InstagramIcon class="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" />
           </a>
           <a
-            href="https://twitter.com/LBPrestacar"
-            target="_blank"
-            class="p-5 hover:bg-slate-200 rounded-full"
-          >
-            <TwitterIcon class="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" />
-          </a>
-          <a
-            href="#"
+            href="https://www.facebook.com/lbprestacar"
             target="_blank"
             class="p-5 hover:bg-slate-200 rounded-full"
           >
@@ -77,5 +70,4 @@ import PhoneIcon from "../components/Icons/PhoneIcon.vue";
 import MailIcon from "../components/Icons/MailIcon.vue";
 import InstagramIcon from "../components/Icons/InstagramIcon.vue";
 import FacebookIcon from "../components/Icons/FacebookIcon.vue";
-import TwitterIcon from "../components/Icons/TwitterIcon.vue";
 </script>

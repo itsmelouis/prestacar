@@ -85,6 +85,8 @@ const images = [
   { id: 4, src: getVehiculeImageUrl("combi_t1/combi4.jpg") },
   { id: 5, src: getVehiculeImageUrl("combi_t1/combi5.jpg") },
   { id: 6, src: getVehiculeImageUrl("combi_t1/combi6.jpg") },
+  { id: 7, src: getVehiculeImageUrl("combi_t1/combi7.jpg") },
+  { id: 8, src: getVehiculeImageUrl("combi_t1/combi8.jpg") },
 ];
 
 onMounted(() => {

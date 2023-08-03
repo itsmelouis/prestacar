@@ -30,7 +30,7 @@ const routes = [
       {
         path: "volkswagen-combi-t1",
         component: CombiT1,
-        meta: { title: "Volkswagen CombiT1 - PrestaCar" },
+        meta: { title: "Volkswagen Combi T1 - PrestaCar" },
       },
       {
         path: "volkswagen-coccinelle",
@@ -63,7 +63,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, _from, next) => {
-  document.title = to.meta.title;
+  document.title = (to.meta.title as string) || "Prestacar";
   next();
 });
 export default router;

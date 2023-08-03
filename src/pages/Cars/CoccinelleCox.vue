@@ -78,11 +78,23 @@ const getVehiculeImageUrl = (name: string): string => {
 };
 
 const images = [
-  { id: 1, src: getVehiculeImageUrl("cadillac_escalade/cadillac1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("cadillac_escalade/cadillac2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("cadillac_escalade/cadillac3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("cadillac_escalade/cadillac4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("cadillac_escalade/cadillac5.jpg") },
+  { id: 1, src: getVehiculeImageUrl("coccinel_cox/cox1.jpg") },
+  { id: 2, src: getVehiculeImageUrl("coccinel_cox/cox2.jpg") },
+  { id: 3, src: getVehiculeImageUrl("coccinel_cox/cox3.jpg") },
+  { id: 4, src: getVehiculeImageUrl("coccinel_cox/cox4.jpg") },
+  { id: 5, src: getVehiculeImageUrl("coccinel_cox/cox5.jpg") },
+  { id: 6, src: getVehiculeImageUrl("coccinel_cox/cox6.jpg") },
+  { id: 7, src: getVehiculeImageUrl("coccinel_cox/cox7.jpg") },
+  { id: 8, src: getVehiculeImageUrl("coccinel_cox/cox8.jpg") },
+  { id: 9, src: getVehiculeImageUrl("coccinel_cox/cox9.jpg") },
+  { id: 10, src: getVehiculeImageUrl("coccinel_cox/cox10.jpg") },
+  { id: 11, src: getVehiculeImageUrl("coccinel_cox/cox11.jpg") },
+  { id: 12, src: getVehiculeImageUrl("coccinel_cox/cox12.jpg") },
+  { id: 13, src: getVehiculeImageUrl("coccinel_cox/cox13.jpg") },
+  { id: 14, src: getVehiculeImageUrl("coccinel_cox/cox14.jpg") },
+  { id: 15, src: getVehiculeImageUrl("coccinel_cox/cox15.jpg") },
+  { id: 16, src: getVehiculeImageUrl("coccinel_cox/cox16.jpg") },
+  { id: 17, src: getVehiculeImageUrl("coccinel_cox/cox17.jpg") },
 ];
 
 onMounted(() => {

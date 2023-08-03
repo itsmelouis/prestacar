@@ -14,6 +14,12 @@
           <CardVoiture :items="value"></CardVoiture>
         </div>
       </div>
+      <p
+        class="text-xl md:text-2xl lg:text-3xl font-semibold text-center underline"
+      >
+        Envie d'un véhicule non présent sur le catalogue ? N'hésitez pas à nous
+        contacter !
+      </p>
     </div>
     <router-view></router-view>
     <Footer></Footer>
@@ -41,7 +47,7 @@ const summary = [
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
-    car: "Volkswagen CombiT1",
+    car: "Volkswagen Combi T1",
     src: getVehiculeImageUrl("combi_t1/combi1.jpg"),
     href: "/vehicules/volkswagen-combi-t1",
   },
@@ -52,7 +58,7 @@ const summary = [
   },
   {
     car: "Volkswagen Coccinelle Cox",
-    src: getVehiculeImageUrl("cadillac_escalade/cadillac1.jpg"),
+    src: getVehiculeImageUrl("coccinel_cox/cox1.jpg"),
     href: "/vehicules/volkswagen-coccinelle",
   },
 ];

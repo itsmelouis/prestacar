@@ -11,13 +11,10 @@
         </router-link>
 
         <div class="flex flex-row gap-1 md:gap-3 mx-3">
-          <a href="#">
+          <a href="https://www.instagram.com/lbprestacar/" target="_blank">
             <instagram-icon class="w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9" />
           </a>
-          <a href="#">
-            <twitter-icon class="w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9" />
-          </a>
-          <a href="#">
+          <a href="https://www.facebook.com/lbprestacar" target="_blank">
             <facebook-icon class="w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9" />
           </a>
         </div>
@@ -60,7 +57,6 @@
 import { ref } from "vue";
 import InstagramIcon from "../components/Icons/InstagramIcon.vue";
 import FacebookIcon from "../components/Icons/FacebookIcon.vue";
-import TwitterIcon from "../components/Icons/TwitterIcon.vue";
 
 let showMenu = ref(false);
 const toggleNav = () => (showMenu.value = !showMenu.value);
