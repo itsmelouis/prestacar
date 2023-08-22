@@ -4,7 +4,13 @@
       <Carousel class="overflow-hidden">
         <Slide v-for="prop in props.items" :key="prop.id">
           <div class="max-h-96 flex justify-center items-center">
-            <img :src="prop.src" class="w-auto h-full object-contain" />
+            <div class="image-container">
+              <img
+                :src="prop.src"
+                class="object-cover max-h-full"
+                ref="imageRef"
+              />
+            </div>
           </div>
         </Slide>
 
@@ -18,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import { PropType } from "vue";
+import { PropType, onMounted, ref } from "vue";
 import { Carousel, Navigation, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 
@@ -32,6 +38,23 @@ const props = defineProps({
     type: Object as PropType<CarouselImg[]>,
     required: true,
   },
+});
+
+const imageRef = ref<HTMLImageElement | null>(null);
+
+onMounted(() => {
+  if (imageRef.value) {
+    imageRef.value.onload = () => {
+      const container = imageRef.value?.parentElement?.parentElement;
+      if (container) {
+        const containerHeight = container.clientHeight;
+        const imageHeight = imageRef.value?.clientHeight;
+        if (imageHeight && imageHeight > containerHeight) {
+          imageRef.value!.style.height = "100%";
+        }
+      }
+    };
+  }
 });
 </script>
 

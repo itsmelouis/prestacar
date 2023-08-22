@@ -6,10 +6,6 @@
         Volkswagen. Fabriqué en 1972 son charme de l'époque vous séduira
         rapidement, ce minibus vous emmènera lors d'événements tels que votre
         mariage ou autres.
-
-        <br />
-        <br />
-        Capacité: 7 passagers. (6 recommandés)
         <br />
         <br />
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez

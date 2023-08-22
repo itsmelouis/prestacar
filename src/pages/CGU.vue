@@ -2,7 +2,7 @@
   <div class="bg-slate-50">
     <Header></Header>
     <div
-      class="flex flex-col items-start space-y-5 md:space-y-10 mt-10 mb-10 ml-40 rounded-md min-h-[50vh]"
+      class="flex flex-col items-start space-y-5 md:space-y-10 mt-10 mb-10 ml-5 md:ml-40 rounded-md min-h-[50vh]"
     >
       <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold">
         Ce site est édité par :

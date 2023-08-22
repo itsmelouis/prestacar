@@ -61,5 +61,15 @@ const summary = [
     src: getVehiculeImageUrl("coccinel_cox/cox1.jpg"),
     href: "/vehicules/volkswagen-coccinelle",
   },
+  {
+    car: "Audi A4 Allroad blanche Quattro",
+    src: getVehiculeImageUrl("audi_a4/audiA4_2.jpg"),
+    href: "/vehicules/audi-a4-allroad-blanche-quattro",
+  },
+  {
+    car: "Mustang Legend Lime",
+    src: getVehiculeImageUrl("mustang_legend/mustang3.jpg"),
+    href: "/vehicules/mustang-legend-lime",
+  },
 ];
 </script>

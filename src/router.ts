@@ -10,6 +10,8 @@ import CombiT1 from "./pages/Cars/CombiT1.vue";
 import LincolnTowncar from "./pages/Cars/LincolnTowncar.vue";
 import NewBeetleCabriolet from "./pages/Cars/NewBeetleCabriolet.vue";
 import CGU from "./pages/CGU.vue";
+import MustangLegend from "./pages/Cars/MustangLegend.vue";
+import AudiA4 from "./pages/Cars/AudiA4.vue";
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -41,6 +43,16 @@ const routes = [
         path: "volkswagen-new-beetle-cabriolet",
         component: NewBeetleCabriolet,
         meta: { title: "Volkswagen New Beetle Cabriolet - PrestaCar" },
+      },
+      {
+        path: "mustang-legend-lime",
+        component: MustangLegend,
+        meta: { title: "Mustang Legend Lime - PrestaCar" },
+      },
+      {
+        path: "audi-a4-allroad-blanche-quattro",
+        component: AudiA4,
+        meta: { title: "Audi A4 Allroad blanche Quattro - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },
