@@ -18,7 +18,7 @@
         <br />
         <br />
         Les expositions et visites sont sur devis. L'approche est de 30km autour
-        de Valenciennes, au-delà un supplément de 0.50 centimes/km sera demandé.
+        de Valenciennes, au-delà un supplément sera demandé.
         <br />
         <br />
       </p>

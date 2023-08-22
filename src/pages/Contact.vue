@@ -24,12 +24,12 @@
           </p>
         </a>
         <a
-          href="mailto:lbprestacar@gmail.com"
+          href="mailto:contact@lb-prestacar.com"
           class="flex flex-col justify-center items-center p-8 rounded hover:bg-slate-100 hover:cursor-pointer md:w-1/4 gap-3"
         >
           <MailIcon />
           <p class="text-base md:text-lg lg:text-xl text-center">
-            lbprestacar@gmail.com
+            contact@lb-prestacar.com
           </p>
         </a>
       </div>
