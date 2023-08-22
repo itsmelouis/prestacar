@@ -44,8 +44,6 @@ const images = [
   { id: 3, src: getVehiculeImageUrl("lincoln_towncar/limo1.jpg") },
   { id: 4, src: getVehiculeImageUrl("new_beetle/new-beetle1.jpg") },
 ];
-
-console.log(images[0].src);
 </script>
 
 <style></style>

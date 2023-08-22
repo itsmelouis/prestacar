@@ -3,11 +3,11 @@
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
         Découvrez
-        <span class="font-bold">l'Audi A4 Allroad blanche Quattro</span>, une
-        véritable icône de l'élégance et de la performance. Équipée d'un
-        puissant V6 et d'un intérieur en cuir luxueux, cette voiture incarne la
-        quintessence du style et du confort. Louez cette Audi A4 Allroad dès
-        maintenant pour une expérience inégalée.
+        <span class="font-bold">l'Audi A4 Allroad</span>, une véritable icône de
+        l'élégance et de la performance. Équipée d'un puissant V6 et d'un
+        intérieur en cuir luxueux, cette voiture incarne la quintessence du
+        style et du confort. Louez cette Audi A4 Allroad dès maintenant pour une
+        expérience inégalée.
         <br />
         <br />
         Capacité: 4 passagers.
@@ -60,17 +60,16 @@ import GoTop from "../../components/GoTop.vue";
 const el = ref<HTMLDivElement>();
 
 const grille_tarifiaire = [
-  ["Temps", "Prix"],
+  ["Temps", "Prix avec chauffeur"],
   ["Aller Simple", "Sur devis"],
   ["Aller Retour", "Sur devis"],
-  ["3h", "350€"],
-  ["4h", "450€"],
-  ["Forfait Mariage", "500€"],
+  ["1h", "150€"],
+  ["3h", "300€"],
+  ["Forfait Mariage", "400€"],
 ];
 
 const options = [
   ["Intitulé", "Prix"],
-  ["Diffusion musique ou vidéo", "Inclus"],
   ["Photographe", "Sur devis"],
   ["Fleurs", "Sur devis"],
 ];
@@ -89,7 +88,7 @@ const images = [
   { id: 7, src: getVehiculeImageUrl("audi_a4/audiA4_7.jpg") },
   { id: 8, src: getVehiculeImageUrl("audi_a4/audiA4_8.jpg") },
   { id: 9, src: getVehiculeImageUrl("audi_a4/audiA4_9.jpg") },
-  { id: 10, src: getVehiculeImageUrl("audi_a4/audiA4_10jpg") },
+  { id: 10, src: getVehiculeImageUrl("audi_a4/audiA4_10.jpg") },
   { id: 11, src: getVehiculeImageUrl("audi_a4/audiA4_11.jpg") },
   { id: 12, src: getVehiculeImageUrl("audi_a4/audiA4_12.jpg") },
   { id: 13, src: getVehiculeImageUrl("audi_a4/audiA4_13.jpg") },

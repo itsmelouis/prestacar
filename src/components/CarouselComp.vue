@@ -2,7 +2,7 @@
   <Carousel :autoplay="2000" :wrap-around="true">
     <Slide v-for="prop in props.items" :key="prop.id">
       <div class="max-h-96 flex justify-center items-center">
-        <img :src="prop.src" class="w-auto h-full object-contain" />
+        <img :src="prop.src" class="w-full h-auto" />
       </div>
     </Slide>
   </Carousel>
