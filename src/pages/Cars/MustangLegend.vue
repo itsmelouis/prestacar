@@ -71,7 +71,6 @@ const grille_tarifiaire = [
 
 const options = [
   ["Intitulé", "Prix"],
-  ["Diffusion musique ou vidéo", "Inclus"],
   ["Photographe", "Sur devis"],
   ["Fleurs", "Sur devis"],
 ];

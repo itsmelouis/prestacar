@@ -12,6 +12,8 @@ import NewBeetleCabriolet from "./pages/Cars/NewBeetleCabriolet.vue";
 import CGU from "./pages/CGU.vue";
 import MustangLegend from "./pages/Cars/MustangLegend.vue";
 import AudiA4 from "./pages/Cars/AudiA4.vue";
+import Porsche986 from "./pages/Cars/Porsche986.vue";
+import MustangGT from "./pages/Cars/MustangGT.vue";
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -53,6 +55,16 @@ const routes = [
         path: "audi-a4-allroad-blanche-quattro",
         component: AudiA4,
         meta: { title: "Audi A4 Allroad blanche Quattro - PrestaCar" },
+      },
+      {
+        path: "porsche-986",
+        component: Porsche986,
+        meta: { title: "Porsche 986 - PrestaCar" },
+      },
+      {
+        path: "mustang-gt",
+        component: MustangGT,
+        meta: { title: "Ford Mustang GT - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },

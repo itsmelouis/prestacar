@@ -71,5 +71,15 @@ const summary = [
     src: getVehiculeImageUrl("mustang_legend/mustang3.jpg"),
     href: "/vehicules/mustang-legend-lime",
   },
+  {
+    car: "Ford Mustang GT",
+    src: getVehiculeImageUrl("mustang_gt/mustang-15.jpg"),
+    href: "/vehicules/mustang-gt",
+  },
+  {
+    car: "Porsche 986",
+    src: getVehiculeImageUrl("porsche_986/boxster-15.jpg"),
+    href: "/vehicules/porsche-986",
+  },
 ];
 </script>
