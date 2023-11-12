@@ -5,7 +5,7 @@ import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 const position = ref(0),
   isActive = computed(() => position.value > 100),
   updatePosition = () => (position.value = window.scrollY),
-  goTop = () => window.scrollTo(0, 0);
+  goTop = () => window.scrollTo(0, 200);
 
 onMounted(() => window.addEventListener("scroll", updatePosition));
 onBeforeUnmount(() => window.removeEventListener("scroll", updatePosition));

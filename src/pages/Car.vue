@@ -53,7 +53,7 @@ const summary = [
   },
   {
     car: "Volkswagen New Beetle Cabriolet",
-    src: getVehiculeImageUrl("new_beetle/new-beetle1.jpg"),
+    src: getVehiculeImageUrl("new_beetle/new-beetle21.jpg"),
     href: "/vehicules/volkswagen-new-beetle-cabriolet",
   },
   {
@@ -80,6 +80,21 @@ const summary = [
     car: "Porsche 986",
     src: getVehiculeImageUrl("porsche_986/boxster-15.jpg"),
     href: "/vehicules/porsche-986",
+  },
+  {
+    car: "Rolls Royce Phantom",
+    src: getVehiculeImageUrl("rolls_royce_phantom/rolls-11.jpg"),
+    href: "/vehicules/rolls-royce-phantom",
+  },
+  {
+    car: "Aston Martin Voltage",
+    src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-8.jpg"),
+    href: "/vehicules/aston-martin-voltage",
+  },
+  {
+    car: "Bentley Continental GT Sport",
+    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-5.jpg"),
+    href: "/vehicules/bentley-continental-gt-sport",
   },
 ];
 </script>

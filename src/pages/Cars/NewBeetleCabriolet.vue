@@ -84,15 +84,20 @@ const getVehiculeImageUrl = (name: string): string => {
 };
 
 const images = [
-  { id: 1, src: getVehiculeImageUrl("new_beetle/new-beetle1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("new_beetle/new-beetle2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("new_beetle/new-beetle3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("new_beetle/new-beetle4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("new_beetle/new-beetle5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("new_beetle/new-beetle6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("new_beetle/new-beetle7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("new_beetle/new-beetle8.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle9.jpg") },
+  { id: 1, src: getVehiculeImageUrl("new_beetle/new-beetle10.jpg") },
+  { id: 2, src: getVehiculeImageUrl("new_beetle/new-beetle11.jpg") },
+  { id: 3, src: getVehiculeImageUrl("new_beetle/new-beetle12.jpg") },
+  { id: 4, src: getVehiculeImageUrl("new_beetle/new-beetle13.jpg") },
+  { id: 5, src: getVehiculeImageUrl("new_beetle/new-beetle14.jpg") },
+  { id: 6, src: getVehiculeImageUrl("new_beetle/new-beetle15.jpg") },
+  { id: 7, src: getVehiculeImageUrl("new_beetle/new-beetle16.jpg") },
+  { id: 8, src: getVehiculeImageUrl("new_beetle/new-beetle17.jpg") },
+  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle18.jpg") },
+  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle19.jpg") },
+  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle20.jpg") },
+  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle21.jpg") },
+  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle22.jpg") },
+  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle23.jpg") },
 ];
 
 onMounted(() => {

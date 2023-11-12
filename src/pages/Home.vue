@@ -5,7 +5,7 @@
       class="flex flex-col items-center space-y-8 md:space-y-16 mb-10 rounded-md min-h-[50vh]"
     >
       <CarouselComp :items="images"></CarouselComp>
-      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         Bienvenue sur PrestaCar !
       </h1>
       <p class="text-base md:text-lg lg:text-xl text-center">
@@ -42,7 +42,12 @@ const images = [
   { id: 1, src: getVehiculeImageUrl("cadillac_escalade/cadillac1.jpg") },
   { id: 2, src: getVehiculeImageUrl("combi_t1/combi1.jpg") },
   { id: 3, src: getVehiculeImageUrl("lincoln_towncar/limo1.jpg") },
-  { id: 4, src: getVehiculeImageUrl("new_beetle/new-beetle1.jpg") },
+  { id: 4, src: getVehiculeImageUrl("cadillac_escalade/cadillac14.jpg") },
+  {
+    id: 4,
+    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-5.jpg"),
+  },
+  { id: 4, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-11.jpg") },
 ];
 </script>
 

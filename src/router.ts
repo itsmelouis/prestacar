@@ -14,6 +14,9 @@ import MustangLegend from "./pages/Cars/MustangLegend.vue";
 import AudiA4 from "./pages/Cars/AudiA4.vue";
 import Porsche986 from "./pages/Cars/Porsche986.vue";
 import MustangGT from "./pages/Cars/MustangGT.vue";
+import RollsPhantom from "./pages/Cars/RollsPhantom.vue";
+import BentleyContinentalGTSport from "./pages/Cars/BentleyContinentalGTSport.vue";
+import AstonMartinVoltage from "./pages/Cars/AstonMartinVoltage.vue";
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -65,6 +68,21 @@ const routes = [
         path: "mustang-gt",
         component: MustangGT,
         meta: { title: "Ford Mustang GT - PrestaCar" },
+      },
+      {
+        path: "rolls-royce-phantom",
+        component: RollsPhantom,
+        meta: { title: "Rolls Royce Phantom - PrestaCar" },
+      },
+      {
+        path: "bentley-continental-gt-sport",
+        component: BentleyContinentalGTSport,
+        meta: { title: "Bentley Continental GT Sport - PrestaCar" },
+      },
+      {
+        path: "aston-martin-voltage",
+        component: AstonMartinVoltage,
+        meta: { title: "Aston Martin Voltage - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },
