@@ -93,11 +93,13 @@ const images = [
   { id: 7, src: getVehiculeImageUrl("new_beetle/new-beetle16.jpg") },
   { id: 8, src: getVehiculeImageUrl("new_beetle/new-beetle17.jpg") },
   { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle18.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle19.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle20.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle21.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle22.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle23.jpg") },
+  { id: 10, src: getVehiculeImageUrl("new_beetle/new-beetle19.jpg") },
+  { id: 11, src: getVehiculeImageUrl("new_beetle/new-beetle20.jpg") },
+  { id: 12, src: getVehiculeImageUrl("new_beetle/new-beetle21.jpg") },
+  { id: 13, src: getVehiculeImageUrl("new_beetle/new-beetle22.jpg") },
+  { id: 14, src: getVehiculeImageUrl("new_beetle/new-beetle23.jpg") },
+  { id: 15, src: getVehiculeImageUrl("new_beetle/new-beetle8.jpg") },
+  { id: 16, src: getVehiculeImageUrl("new_beetle/new-beetle9.jpg") },
 ];
 
 onMounted(() => {
