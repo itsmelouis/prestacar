@@ -2,11 +2,11 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        La <span class="font-bold">Rolls Royce Phantom</span>
-        est le modèle emblématique de la marque anglaise mais aussi le summum du
-        luxe, parfait pour les mariages elle vous garantira une entrée
+        Offrez-vous l'élégance ultime avec notre
+        <span class="font-bold">Bentley Continental GT Sport</span>, le choix
+        parfait pour sublimer vos mariages. Louez ce symbole de luxe et de
+        style, accompagné d'un chauffeur professionnel pour une expérience
         inoubliable.
-        <br />
         <br />
         Capacité: 3 passagers (1 recommandé).
         <br />

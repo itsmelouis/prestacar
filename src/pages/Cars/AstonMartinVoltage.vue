@@ -2,10 +2,11 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        La <span class="font-bold">Rolls Royce Phantom</span>
-        est le modèle emblématique de la marque anglaise mais aussi le summum du
-        luxe, parfait pour les mariages elle vous garantira une entrée
-        inoubliable.
+        L'<span class="font-bold">Aston Martin Voltage</span> est le véhicule
+        parfait pour vous accompagner lors de vos événements, luxe et élégance
+        sont les maîtres mots. Ce véhicule d'une grande rareté produit à
+        uniquement 7 exemplaires vous assurera une arrivée inoubliable et
+        remarquable.
         <br />
         <br />
         Capacité: 3 passagers (1 recommandé).
