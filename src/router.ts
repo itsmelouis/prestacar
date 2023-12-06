@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 import Home from "./pages/Home.vue";
 import Contact from "./pages/Contact.vue";
@@ -16,7 +16,7 @@ import Porsche986 from "./pages/Cars/Porsche986.vue";
 import MustangGT from "./pages/Cars/MustangGT.vue";
 import RollsPhantom from "./pages/Cars/RollsPhantom.vue";
 import BentleyContinentalGTSport from "./pages/Cars/BentleyContinentalGTSport.vue";
-import AstonMartinVoltage from "./pages/Cars/AstonMartinVoltage.vue";
+import AstonMartinVolante from "./pages/Cars/AstonMartinVolante.vue";
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -80,9 +80,9 @@ const routes = [
         meta: { title: "Bentley Continental GT Sport - PrestaCar" },
       },
       {
-        path: "aston-martin-voltage",
-        component: AstonMartinVoltage,
-        meta: { title: "Aston Martin Voltage - PrestaCar" },
+        path: "aston-martin-volante",
+        component: AstonMartinVolante,
+        meta: { title: "Aston Martin Volante - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },
@@ -100,7 +100,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 });
 

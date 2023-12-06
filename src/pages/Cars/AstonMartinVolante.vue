@@ -2,7 +2,7 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">Aston Martin Voltage</span> est le véhicule
+        L'<span class="font-bold">Aston Martin Volante</span> est le véhicule
         parfait pour vous accompagner lors de vos événements, luxe et élégance
         sont les maîtres mots. Ce véhicule d'une grande rareté produit à
         uniquement 7 exemplaires vous assurera une arrivée inoubliable et
@@ -75,19 +75,19 @@ const getVehiculeImageUrl = (name: string): string => {
 };
 
 const images = [
-  { id: 1, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab.jpg") },
-  { id: 2, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-1.jpg") },
-  { id: 3, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-2.jpg") },
-  { id: 4, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-3.jpg") },
-  { id: 5, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-4.jpg") },
-  { id: 6, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-5.jpg") },
-  { id: 7, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-6.jpg") },
-  { id: 8, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-7.jpg") },
-  { id: 9, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-8.jpg") },
-  { id: 10, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-9.jpg") },
-  { id: 11, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-10.jpg") },
-  { id: 12, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-11.jpg") },
-  { id: 13, src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-12.jpg") },
+  { id: 1, src: getVehiculeImageUrl("aston_martin_volante/aston-cab.jpg") },
+  { id: 2, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-1.jpg") },
+  { id: 3, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-2.jpg") },
+  { id: 4, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-3.jpg") },
+  { id: 5, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-4.jpg") },
+  { id: 6, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-5.jpg") },
+  { id: 7, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-6.jpg") },
+  { id: 8, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-7.jpg") },
+  { id: 9, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-8.jpg") },
+  { id: 10, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-9.jpg") },
+  { id: 11, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-10.jpg") },
+  { id: 12, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-11.jpg") },
+  { id: 13, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-12.jpg") },
 ];
 
 onMounted(() => {

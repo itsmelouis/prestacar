@@ -87,9 +87,9 @@ const summary = [
     href: "/vehicules/rolls-royce-phantom",
   },
   {
-    car: "Aston Martin Voltage",
-    src: getVehiculeImageUrl("aston_martin_voltage/aston-cab-8.jpg"),
-    href: "/vehicules/aston-martin-voltage",
+    car: "Aston Martin Volante",
+    src: getVehiculeImageUrl("aston_martin_volante/aston-cab-8.jpg"),
+    href: "/vehicules/aston-martin-volante",
   },
   {
     car: "Bentley Continental GT Sport",
