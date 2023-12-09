@@ -1,5 +1,5 @@
 export const getVehiculeImage = (name: string): string => {
-  return new URL(`../assets/resize/${name}`, import.meta.url).href;
+  return new URL(`../assets/jpg/${name}`, import.meta.url).href;
 };
 
 export const getVehiculeImageAvif = (name: string): string => {

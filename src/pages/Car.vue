@@ -65,7 +65,7 @@ const summary = [
   },
   {
     car: "Mustang Legend Lime",
-    src: getVehiculeImage("mustang_legend/mustang3.jpg"),
+    src: getVehiculeImage("mustang_legend/mustang_verte.jpg"),
     href: "/vehicules/mustang-legend-lime",
   },
   {

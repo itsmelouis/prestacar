@@ -83,27 +83,27 @@ const options = [
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("mustang_legend/mustang1.jpg"),
-    avif: getVehiculeImageAvif("mustang_legend/mustang1.avif"),
-    webp: getVehiculeImageWebp("mustang_legend/mustang1.webp"),
+    src: getVehiculeImage("mustang_legend/mustang_verte.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang_verte.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang_verte.webp"),
   },
   {
     id: 2,
-    src: getVehiculeImage("mustang_legend/mustang2.jpg"),
-    avif: getVehiculeImageAvif("mustang_legend/mustang2.avif"),
-    webp: getVehiculeImageWebp("mustang_legend/mustang2.webp"),
+    src: getVehiculeImage("mustang_legend/mustang_verte-1.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang_verte-1.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang_verte-1.webp"),
   },
   {
     id: 3,
-    src: getVehiculeImage("mustang_legend/mustang3.jpg"),
-    avif: getVehiculeImageAvif("mustang_legend/mustang3.avif"),
-    webp: getVehiculeImageWebp("mustang_legend/mustang3.webp"),
+    src: getVehiculeImage("mustang_legend/mustang_verte-2.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang_verte-2.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang_verte-2.webp"),
   },
   {
     id: 4,
-    src: getVehiculeImage("mustang_legend/mustang4.jpg"),
-    avif: getVehiculeImageAvif("mustang_legend/mustang4.avif"),
-    webp: getVehiculeImageWebp("mustang_legend/mustang4.webp"),
+    src: getVehiculeImage("mustang_legend/mustang_verte-3.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang_verte-3.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang_verte-3.webp"),
   },
 ];
 
