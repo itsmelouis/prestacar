@@ -73,9 +73,7 @@ const grille_tarifiaire = [
   ["Temps", "Prix avec chauffeur"],
   ["Aller Simple", "Sur devis"],
   ["Aller Retour", "Sur devis"],
-  ["1h", "150€"],
-  ["3h", "300€"],
-  ["Forfait Mariage", "400€"],
+  ["Forfait Mariage", "300€"],
 ];
 
 const options = [
