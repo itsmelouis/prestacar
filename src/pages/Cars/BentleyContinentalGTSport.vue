@@ -51,6 +51,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -69,90 +74,126 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
   {
     id: 1,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley.webp"),
   },
   {
     id: 2,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-1.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-1.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-1.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-1.webp"),
   },
   {
     id: 3,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-2.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-2.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-2.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-2.webp"),
   },
   {
     id: 4,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-3.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-3.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-3.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-3.webp"),
   },
   {
     id: 5,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-4.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-4.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-4.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-4.webp"),
   },
   {
     id: 6,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-5.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-5.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-5.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-5.webp"),
   },
   {
     id: 7,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-6.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-6.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-6.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-6.webp"),
   },
   {
     id: 8,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-7.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-7.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-7.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-7.webp"),
   },
   {
     id: 9,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-8.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-8.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-8.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-8.webp"),
   },
   {
     id: 10,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-9.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-9.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-9.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-9.webp"),
   },
   {
     id: 11,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-10.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-10.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-10.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-10.webp"),
   },
   {
     id: 12,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-11.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-11.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-11.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-11.webp"),
   },
   {
     id: 13,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-12.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-12.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-12.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-12.webp"),
   },
   {
     id: 14,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-13.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-13.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-13.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-13.webp"),
   },
   {
     id: 15,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-14.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-14.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-14.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-14.webp"),
   },
   {
     id: 16,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-15.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-15.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-15.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-15.webp"),
   },
   {
     id: 17,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-16.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-16.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-16.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-16.webp"),
   },
   {
     id: 18,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-17.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-17.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-17.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-17.webp"),
   },
   {
     id: 19,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-18.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-18.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-18.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-18.webp"),
   },
   {
     id: 20,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-19.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-19.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-19.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-19.webp"),
   },
 ];
 

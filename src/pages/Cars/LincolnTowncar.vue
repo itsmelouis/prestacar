@@ -53,6 +53,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -82,18 +87,54 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("lincoln_towncar/limo1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("lincoln_towncar/limo2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("lincoln_towncar/limo3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("lincoln_towncar/limo4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("lincoln_towncar/limo5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("lincoln_towncar/limo6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("lincoln_towncar/limo7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("lincoln_towncar/limo8.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("lincoln_towncar/limo1.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo1.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo1.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("lincoln_towncar/limo2.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo2.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("lincoln_towncar/limo3.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo3.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("lincoln_towncar/limo4.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo4.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("lincoln_towncar/limo5.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo5.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo5.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("lincoln_towncar/limo6.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo6.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo6.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("lincoln_towncar/limo7.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo7.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo7.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("lincoln_towncar/limo8.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo8.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo8.webp"),
+  },
 ];
 </script>

@@ -52,6 +52,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -73,28 +78,109 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("coccinel_cox/cox1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("coccinel_cox/cox2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("coccinel_cox/cox3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("coccinel_cox/cox4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("coccinel_cox/cox5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("coccinel_cox/cox6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("coccinel_cox/cox7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("coccinel_cox/cox8.jpg") },
-  { id: 9, src: getVehiculeImageUrl("coccinel_cox/cox9.jpg") },
-  { id: 10, src: getVehiculeImageUrl("coccinel_cox/cox10.jpg") },
-  { id: 11, src: getVehiculeImageUrl("coccinel_cox/cox11.jpg") },
-  { id: 12, src: getVehiculeImageUrl("coccinel_cox/cox12.jpg") },
-  { id: 13, src: getVehiculeImageUrl("coccinel_cox/cox13.jpg") },
-  { id: 14, src: getVehiculeImageUrl("coccinel_cox/cox14.jpg") },
-  { id: 15, src: getVehiculeImageUrl("coccinel_cox/cox15.jpg") },
-  { id: 16, src: getVehiculeImageUrl("coccinel_cox/cox16.jpg") },
-  { id: 17, src: getVehiculeImageUrl("coccinel_cox/cox17.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("coccinel_cox/cox1.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox1.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox1.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("coccinel_cox/cox2.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox2.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("coccinel_cox/cox3.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox3.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("coccinel_cox/cox4.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox4.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("coccinel_cox/cox5.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox5.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox5.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("coccinel_cox/cox6.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox6.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox6.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("coccinel_cox/cox7.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox7.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox7.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("coccinel_cox/cox8.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox8.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox8.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("coccinel_cox/cox9.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox9.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox9.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("coccinel_cox/cox10.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox10.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox10.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("coccinel_cox/cox11.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox11.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox11.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("coccinel_cox/cox12.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox12.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox12.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("coccinel_cox/cox13.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox13.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox13.webp"),
+  },
+  {
+    id: 14,
+    src: getVehiculeImage("coccinel_cox/cox14.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox14.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox14.webp"),
+  },
+  {
+    id: 15,
+    src: getVehiculeImage("coccinel_cox/cox15.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox15.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox15.webp"),
+  },
+  {
+    id: 16,
+    src: getVehiculeImage("coccinel_cox/cox16.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox16.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox16.webp"),
+  },
+  {
+    id: 17,
+    src: getVehiculeImage("coccinel_cox/cox17.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox17.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox17.webp"),
+  },
 ];
 
 onMounted(() => {

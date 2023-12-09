@@ -53,6 +53,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -74,25 +79,91 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("audi_a4/audiA4_1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("audi_a4/audiA4_2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("audi_a4/audiA4_3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("audi_a4/audiA4_4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("audi_a4/audiA4_5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("audi_a4/audiA4_6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("audi_a4/audiA4_7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("audi_a4/audiA4_8.jpg") },
-  { id: 9, src: getVehiculeImageUrl("audi_a4/audiA4_9.jpg") },
-  { id: 10, src: getVehiculeImageUrl("audi_a4/audiA4_10.jpg") },
-  { id: 11, src: getVehiculeImageUrl("audi_a4/audiA4_11.jpg") },
-  { id: 12, src: getVehiculeImageUrl("audi_a4/audiA4_12.jpg") },
-  { id: 13, src: getVehiculeImageUrl("audi_a4/audiA4_13.jpg") },
-  { id: 14, src: getVehiculeImageUrl("audi_a4/audiA4_14.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("audi_a4/audiA4_1.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_1.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_1.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("audi_a4/audiA4_2.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_2.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("audi_a4/audiA4_3.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_3.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("audi_a4/audiA4_4.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_4.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("audi_a4/audiA4_5.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_5.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_5.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("audi_a4/audiA4_6.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_6.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_6.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("audi_a4/audiA4_7.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_7.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_7.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("audi_a4/audiA4_8.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_8.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_8.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("audi_a4/audiA4_9.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_9.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_9.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("audi_a4/audiA4_10.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_10.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_10.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("audi_a4/audiA4_11.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_11.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_11.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("audi_a4/audiA4_12.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_12.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_1.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("audi_a4/audiA4_13.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_13.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_13.webp"),
+  },
+  {
+    id: 14,
+    src: getVehiculeImage("audi_a4/audiA4_14.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_14.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_14.webp"),
+  },
 ];
 
 onMounted(() => {

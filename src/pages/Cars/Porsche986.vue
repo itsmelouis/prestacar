@@ -51,6 +51,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -72,27 +77,103 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("porsche_986/boxster.jpg") },
-  { id: 2, src: getVehiculeImageUrl("porsche_986/boxster-2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("porsche_986/boxster-3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("porsche_986/boxster-4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("porsche_986/boxster-5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("porsche_986/boxster-6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("porsche_986/boxster-7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("porsche_986/boxster-8.jpg") },
-  { id: 9, src: getVehiculeImageUrl("porsche_986/boxster-9.jpg") },
-  { id: 10, src: getVehiculeImageUrl("porsche_986/boxster-10.jpg") },
-  { id: 11, src: getVehiculeImageUrl("porsche_986/boxster-11.jpg") },
-  { id: 12, src: getVehiculeImageUrl("porsche_986/boxster-12.jpg") },
-  { id: 13, src: getVehiculeImageUrl("porsche_986/boxster-13.jpg") },
-  { id: 14, src: getVehiculeImageUrl("porsche_986/boxster-14.jpg") },
-  { id: 15, src: getVehiculeImageUrl("porsche_986/boxster-15.jpg") },
-  { id: 16, src: getVehiculeImageUrl("porsche_986/boxster-16.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("porsche_986/boxster.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("porsche_986/boxster-2.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-2.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("porsche_986/boxster-3.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-3.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("porsche_986/boxster-4.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-4.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("porsche_986/boxster-5.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-5.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-5.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("porsche_986/boxster-6.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-6.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-6.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("porsche_986/boxster-7.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-7.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-7.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("porsche_986/boxster-8.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-8.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-8.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("porsche_986/boxster-9.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-9.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-9.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("porsche_986/boxster-10.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-10.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-10.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("porsche_986/boxster-11.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-11.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-11.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("porsche_986/boxster-12.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-12.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-12.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("porsche_986/boxster-13.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-13.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-13.webp"),
+  },
+  {
+    id: 14,
+    src: getVehiculeImage("porsche_986/boxster-14.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-14.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-14.webp"),
+  },
+  {
+    id: 15,
+    src: getVehiculeImage("porsche_986/boxster-15.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-15.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-15.webp"),
+  },
+  {
+    id: 16,
+    src: getVehiculeImage("porsche_986/boxster-16.jpg"),
+    avif: getVehiculeImageAvif("porsche_986/boxster-16.avif"),
+    webp: getVehiculeImageWebp("porsche_986/boxster-16.webp"),
+  },
 ];
 
 onMounted(() => {

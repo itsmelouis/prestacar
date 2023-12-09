@@ -48,6 +48,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -70,19 +75,55 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("combi_t1/combi1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("combi_t1/combi2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("combi_t1/combi3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("combi_t1/combi4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("combi_t1/combi5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("combi_t1/combi6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("combi_t1/combi7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("combi_t1/combi8.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("combi_t1/combi1.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi1.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi1.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("combi_t1/combi2.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi2.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("combi_t1/combi3.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi3.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("combi_t1/combi4.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi4.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("combi_t1/combi5.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi5.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi5.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("combi_t1/combi6.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi6.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi6.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("combi_t1/combi7.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi7.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi7.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("combi_t1/combi8.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi8.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi8.webp"),
+  },
 ];
 
 onMounted(() => {

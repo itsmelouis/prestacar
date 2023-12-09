@@ -51,6 +51,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -69,25 +74,91 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("rolls_royce_phantom/rolls.jpg") },
-  { id: 2, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-1.jpg") },
-  { id: 3, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-2.jpg") },
-  { id: 4, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-3.jpg") },
-  { id: 5, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-4.jpg") },
-  { id: 6, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-5.jpg") },
-  { id: 7, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-6.jpg") },
-  { id: 8, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-7.jpg") },
-  { id: 9, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-8.jpg") },
-  { id: 10, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-9.jpg") },
-  { id: 11, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-10.jpg") },
-  { id: 12, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-11.jpg") },
-  { id: 13, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-12.jpg") },
-  { id: 14, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-13.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("rolls_royce_phantom/rolls.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-1.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-1.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-1.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-2.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-2.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-2.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-3.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-3.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-3.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-4.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-4.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-4.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-5.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-5.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-5.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-6.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-6.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-6.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-7.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-7.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-7.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-8.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-8.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-8.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-9.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-9.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-9.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-10.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-10.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-10.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-11.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-11.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-11.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-12.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-12.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-12.webp"),
+  },
+  {
+    id: 14,
+    src: getVehiculeImage("rolls_royce_phantom/rolls-13.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls-13.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls-13.webp"),
+  },
 ];
 
 onMounted(() => {

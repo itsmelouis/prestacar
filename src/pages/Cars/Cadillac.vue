@@ -52,6 +52,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -74,24 +79,85 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("cadillac_escalade/cadillac1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("cadillac_escalade/cadillac2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("cadillac_escalade/cadillac3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("cadillac_escalade/cadillac4.jpg") },
-  { id: 5, src: getVehiculeImageUrl("cadillac_escalade/cadillac5.jpg") },
-  { id: 6, src: getVehiculeImageUrl("cadillac_escalade/cadillac6.jpg") },
-  { id: 7, src: getVehiculeImageUrl("cadillac_escalade/cadillac7.jpg") },
-  { id: 8, src: getVehiculeImageUrl("cadillac_escalade/cadillac8.jpg") },
-  { id: 9, src: getVehiculeImageUrl("cadillac_escalade/cadillac9.jpg") },
-  { id: 10, src: getVehiculeImageUrl("cadillac_escalade/cadillac10.jpg") },
-  { id: 11, src: getVehiculeImageUrl("cadillac_escalade/cadillac11.jpg") },
-  { id: 12, src: getVehiculeImageUrl("cadillac_escalade/cadillac12.jpg") },
-  { id: 13, src: getVehiculeImageUrl("cadillac_escalade/cadillac13.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("cadillac_escalade/cadillac1.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac1.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac1.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("cadillac_escalade/cadillac2.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac2.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("cadillac_escalade/cadillac3.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac3.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("cadillac_escalade/cadillac4.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac4.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("cadillac_escalade/cadillac5.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac5.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac5.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("cadillac_escalade/cadillac8.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac8.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac8.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("cadillac_escalade/cadillac9.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac9.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac9.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("cadillac_escalade/cadillac10.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac10.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac10.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("cadillac_escalade/cadillac11.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac11.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac11.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("cadillac_escalade/cadillac12.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac12.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac12.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("cadillac_escalade/cadillac13.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac13.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac13.webp"),
+  },
 ];
 
 onMounted(() => {

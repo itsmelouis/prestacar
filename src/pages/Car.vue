@@ -30,70 +30,67 @@
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import CardVoiture from "../components/Card/CardVoiture.vue";
-
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../assets/vehicules/${name}`, import.meta.url).href;
-};
+import { getVehiculeImage } from "../utils/importImages";
 
 const summary = [
   {
     car: "Cadillac Escalade",
-    src: getVehiculeImageUrl("cadillac_escalade/cadillac1.jpg"),
+    src: getVehiculeImage("cadillac_escalade/cadillac1.jpg"),
     href: "/vehicules/cadillac-escalade",
   },
   {
     car: "Limousine Lincoln TownCar",
-    src: getVehiculeImageUrl("lincoln_towncar/limo1.jpg"),
+    src: getVehiculeImage("lincoln_towncar/limo1.jpg"),
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
     car: "Volkswagen Combi T1",
-    src: getVehiculeImageUrl("combi_t1/combi1.jpg"),
+    src: getVehiculeImage("combi_t1/combi1.jpg"),
     href: "/vehicules/volkswagen-combi-t1",
   },
   {
     car: "Volkswagen New Beetle Cabriolet",
-    src: getVehiculeImageUrl("new_beetle/new-beetle21.jpg"),
+    src: getVehiculeImage("new_beetle/new-beetle21.jpg"),
     href: "/vehicules/volkswagen-new-beetle-cabriolet",
   },
   {
     car: "Volkswagen Coccinelle Cox",
-    src: getVehiculeImageUrl("coccinel_cox/cox1.jpg"),
+    src: getVehiculeImage("coccinel_cox/cox1.jpg"),
     href: "/vehicules/volkswagen-coccinelle",
   },
   {
     car: "Audi A4 Allroad blanche Quattro",
-    src: getVehiculeImageUrl("audi_a4/audiA4_2.jpg"),
+    src: getVehiculeImage("audi_a4/audiA4_2.jpg"),
     href: "/vehicules/audi-a4-allroad-blanche-quattro",
   },
   {
     car: "Mustang Legend Lime",
-    src: getVehiculeImageUrl("mustang_legend/mustang3.jpg"),
+    src: getVehiculeImage("mustang_legend/mustang3.jpg"),
     href: "/vehicules/mustang-legend-lime",
   },
   {
     car: "Ford Mustang GT",
-    src: getVehiculeImageUrl("mustang_gt/mustang-15.jpg"),
+    src: getVehiculeImage("mustang_gt/mustang-15.jpg"),
     href: "/vehicules/mustang-gt",
   },
   {
     car: "Porsche 986",
-    src: getVehiculeImageUrl("porsche_986/boxster-15.jpg"),
+    src: getVehiculeImage("porsche_986/boxster-15.jpg"),
     href: "/vehicules/porsche-986",
   },
   {
     car: "Rolls Royce Phantom",
-    src: getVehiculeImageUrl("rolls_royce_phantom/rolls-11.jpg"),
+    src: getVehiculeImage("rolls_royce_phantom/rolls-11.jpg"),
     href: "/vehicules/rolls-royce-phantom",
   },
   {
     car: "Aston Martin Volante",
-    src: getVehiculeImageUrl("aston_martin_volante/aston-cab-8.jpg"),
+    src: getVehiculeImage("aston_martin_volante/aston-cab-8.jpg"),
     href: "/vehicules/aston-martin-volante",
   },
   {
     car: "Bentley Continental GT Sport",
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-5.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-5.jpg"),
     href: "/vehicules/bentley-continental-gt-sport",
   },
 ];

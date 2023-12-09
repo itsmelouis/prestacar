@@ -54,6 +54,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -75,15 +80,31 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("mustang_legend/mustang1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("mustang_legend/mustang2.jpg") },
-  { id: 3, src: getVehiculeImageUrl("mustang_legend/mustang3.jpg") },
-  { id: 4, src: getVehiculeImageUrl("mustang_legend/mustang4.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("mustang_legend/mustang1.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang1.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang1.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("mustang_legend/mustang2.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang2.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang2.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("mustang_legend/mustang3.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang3.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang3.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("mustang_legend/mustang4.jpg"),
+    avif: getVehiculeImageAvif("mustang_legend/mustang4.avif"),
+    webp: getVehiculeImageWebp("mustang_legend/mustang4.webp"),
+  },
 ];
 
 onMounted(() => {

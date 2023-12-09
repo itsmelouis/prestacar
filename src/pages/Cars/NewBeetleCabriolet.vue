@@ -58,6 +58,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -79,27 +84,103 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("new_beetle/new-beetle10.jpg") },
-  { id: 2, src: getVehiculeImageUrl("new_beetle/new-beetle11.jpg") },
-  { id: 3, src: getVehiculeImageUrl("new_beetle/new-beetle12.jpg") },
-  { id: 4, src: getVehiculeImageUrl("new_beetle/new-beetle13.jpg") },
-  { id: 5, src: getVehiculeImageUrl("new_beetle/new-beetle14.jpg") },
-  { id: 6, src: getVehiculeImageUrl("new_beetle/new-beetle15.jpg") },
-  { id: 7, src: getVehiculeImageUrl("new_beetle/new-beetle16.jpg") },
-  { id: 8, src: getVehiculeImageUrl("new_beetle/new-beetle17.jpg") },
-  { id: 9, src: getVehiculeImageUrl("new_beetle/new-beetle18.jpg") },
-  { id: 10, src: getVehiculeImageUrl("new_beetle/new-beetle19.jpg") },
-  { id: 11, src: getVehiculeImageUrl("new_beetle/new-beetle20.jpg") },
-  { id: 12, src: getVehiculeImageUrl("new_beetle/new-beetle21.jpg") },
-  { id: 13, src: getVehiculeImageUrl("new_beetle/new-beetle22.jpg") },
-  { id: 14, src: getVehiculeImageUrl("new_beetle/new-beetle23.jpg") },
-  { id: 15, src: getVehiculeImageUrl("new_beetle/new-beetle8.jpg") },
-  { id: 16, src: getVehiculeImageUrl("new_beetle/new-beetle9.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("new_beetle/new-beetle10.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle10.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle10.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("new_beetle/new-beetle11.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle11.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle11.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("new_beetle/new-beetle12.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle12.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle12.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("new_beetle/new-beetle13.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle13.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle13.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("new_beetle/new-beetle14.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle14.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle14.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("new_beetle/new-beetle15.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle15.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle15.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("new_beetle/new-beetle16.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle16.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle16.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("new_beetle/new-beetle17.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle17.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle17.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("new_beetle/new-beetle18.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle18.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle18.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("new_beetle/new-beetle19.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle19.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle19.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("new_beetle/new-beetle20.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle20.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle20.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("new_beetle/new-beetle21.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle21.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle21.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("new_beetle/new-beetle22.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle22.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle22.webp"),
+  },
+  {
+    id: 14,
+    src: getVehiculeImage("new_beetle/new-beetle23.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle23.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle23.webp"),
+  },
+  {
+    id: 15,
+    src: getVehiculeImage("new_beetle/new-beetle8.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle8.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle8.webp"),
+  },
+  {
+    id: 16,
+    src: getVehiculeImage("new_beetle/new-beetle9.jpg"),
+    avif: getVehiculeImageAvif("new_beetle/new-beetle9.avif"),
+    webp: getVehiculeImageWebp("new_beetle/new-beetle9.webp"),
+  },
 ];
 
 onMounted(() => {

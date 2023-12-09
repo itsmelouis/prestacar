@@ -52,6 +52,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+import {
+  getVehiculeImage,
+  getVehiculeImageAvif,
+  getVehiculeImageWebp,
+} from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
 import GoTop from "../../components/GoTop.vue";
@@ -70,24 +75,85 @@ const options = [
   ["Fleurs", "Sur devis"],
 ];
 
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../../assets/vehicules/${name}`, import.meta.url).href;
-};
-
 const images = [
-  { id: 1, src: getVehiculeImageUrl("aston_martin_volante/aston-cab.jpg") },
-  { id: 2, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-1.jpg") },
-  { id: 3, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-2.jpg") },
-  { id: 4, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-3.jpg") },
-  { id: 5, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-4.jpg") },
-  { id: 6, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-5.jpg") },
-  { id: 7, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-6.jpg") },
-  { id: 8, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-7.jpg") },
-  { id: 9, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-8.jpg") },
-  { id: 10, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-9.jpg") },
-  { id: 11, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-10.jpg") },
-  { id: 12, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-11.jpg") },
-  { id: 13, src: getVehiculeImageUrl("aston_martin_volante/aston-cab-12.jpg") },
+  {
+    id: 1,
+    src: getVehiculeImage("aston_martin_volante/aston-cab.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-1.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-1.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-1.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-2.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-2.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-2.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-3.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-3.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-3.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-4.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-4.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-4.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-5.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-5.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-5.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-6.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-6.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-6.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-7.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-7.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-7.webp"),
+  },
+  {
+    id: 9,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-8.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-8.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-8.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-9.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-9.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-9.webp"),
+  },
+  {
+    id: 11,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-10.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-10.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-10.webp"),
+  },
+  {
+    id: 12,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-11.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-11.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-11.webp"),
+  },
+  {
+    id: 13,
+    src: getVehiculeImage("aston_martin_volante/aston-cab-12.jpg"),
+    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-12.avif"),
+    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-12.webp"),
+  },
 ];
 
 onMounted(() => {

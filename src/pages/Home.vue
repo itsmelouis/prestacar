@@ -17,8 +17,15 @@
       </h2>
       <p class="text-base md:text-lg lg:text-xl text-center">
         Organisez vos déplacements à plusieurs grâce à nos véhicules de confort
-        et de prestige.
+        et de prestige. <br />
+        📍 Basé sur
+        <a
+          href="https://www.google.fr/maps/place/59300+Valenciennes/"
+          class="underline"
+          >Valenciennes</a
+        >
       </p>
+
       <router-link
         to="/vehicules"
         class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full"
@@ -33,21 +40,18 @@
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
 import CarouselComp from "../components/CarouselComp.vue";
-
-const getVehiculeImageUrl = (name: string): string => {
-  return new URL(`../assets/vehicules/${name}`, import.meta.url).href;
-};
+import { getVehiculeImage } from "../utils/importImages";
 
 const images = [
-  { id: 1, src: getVehiculeImageUrl("cadillac_escalade/cadillac1.jpg") },
-  { id: 2, src: getVehiculeImageUrl("combi_t1/combi1.jpg") },
-  { id: 3, src: getVehiculeImageUrl("lincoln_towncar/limo1.jpg") },
-  { id: 4, src: getVehiculeImageUrl("cadillac_escalade/cadillac14.jpg") },
+  { id: 1, src: getVehiculeImage("cadillac_escalade/cadillac1.jpg") },
+  { id: 2, src: getVehiculeImage("combi_t1/combi1.jpg") },
+  { id: 3, src: getVehiculeImage("lincoln_towncar/limo1.jpg") },
+  { id: 4, src: getVehiculeImage("cadillac_escalade/cadillac14.jpg") },
   {
     id: 4,
-    src: getVehiculeImageUrl("bentley_continental_gt_sport/bentley-5.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-5.jpg"),
   },
-  { id: 4, src: getVehiculeImageUrl("rolls_royce_phantom/rolls-11.jpg") },
+  { id: 4, src: getVehiculeImage("rolls_royce_phantom/rolls-11.jpg") },
 ];
 </script>
 
