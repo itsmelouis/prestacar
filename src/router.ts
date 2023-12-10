@@ -17,6 +17,9 @@ import MustangGT from "./pages/Cars/MustangGT.vue";
 import RollsPhantom from "./pages/Cars/RollsPhantom.vue";
 import BentleyContinentalGTSport from "./pages/Cars/BentleyContinentalGTSport.vue";
 import AstonMartinVolante from "./pages/Cars/AstonMartinVolante.vue";
+import DodgeCharger from "./pages/Cars/DodgeCharger.vue";
+import FordCapri from "./pages/Cars/FordCapri.vue";
+import RollsRoyceCorniche from "./pages/Cars/RollsRoyceCorniche.vue";
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -83,6 +86,21 @@ const routes = [
         path: "aston-martin-volante",
         component: AstonMartinVolante,
         meta: { title: "Aston Martin Volante - PrestaCar" },
+      },
+      {
+        path: "dodge-charger-rt",
+        component: DodgeCharger,
+        meta: { title: "Dodge Charger RT - PrestaCar" },
+      },
+      {
+        path: "ford-capri",
+        component: FordCapri,
+        meta: { title: "Ford Capri Crayford Cabriolet - PrestaCar" },
+      },
+      {
+        path: "rolls-royce-corniche",
+        component: RollsRoyceCorniche,
+        meta: { title: "Rolls Royce Corniche - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },

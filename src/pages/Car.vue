@@ -93,5 +93,20 @@ const summary = [
     src: getVehiculeImage("bentley_continental_gt_sport/bentley-5.jpg"),
     href: "/vehicules/bentley-continental-gt-sport",
   },
+  {
+    car: "Dodge Charger RT",
+    src: getVehiculeImage("dodge_charger/charger1.jpg"),
+    href: "/vehicules/dodge-charger-rt",
+  },
+  {
+    car: "Ford Capri Crayford Cabriolet",
+    src: getVehiculeImage("ford_capri/capri-6.jpg"),
+    href: "/vehicules/ford-capri",
+  },
+  {
+    car: "Rolls Royce Corniche",
+    src: getVehiculeImage("rolls_royce_corniche/corniche6.jpg"),
+    href: "/vehicules/rolls-royce-corniche",
+  },
 ];
 </script>
