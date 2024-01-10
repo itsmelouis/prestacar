@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "./pages/Home.vue";
 import Contact from "./pages/Contact.vue";
 import Car from "./pages/Car.vue";
+import Presation from "./pages/Prestation.vue"
 
 import Cadillac from "./pages/Cars/Cadillac.vue";
 import CoccinelleCox from "./pages/Cars/CoccinelleCox.vue";
@@ -20,6 +21,13 @@ import AstonMartinVolante from "./pages/Cars/AstonMartinVolante.vue";
 import DodgeCharger from "./pages/Cars/DodgeCharger.vue";
 import FordCapri from "./pages/Cars/FordCapri.vue";
 import RollsRoyceCorniche from "./pages/Cars/RollsRoyceCorniche.vue";
+
+import Mariage from "./pages/prestations/Mariage.vue";
+import Anniversaire from "./pages/prestations/Anniversaire.vue";
+import Tournage from "./pages/prestations/Tournage.vue";
+import Enterrement from "./pages/prestations/Enterrement.vue";
+import Aeroport from "./pages/prestations/Aeroport.vue";
+import Trajet from "./pages/prestations/Trajet.vue"
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -109,6 +117,43 @@ const routes = [
     path: "/contact",
     component: Contact,
     meta: { title: "Contact - PrestaCar" },
+  },
+  {
+    path: "/prestation",
+    component: Presation,
+    children: [
+      {
+        path: "mariage",
+        component: Mariage,
+        meta: { title: "Mariage - PrestaCar" },
+      },
+      {
+        path: "anniversaire",
+        component: Anniversaire,
+        meta: { title: "Anniversaire - PrestaCar" },
+      },
+      {
+        path: "tournage",
+        component: Tournage,
+        meta: { title: "Tournage - PrestaCar" },
+      },
+      {
+        path: "enterrement",
+        component: Enterrement,
+        meta: { title: "Enterrement - PrestaCar" },
+      },
+      {
+        path: "aeroport",
+        component: Aeroport,
+        meta: { title: "Aeroport - PrestaCar" },
+      },
+      {
+        path: "trajet",
+        component: Trajet,
+        meta: { title: "Trajet - PrestaCar" },
+      },
+    ],
+    meta: { title: "Presation - PrestaCar" },
   },
   {
     path: "/conditions-generales",

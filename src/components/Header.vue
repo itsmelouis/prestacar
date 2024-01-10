@@ -44,6 +44,12 @@
           ><li>Véhicules</li></router-link
         >
         <router-link
+            to="/prestation"
+            class="text-gray-100 hover:text-yellow-400 transition duration-300"
+            :class="{ 'text-yellow-400': $route.path.includes('/vehicules') }"
+        ><li>Prestations</li></router-link
+        >
+        <router-link
           to="/contact"
           class="text-gray-100 hover:text-yellow-400 transition duration-300"
           :class="{ 'text-yellow-400': $route.path.includes('/contact') }"

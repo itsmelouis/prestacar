@@ -35,12 +35,12 @@ import { getVehiculeImage } from "../utils/importImages";
 const summary = [
   {
     car: "Cadillac Escalade",
-    src: getVehiculeImage("cadillac_escalade/cadillac1.jpg"),
+    src: getVehiculeImage("cadillac_escalade/cadillac14.jpg"),
     href: "/vehicules/cadillac-escalade",
   },
   {
     car: "Limousine Lincoln TownCar",
-    src: getVehiculeImage("lincoln_towncar/limo1.jpg"),
+    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
@@ -80,17 +80,17 @@ const summary = [
   },
   {
     car: "Rolls Royce Phantom",
-    src: getVehiculeImage("rolls_royce_phantom/rolls-11.jpg"),
+    src: getVehiculeImage("rolls_royce_phantom/rolls.jpg"),
     href: "/vehicules/rolls-royce-phantom",
   },
   {
     car: "Aston Martin Volante",
-    src: getVehiculeImage("aston_martin_volante/aston-cab-8.jpg"),
+    src: getVehiculeImage("aston_martin_volante/aston-cab-10.jpg"),
     href: "/vehicules/aston-martin-volante",
   },
   {
     car: "Bentley Continental GT Sport",
-    src: getVehiculeImage("bentley_continental_gt_sport/bentley-5.jpg"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),
     href: "/vehicules/bentley-continental-gt-sport",
   },
   {
