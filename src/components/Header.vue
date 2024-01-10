@@ -46,7 +46,7 @@
         <router-link
             to="/prestation"
             class="text-gray-100 hover:text-yellow-400 transition duration-300"
-            :class="{ 'text-yellow-400': $route.path.includes('/vehicules') }"
+            :class="{ 'text-yellow-400': $route.path.includes('/prestation') }"
         ><li>Prestations</li></router-link
         >
         <router-link
