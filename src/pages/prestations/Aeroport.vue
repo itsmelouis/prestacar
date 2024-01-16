@@ -2,7 +2,7 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">aeroport</span> est le véhicule
+        L'<span class="font-bold">aéroport</span> est le véhicule
         parfait pour vous accompagner lors de vos événements, luxe et élégance
         sont les maîtres mots. Ce véhicule d'une grande rareté produit à
         uniquement 7 exemplaires vous assurera une arrivée inoubliable et
