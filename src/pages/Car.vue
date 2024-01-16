@@ -39,6 +39,16 @@ const summary = [
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
+    car: "Ford Mustang Cabriolet",
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-6.jpg"),
+    href: "/vehicules/ford-mustang",
+  },
+  {
+    car: "Cadillac Escalade",
+    src: getVehiculeImage("cadillac_escalade/cadillac.jpg"),
+    href: "/vehicules/cadillac-escalade",
+  },
+  {
     car: "Volkswagen Combi T1",
     src: getVehiculeImage("combi_t1/combi.jpg"),
     href: "/vehicules/volkswagen-combi-t1",
@@ -47,11 +57,6 @@ const summary = [
     car: "Volkswagen Coccinelle Cox",
     src: getVehiculeImage("coccinel_cox/cox1.jpg"),
     href: "/vehicules/volkswagen-coccinelle",
-  },
-  {
-    car: "Cadillac Escalade",
-    src: getVehiculeImage("cadillac_escalade/cadillac.jpg"),
-    href: "/vehicules/cadillac-escalade",
   },
   {
     car: "Rolls Royce Phantom",
@@ -82,11 +87,6 @@ const summary = [
     car: "Aston Martin Volante",
     src: getVehiculeImage("aston_martin_volante/aston-cab-10.jpg"),
     href: "/vehicules/aston-martin-volante",
-  },
-  {
-    car: "Ford Mustang",
-    src: getVehiculeImage("mustang_blanche/mustang_blanche-6.jpg"),
-    href: "/vehicules/ford-mustang",
   },
   {
     car: "Ford Mustang GT",
