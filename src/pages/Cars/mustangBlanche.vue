@@ -87,7 +87,7 @@ const options = [
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("mustang_gt/mustang.jpg"),
+    src: getVehiculeImage("ford-mustang/mustang_blanche-2.jpg"),
     avif: getVehiculeImageAvif("mustang_gt/mustang.avif"),
     webp: getVehiculeImageWebp("mustang_gt/mustang.webp"),
   },
