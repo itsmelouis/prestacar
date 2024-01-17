@@ -2,23 +2,41 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">anniv</span> est le véhicule
-        parfait pour vous accompagner lors de vos événements, luxe et élégance
-        sont les maîtres mots. Ce véhicule d'une grande rareté produit à
-        uniquement 7 exemplaires vous assurera une arrivée inoubliable et
-        remarquable.
+        Bienvenue chez LB Prestacar, votre partenaire de confiance pour rendre vos
+        célébrations d'anniversaire inoubliables. Nous sommes fiers de vous offrir
+        une expérience de location de voiture de luxe avec chauffeur qui transcende
+        l'ordinaire, ajoutant une touche d'élégance et de glamour à vos moments spéciaux.
         <br />
         <br />
-        Capacité: 3 passagers (1 recommandé).
+        Chez LB Prestacar, nous comprenons l'importance de chaque anniversaire et
+        nous nous engageons à surpasser vos attentes. Que vous célébriez un anniversaire
+        romantique en couple, une fête intime en famille ou une soirée glamour entre amis,
+        notre flotte exclusive de véhicules de luxe est prête à répondre à tous vos besoins.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Nos chauffeurs professionnels et courtois sont formés pour vous offrir un service
+        personnalisé, garantissant que votre journée spéciale soit non seulement sans souci,
+        mais également mémorable. Imaginez-vous arrivant à votre lieu de fête dans une limousine
+        élégante, une Rolls Royce Phantom ou même une Bentley Continental GT Sport, suscitant
+        l'admiration de tous les invités.
         <br />
         <br />
-        Les expositions et visites sont sur devis. L'approche est de 30km autour
-        de Valenciennes, au-delà un supplément sera demandé.
+        Chez LB Prestacar, nous comprenons l'importance des détails, c'est pourquoi notre flotte
+        diversifiée propose une sélection de véhicules adaptés à chaque style et préférence. Des
+        intérieurs somptueux aux équipements de pointe, chaque voiture est soigneusement entretenue
+        pour vous offrir une expérience de conduite exceptionnelle.
+        <br />
+        <br />
+        Notre processus de réservation convivial vous permet de personnaliser votre expérience en
+        fonction de vos besoins spécifiques. Que vous souhaitiez une location pour quelques heures
+        ou toute la journée, LB Prestacar est là pour vous offrir une solution sur mesure.
+        <br />
+        <br />
+        Faites de votre prochain anniversaire une expérience unique et luxueuse avec LB Prestacar.
+        Réservez dès maintenant et découvrez comment notre engagement envers l'excellence peut
+        transformer votre célébration en un événement véritablement inoubliable. Parce que chez
+        LB Prestacar, nous ne faisons pas que louer des voitures, nous créons des souvenirs qui
+        durent toute une vie.
         <br />
         <br />
       </p>
@@ -35,7 +53,6 @@
         <Table :data="grille_tarifiaire"></Table>
       </div>
       <div class="space-y-8">
-        <p class="text-center">Options</p>
         <Table :data="options"></Table>
       </div>
     </div>
@@ -66,21 +83,61 @@ const el = ref<HTMLDivElement>();
 const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Évènement", "Sur devis"],
-  ["Forfait Mariage", "1200€"],
 ];
 
 const options = [
   ["Intitulé", "Prix"],
-  ["Photographe", "Sur devis"],
-  ["Fleurs", "Sur devis"],
+  ["Forfait Boissons / Nourriture", "Sur devis"],
 ];
 
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("aston_martin_volante/aston-cab.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab.webp"),
+    src: getVehiculeImage("lincoln_towncar/limo-1.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-4.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-4.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("lincoln_towncar/limo-8.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-9.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-9.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("lincoln_towncar/limo-11.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-10.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-10.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-5.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-5.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-2.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-2.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
   },
 ];
 
