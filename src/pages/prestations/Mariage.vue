@@ -2,24 +2,35 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">mariage</span> est le véhicule
-        parfait pour vous accompagner lors de vos événements, luxe et élégance
-        sont les maîtres mots. Ce véhicule d'une grande rareté produit à
-        uniquement 7 exemplaires vous assurera une arrivée inoubliable et
-        remarquable.
+        Bienvenue dans l'univers de l'élégance et du raffinement où chaque détail compte
+        pour faire de votre jour J un moment inoubliable. Chez LB Prestacar, nous sommes
+        fiers de vous proposer votre expérience de location de voiture de luxe avec chauffeur
+        exceptionnelle, spécialement conçue pour sublimer votre mariage.
         <br />
         <br />
-        Capacité: 3 passagers (1 recommandé).
+        Votre mariage est une célébration unique de l'amour et du bonheur, et notre flotte
+        de véhicules prestigieux s'aligne parfaitement sur cette philosophie. Imaginez-vous
+        arriver en toute splendeur à votre lieu de cérémonie dans une limousine luxueuse,
+        élégante et impeccable. Nos chauffeurs expérimentés vous accueilleront avec courtoisie et
+        professionnalisme, veillant à ce que chaque instant de votre trajet soit empreint de confort
+        et de glamour.
+        Notre sélection exclusive de voitures de mariage comprend des modèles prestigieux, des berlines
+        de luxe comme notre Rolls Royce Phantom ou notre limousine spacieuse, toutes entretenues avec le
+        plus grand soin pour garantir une expérience exceptionnelle. Que vous rêviez d'une arrivée majestueuse
+        devant l'église ou d'un départ étincelant vers votre lieu de réception, nos véhicules sont la parfaite
+        incarnation du luxe et du style.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Chez LB Prestacar, nous comprenons l'importance de chaque détail de votre journée spéciale. C'est pourquoi
+        notre service personnalisé s'étend au-delà du simple transport. Si vous avez préalablement sélectionner des
+        fleurs pour embellit le véhicule, notre forfait mariage comprends le trajet chez le fleuriste, ainsi
+        que les trajets pour vous conduire sur le lieu de la cérémonie et la salle des fêtes.
         <br />
         <br />
-        Les expositions et visites sont sur devis. L'approche est de 30km autour
-        de Valenciennes, au-delà un supplément sera demandé.
-        <br />
+        Pour une location de voiture de mariage qui allie luxe, élégance et service exceptionnel, choisissez LB Prestacar.
+        Faites de votre jour de mariage une expérience inoubliable, où le voyage est aussi mémorable que la destination.
+        Réservez dès aujourd'hui et laissez-nous vous accompagner dans ce moment magique où chaque instant est une
+        célébration de l'amour.
         <br />
       </p>
     </div>
@@ -33,10 +44,6 @@
           plusieurs véhicules, Tarifs avec Chauffeur)
         </p>
         <Table :data="grille_tarifiaire"></Table>
-      </div>
-      <div class="space-y-8">
-        <p class="text-center">Options</p>
-        <Table :data="options"></Table>
       </div>
     </div>
     <div class="flex justify-center items-center mt-20">
@@ -66,93 +73,69 @@ const el = ref<HTMLDivElement>();
 const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Évènement", "Sur devis"],
-  ["Forfait Mariage", "1200€"],
 ];
 
-const options = [
-  ["Intitulé", "Prix"],
-  ["Photographe", "Sur devis"],
-  ["Fleurs", "Sur devis"],
-];
 
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("aston_martin_volante/aston-cab.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab.webp"),
+    src: getVehiculeImage("cadillac_escalade/cadillac14.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac14.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac14.webp"),
   },
   {
     id: 2,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-1.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-1.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-1.webp"),
+    src: getVehiculeImage("lincoln_towncar/limo-12.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-3.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-6.webp"),
   },
   {
     id: 3,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-2.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-2.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-2.webp"),
+    src: getVehiculeImage("cadillac_escalade/cadillac15.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-2.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac3.webp"),
   },
   {
     id: 4,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-3.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-3.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-3.webp"),
+    src: getVehiculeImage("rolls_royce_phantom/rolls.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_phantom/rolls.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_phantom/rolls.webp"),
   },
   {
     id: 5,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-4.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-4.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-4.webp"),
+    src: getVehiculeImage("rolls_royce_corniche/corniche6.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_corniche/corniche6.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_corniche/corniche6.webp"),
   },
   {
     id: 6,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-5.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-5.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-5.webp"),
+    src: getVehiculeImage("bentley_continental_gt_sport/bentley-4.jpg"),
+    avif: getVehiculeImageAvif("bentley_continental_gt_sport/bentley-4.avif"),
+    webp: getVehiculeImageWebp("bentley_continental_gt_sport/bentley-4.webp"),
   },
   {
     id: 7,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-6.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-6.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-6.webp"),
+    src: getVehiculeImage("ford-mustang/mustang_blanche-2.jpg"),
+    avif: getVehiculeImageAvif("mustang_gt/mustang.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang.webp"),
   },
   {
     id: 8,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-7.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-7.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-7.webp"),
+    src: getVehiculeImage("combi_t1/combi2.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi2.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi2.webp"),
   },
   {
     id: 9,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-8.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-8.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-8.webp"),
+    src: getVehiculeImage("coccinel_cox/cox3.jpg"),
+    avif: getVehiculeImageAvif("coccinel_cox/cox3.avif"),
+    webp: getVehiculeImageWebp("coccinel_cox/cox3.webp"),
   },
   {
     id: 10,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-9.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-9.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-9.webp"),
-  },
-  {
-    id: 11,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-10.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-10.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-10.webp"),
-  },
-  {
-    id: 12,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-11.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-11.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-11.webp"),
-  },
-  {
-    id: 13,
-    src: getVehiculeImage("aston_martin_volante/aston-cab-12.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab-12.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab-12.webp"),
+    src: getVehiculeImage("ford_capri/capri-7.jpg"),
+    avif: getVehiculeImageAvif("ford_capri/capri-7.avif"),
+    webp: getVehiculeImageWebp("ford_capri/capri-7.webp"),
   },
 ];
 

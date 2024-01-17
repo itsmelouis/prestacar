@@ -55,7 +55,7 @@ const summary = [
   },
   {
     car: "Volkswagen Coccinelle Cox",
-    src: getVehiculeImage("coccinel_cox/cox1.jpg"),
+    src: getVehiculeImage("coccinel_cox/cox3.jpg"),
     href: "/vehicules/volkswagen-coccinelle",
   },
   {
