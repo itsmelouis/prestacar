@@ -2,23 +2,44 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">aéroport</span> est le véhicule
-        parfait pour vous accompagner lors de vos événements, luxe et élégance
-        sont les maîtres mots. Ce véhicule d'une grande rareté produit à
-        uniquement 7 exemplaires vous assurera une arrivée inoubliable et
-        remarquable.
+        Bienvenue chez LB Prestacar, votre partenaire privilégié pour des
+        trajets d'exception vers l'aéroport ou la gare. Nous sommes fiers
+        de vous offrir une expérience de voyage unique, alliant luxe, confort
+        et ponctualité, grâce à nos services de location de véhicules de luxe
+        avec chauffeur.
         <br />
         <br />
-        Capacité: 3 passagers (1 recommandé).
+        Chez LB Prestacar, nous comprenons l'importance de commencer ou de
+        conclure votre voyage dans les meilleures conditions. C'est pourquoi
+        nous avons spécialement conçu nos prestations de chauffeur privé pour
+        répondre à vos besoins lors de vos déplacements vers et depuis l'aéroport
+        ou la gare.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Nos chauffeurs professionnels et expérimentés sont soigneusement sélectionnés
+        pour vous offrir un service haut de gamme. À bord de nos véhicules de luxe,
+        vous bénéficierez d'un environnement raffiné, d'un confort exceptionnel et
+        d'une tranquillité d'esprit absolue. Nous nous engageons à vous conduire à
+        destination en toute sécurité, tout en respectant scrupuleusement les horaires
+        afin de garantir votre ponctualité.
         <br />
         <br />
-        Les expositions et visites sont sur devis. L'approche est de 30km autour
-        de Valenciennes, au-delà un supplément sera demandé.
+        Pour les voyageurs d'affaires pressés, nos chauffeurs connaissent les
+        itinéraires les plus rapides et les plus efficaces, assurant ainsi une
+        transition en douceur entre votre lieu de départ et l'aéroport ou la gare.
+        De plus, nos véhicules sont équipés des dernières technologies pour vous permettre
+        de rester connecté et productif pendant le trajet.
+        <br />
+        <br />
+        Notre flotte diversifiée de véhicules de luxe s'adapte à vos besoins spécifiques,
+        que vous voyagiez en solo, en couple, en famille ou en groupe. LB Prestacar s'engage
+        à personnaliser chaque trajet pour répondre à vos attentes les plus exigeantes.
+        <br />
+        <br />
+        Optez pour LB Prestacar et transformez vos déplacements vers l'aéroport ou la gare
+        en une expérience mémorable. Réservez dès maintenant votre chauffeur privé en ligne
+        et découvrez le summum du luxe, de la discrétion et du service exceptionnel. Voyagez
+        avec style, voyagez avec LB Prestacar.
         <br />
         <br />
       </p>
@@ -33,10 +54,6 @@
           plusieurs véhicules, Tarifs avec Chauffeur)
         </p>
         <Table :data="grille_tarifiaire"></Table>
-      </div>
-      <div class="space-y-8">
-        <p class="text-center">Options</p>
-        <Table :data="options"></Table>
       </div>
     </div>
     <div class="flex justify-center items-center mt-20">
@@ -66,21 +83,38 @@ const el = ref<HTMLDivElement>();
 const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Évènement", "Sur devis"],
-  ["Forfait Mariage", "1200€"],
-];
-
-const options = [
-  ["Intitulé", "Prix"],
-  ["Photographe", "Sur devis"],
-  ["Fleurs", "Sur devis"],
 ];
 
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("aston_martin_volante/aston-cab.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab.webp"),
+    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("lincoln_towncar/limo-11.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-10.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-10.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
 ];
 
