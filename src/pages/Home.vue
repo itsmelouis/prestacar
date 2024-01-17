@@ -51,7 +51,7 @@ const images = [
     id: 5,
     src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),
   },
-  { id: 4, src: getVehiculeImage("rolls_royce_phantom/rolls.jpg") },
+  { id: 6, src: getVehiculeImage("rolls_royce_phantom/rolls.jpg") },
 ];
 </script>
 
