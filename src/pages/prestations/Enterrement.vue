@@ -123,6 +123,18 @@ const images = [
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
+  {
+    id: 7,
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-5.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-5.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-2.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-2.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
+  },
 ];
 
 onMounted(() => {
