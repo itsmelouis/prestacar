@@ -2,23 +2,37 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">Enterrement</span> est le véhicule
-        parfait pour vous accompagner lors de vos événements, luxe et élégance
-        sont les maîtres mots. Ce véhicule d'une grande rareté produit à
-        uniquement 7 exemplaires vous assurera une arrivée inoubliable et
-        remarquable.
+        Bienvenue chez LB Prestacar, votre partenaire privilégié pour des moments inoubliables
+        lors des enterrements de vie de jeune fille et de vie de garçon. Nous sommes fiers de
+        mettre à votre disposition nos limousines de luxe avec chauffeur, assurant un service
+        exceptionnel pour ces occasions uniques.
         <br />
         <br />
-        Capacité: 3 passagers (1 recommandé).
+        Lorsqu'il s'agit de célébrer la fin d'une ère et le début d'une nouvelle vie, LB Prestacar
+        s'engage à rendre ces moments spéciaux encore plus mémorables. Pour l'enterrement de vie de
+        jeune fille, nos limousines élégantes et nos chauffeurs professionnels sont prêts à vous
+        accompagner pour une journée pleine de rires, de complicité et de souvenirs. Choisissez parmi
+        notre gamme de véhicules de luxe et offrez à la future mariée une expérience VIP digne de son
+        grand jour.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Les enterrements de vie de garçon sont également une spécialité de LB Prestacar. Nous
+        comprenons l'importance de marquer cette transition vers le mariage avec style et élégance.
+        Nos chauffeurs expérimentés s'assurent que le futur marié et ses amis vivent une journée
+        inoubliable, en profitant de chaque instant à bord de nos limousines haut de gamme. Que ce soit
+        pour une virée en ville, une escapade aventureuse ou une soirée exclusive, LB Prestacar garantit
+        une expérience exceptionnelle.
         <br />
         <br />
-        Les expositions et visites sont sur devis. L'approche est de 30km autour
-        de Valenciennes, au-delà un supplément sera demandé.
+        En plus de nos limousines de luxe, nous proposons des forfaits personnalisés pour répondre
+        à vos besoins spécifiques. Profitez de services sur mesure, des itinéraires flexibles et de
+        l'assurance d'un voyage confortable et sûr.
+        <br />
+        <br />
+        Chez LB Prestacar, nous comprenons l'importance de chaque détail pour ces événements spéciaux.
+        Faites confiance à notre expertise pour faire de l'enterrement de vie de jeune fille et de vie
+        de garçon un moment magique et sans souci. Réservez dès maintenant et laissez-nous vous emmener
+        vers des souvenirs inoubliables.
         <br />
         <br />
       </p>
@@ -35,7 +49,6 @@
         <Table :data="grille_tarifiaire"></Table>
       </div>
       <div class="space-y-8">
-        <p class="text-center">Options</p>
         <Table :data="options"></Table>
       </div>
     </div>
@@ -66,21 +79,49 @@ const el = ref<HTMLDivElement>();
 const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Évènement", "Sur devis"],
-  ["Forfait Mariage", "1200€"],
 ];
 
 const options = [
   ["Intitulé", "Prix"],
-  ["Photographe", "Sur devis"],
-  ["Fleurs", "Sur devis"],
+  ["Forfait Boissons / Nourriture", "Sur devis"],
 ];
 
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("aston_martin_volante/aston-cab.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab.webp"),
+    src: getVehiculeImage("lincoln_towncar/limo-1.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-4.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-4.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("lincoln_towncar/limo-8.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-9.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-9.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("lincoln_towncar/limo-11.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-10.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-10.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
 ];
 
