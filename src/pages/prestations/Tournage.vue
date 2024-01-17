@@ -2,23 +2,39 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        L'<span class="font-bold">tournage</span> est le véhicule
-        parfait pour vous accompagner lors de vos événements, luxe et élégance
-        sont les maîtres mots. Ce véhicule d'une grande rareté produit à
-        uniquement 7 exemplaires vous assurera une arrivée inoubliable et
-        remarquable.
+        Bienvenue chez LB Prestacar, l'adresse incontournable pour vos besoins de
+        location de véhicules de luxe avec chauffeur ou sous surveillance d’un chauffeur.
+        Notre engagement est de vous offrir une expérience de location exceptionnelle, en
+        mettant à votre disposition une flotte de véhicules prestigieux associée à un service
+        de chauffeur professionnel et discret.
         <br />
         <br />
-        Capacité: 3 passagers (1 recommandé).
+        Que vous soyez impliqué dans l'industrie cinématographique, télévisuelle ou publicitaire,
+        nous comprenons l'importance cruciale de disposer des véhicules appropriés pour assurer
+        le bon déroulement de vos projets. Chez LB Prestacar, nous avons soigneusement organisé
+        une catégorie dédiée aux tournages, offrant une sélection variée de voitures de luxe
+        adaptées à chaque scénario.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Notre flotte comprend des véhicules emblématiques et élégants, allant des berlines de
+        luxe aux SUV spacieux, garantissant non seulement le confort de vos équipes, mais
+        également une présence visuelle remarquable sur le plateau. Chaque voiture est méticuleusement
+        entretenue, assurant ainsi une performance optimale et une esthétique irréprochable pour
+        répondre aux exigences spécifiques de l'industrie du cinéma.
         <br />
         <br />
-        Les expositions et visites sont sur devis. L'approche est de 30km autour
-        de Valenciennes, au-delà un supplément sera demandé.
+        Chez LB Prestacar, nous comprenons que la flexibilité est essentielle dans le domaine du
+        tournage. C'est pourquoi nous offrons des solutions sur mesure, que ce soit pour des
+        déplacements rapides entre les lieux de tournage, des séquences nécessitant des véhicules
+        particuliers ou des besoins spécifiques en termes de logistique. Notre équipe dévouée est
+        prête à collaborer étroitement avec vous pour anticiper vos besoins et assurer une
+        expérience sans faille.
+        <br />
+        <br />
+        LB Prestacar se positionne comme votre partenaire privilégié, offrant une gamme de services
+        exceptionnels conçus pour répondre aux exigences spécifiques de l'industrie du divertissement.
+        Faites de vos tournages une expérience de luxe avec LB Prestacar, où le style et la performance
+        se rencontrent sur le plateau.
         <br />
         <br />
       </p>
@@ -33,10 +49,6 @@
           plusieurs véhicules, Tarifs avec Chauffeur)
         </p>
         <Table :data="grille_tarifiaire"></Table>
-      </div>
-      <div class="space-y-8">
-        <p class="text-center">Options</p>
-        <Table :data="options"></Table>
       </div>
     </div>
     <div class="flex justify-center items-center mt-20">
@@ -66,21 +78,50 @@ const el = ref<HTMLDivElement>();
 const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Évènement", "Sur devis"],
-  ["Forfait Mariage", "1200€"],
-];
-
-const options = [
-  ["Intitulé", "Prix"],
-  ["Photographe", "Sur devis"],
-  ["Fleurs", "Sur devis"],
 ];
 
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("aston_martin_volante/aston-cab.jpg"),
-    avif: getVehiculeImageAvif("aston_martin_volante/aston-cab.avif"),
-    webp: getVehiculeImageWebp("aston_martin_volante/aston-cab.webp"),
+    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo.webp"),
+  },
+  {
+    id: 2,
+    src: getVehiculeImage("lincoln_towncar/limo-11.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-10.avif"),
+    webp: getVehiculeImageWebp("lincoln_towncar/limo-10.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-5.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-5.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-2.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-2.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
 ];
 
