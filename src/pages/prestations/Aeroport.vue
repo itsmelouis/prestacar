@@ -116,6 +116,24 @@ const images = [
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
+  {
+    id: 6,
+    src: getVehiculeImage("audi_a4/audiA4_3.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_3.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_3.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("audi_a4/audiA4_4.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_4.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_4.webp"),
+  },
+  {
+    id: 10,
+    src: getVehiculeImage("audi_a4/audiA4_11.jpg"),
+    avif: getVehiculeImageAvif("audi_a4/audiA4_11.avif"),
+    webp: getVehiculeImageWebp("audi_a4/audiA4_11.webp"),
+  },
 ];
 
 onMounted(() => {
