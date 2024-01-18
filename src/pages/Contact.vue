@@ -20,7 +20,7 @@
         >
           <PhoneIcon />
           <p class="text-base md:text-lg lg:text-xl text-center">
-            07 69 75 17 35
+            06 52 74 34 05
           </p>
         </a>
         <a
