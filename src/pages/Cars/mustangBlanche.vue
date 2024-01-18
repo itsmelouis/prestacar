@@ -2,15 +2,20 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        Cette incroyable <span class="font-bold">limousine Lincoln</span> de
-        plus de 8 mètres vous accompagnera pour vos événements. 8 places
-        passagers confortables, un intérieur cuir et un minibar luxueux sont
-        présents dans le véhicule. Son moteur V8 saura vous transporter
-        n'importe où.
-
+        La <span class="font-bold">Ford Mustang</span> de 2006
+        est l'incarnation ultime de la puissance américaine sur quatre roues.
+        Cette icône de l'automobile
+        offre une expérience inoubliable. Ses lignes intemporelles et sa
+        silhouette musclée en font une véritable légende de l'industrie
+        automobile. L'intérieur de la Mustang est tout aussi impressionnant,
+        avec des équipements de pointe et un confort exceptionnel. Si vous
+        recherchez une voiture qui allie la nostalgie du passé à la technologie
+        moderne, la Ford Mustang cabriolet de 2006 est le choix parfait.
+        Montez à bord et laissez-vous emporter par le rugissement de ce moteur
+        emblématique.
         <br />
         <br />
-        Capacité: 8 passagers.
+        Capacité: 3 passagers.
         <br />
         <br />
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
@@ -26,7 +31,7 @@
     </div>
     <Carousel :items="images" />
     <div
-      class="flex flex-col md:flex-row md:justify-around items-center mt-20 space-y-10"
+        class="flex flex-col md:flex-row md:justify-around items-center mt-20 space-y-10 md:space-y-0"
     >
       <div class="space-y-8">
         <p class="text-center">
@@ -42,9 +47,9 @@
     </div>
     <div class="flex justify-center items-center mt-20">
       <router-link
-        to="/contact"
-        class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-center w-44"
-        >Réserver</router-link
+          to="/contact"
+          class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-center w-44"
+      >Réserver</router-link
       >
     </div>
     <GoTop />
@@ -64,10 +69,6 @@ import GoTop from "../../components/GoTop.vue";
 
 const el = ref<HTMLDivElement>();
 
-onMounted(() => {
-  window.scrollTo(0, el.value!.offsetTop - 20);
-});
-
 const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Aller Simple", "Sur devis"],
@@ -79,10 +80,6 @@ const grille_tarifiaire = [
 
 const options = [
   ["Intitulé", "Prix"],
-  ["Striptiseur/seuse", "Sur devis"],
-  ["Magicien", "Sur devis"],
-  ["Bouteille de champagne", "30€"],
-  ["Gâteau", "Sur devis"],
   ["Photographe", "Sur devis"],
   ["Fleurs", "Sur devis"],
 ];
@@ -90,33 +87,31 @@ const options = [
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
-    avif: getVehiculeImageAvif("lincoln_towncar/limo.avif"),
-    webp: getVehiculeImageWebp("lincoln_towncar/limo.webp"),
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-5.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-5.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
   },
   {
     id: 2,
-    src: getVehiculeImage("lincoln_towncar/limo-7.jpg"),
-    avif: getVehiculeImageAvif("lincoln_towncar/limo-6.avif"),
-    webp: getVehiculeImageWebp("lincoln_towncar/limo-6.webp"),
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-6.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-6.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
   },
   {
     id: 3,
-    src: getVehiculeImage("lincoln_towncar/limo-8.jpg"),
-    avif: getVehiculeImageAvif("lincoln_towncar/limo-9.avif"),
-    webp: getVehiculeImageWebp("lincoln_towncar/limo-9.webp"),
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-2.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-2.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
   },
   {
     id: 4,
-    src: getVehiculeImage("lincoln_towncar/limo-2.jpg"),
-    avif: getVehiculeImageAvif("lincoln_towncar/limo-1.avif"),
-    webp: getVehiculeImageWebp("lincoln_towncar/limo-1.webp"),
-  },
-  {
-    id: 5,
-    src: getVehiculeImage("lincoln_towncar/limo-11.jpg"),
-    avif: getVehiculeImageAvif("lincoln_towncar/limo-10.avif"),
-    webp: getVehiculeImageWebp("lincoln_towncar/limo-10.webp"),
+    src: getVehiculeImage("mustang_blanche/mustang_blanche-4.jpg"),
+    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-4.avif"),
+    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
   },
 ];
+
+onMounted(() => {
+  window.scrollTo(0, el.value!.offsetTop - 20);
+});
 </script>

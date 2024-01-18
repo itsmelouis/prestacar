@@ -15,12 +15,12 @@
         class="flex flex-col md:flex-row items-center justify-center w-full space-y-8 md:space-y-0 md:space-x-8"
       >
         <a
-          href="tel:+330769751735"
+          href="tel:+330652743405"
           class="flex flex-col justify-center items-center p-8 rounded hover:bg-slate-100 hover:cursor-pointer md:w-1/4 gap-3"
         >
           <PhoneIcon />
           <p class="text-base md:text-lg lg:text-xl text-center">
-            07 69 75 17 35
+            06 52 74 34 05
           </p>
         </a>
         <a

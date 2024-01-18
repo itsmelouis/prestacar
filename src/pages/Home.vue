@@ -45,13 +45,10 @@ import { getVehiculeImage } from "../utils/importImages";
 const images = [
   { id: 1, src: getVehiculeImage("cadillac_escalade/cadillac1.jpg") },
   { id: 2, src: getVehiculeImage("combi_t1/combi1.jpg") },
-  { id: 3, src: getVehiculeImage("lincoln_towncar/limo1.jpg") },
+  { id: 3, src: getVehiculeImage("lincoln_towncar/limo.jpg") },
   { id: 4, src: getVehiculeImage("cadillac_escalade/cadillac14.jpg") },
-  {
-    id: 4,
-    src: getVehiculeImage("bentley_continental_gt_sport/bentley-5.jpg"),
-  },
-  { id: 4, src: getVehiculeImage("rolls_royce_phantom/rolls-11.jpg") },
+  { id: 5, src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),},
+  { id: 6, src: getVehiculeImage("rolls_royce_phantom/rolls.jpg") },
 ];
 </script>
 
