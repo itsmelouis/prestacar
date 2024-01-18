@@ -35,7 +35,7 @@ import { getVehiculeImage } from "../utils/importImages";
 const summary = [
   {
     car: "Mariage",
-    src: getVehiculeImage("prestations/mariage.webp"),
+    src: getVehiculeImage("prestations/mariage.jpg"),
     href: "/prestation/mariage",
   },
   {
