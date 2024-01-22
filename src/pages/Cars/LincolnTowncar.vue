@@ -90,8 +90,8 @@ const options = [
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
-    avif: getVehiculeImageAvif("lincoln_towncar/limo.avif"),
+    src: getVehiculeImage("lincoln_towncar/limo-5.jpg"),
+    avif: getVehiculeImageAvif("lincoln_towncar/limo-5.avif"),
     webp: getVehiculeImageWebp("lincoln_towncar/limo.webp"),
   },
   {
