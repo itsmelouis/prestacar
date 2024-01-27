@@ -21,7 +21,8 @@ import AstonMartinVolante from "./pages/Cars/AstonMartinVolante.vue";
 import DodgeCharger from "./pages/Cars/DodgeCharger.vue";
 import FordCapri from "./pages/Cars/FordCapri.vue";
 import RollsRoyceCorniche from "./pages/Cars/RollsRoyceCorniche.vue";
-import FordMustang from "./pages/Cars/mustangBlanche.vue"
+import FordMustang from "./pages/Cars/mustangBlanche.vue";
+import Maserati from "./pages/Cars/Maserati.vue";
 
 import Mariage from "./pages/prestations/Mariage.vue";
 import Anniversaire from "./pages/prestations/Anniversaire.vue";
@@ -29,6 +30,7 @@ import Tournage from "./pages/prestations/Tournage.vue";
 import Enterrement from "./pages/prestations/Enterrement.vue";
 import Aeroport from "./pages/prestations/Aeroport.vue";
 import Trajet from "./pages/prestations/Trajet.vue"
+
 
 const routes = [
   { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
@@ -115,6 +117,16 @@ const routes = [
         path: "ford-mustang",
         component: FordMustang,
         meta: { title: "Ford Mustang - PrestaCar" },
+      },
+      {
+        path: "rolls-royce-corniche",
+        component: RollsRoyceCorniche,
+        meta: { title: "Rolls Royce Corniche - PrestaCar" },
+      },
+      {
+        path: "maserati-ghibli",
+        component: Maserati,
+        meta: { title: "Maserati Ghibli - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },

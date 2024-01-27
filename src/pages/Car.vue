@@ -89,6 +89,11 @@ const summary = [
     href: "/vehicules/aston-martin-volante",
   },
   {
+    car: "Maserati Ghibli",
+    src: getVehiculeImage("maserati/maserati-2.jpg"),
+    href: "/vehicules/maserati-ghibli",
+  },
+  {
     car: "Ford Mustang GT",
     src: getVehiculeImage("mustang_gt/mustang-15.jpg"),
     href: "/vehicules/mustang-gt",

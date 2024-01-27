@@ -5,7 +5,7 @@
     <img
       :src="props.items.src"
       :alt="props.items.car"
-      class="w-full h-60 object-cover"
+      class="w-full h-60 object-cover mx-auto"
     />
     <p class="font-semibold text-lg lg:text-xl text-center">
       {{ props.items.car }}
