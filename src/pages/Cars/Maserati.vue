@@ -2,20 +2,17 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        Cette incroyable <span class="font-bold">limousine Lincoln</span> de
-        plus de 8 mètres vous accompagnera pour vos événements. 8 places
-        passagers confortables, un intérieur cuir et un minibar luxueux sont
-        présents dans le véhicule. Son moteur V8 saura vous transporter
-        n'importe où.
-
+        Découvrez cette sublime <span class="font-bold">Maserati Ghibli</span>.
+        Ce véhicule de 2017 est la représentation de l’élégance du luxe et de la sportivité Italienne.
         <br />
         <br />
-        Capacité: 3 passagers.
+        Très confortable et dotée d’une sonorité très particulière, son intérieur cuir rouge vous
+        séduira à coup sûr.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Le mariage se rapproche tout est presque prêt, la location d’une maserati à Valenciennes et
+        ses alentours est sûrement la touche finale qu’il manquait afin de rendre cette journée
+        vraiment parfaite !
         <br />
         <br />
         Les expositions et visites sont sur devis. L'approche est de 30km autour

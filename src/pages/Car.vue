@@ -7,18 +7,15 @@
       <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">
         Nos véhicules
       </h1>
-      <div
-        class="md:flex md:flex-row md:flex-wrap md:my-20 md:justify-center md:items-center md:gap-3"
-      >
-        <div v-for="value in summary" :key="value.car">
-          <CardVoiture :items="value"></CardVoiture>
+      <div class="grid grid-cols-1 md:grid-cols-3 md:gap-3 md:justify-center">
+        <CardVoiture
+            v-for="value in summary"
+            :key="value.car"
+            :items="value"
+        ></CardVoiture>
         </div>
-      </div>
-      <p
-        class="text-xl md:text-2xl lg:text-3xl font-semibold text-center underline"
-      >
-        Envie d'un véhicule non présent sur le catalogue ? N'hésitez pas à nous
-        contacter !
+    <p class="text-xl md:text-2xl lg:text-3xl font-semibold text-center underline">
+      Envie d'un véhicule non présent sur le catalogue ? N'hésitez pas à nous contacter !
       </p>
     </div>
     <router-view></router-view>

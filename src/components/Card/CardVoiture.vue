@@ -1,11 +1,11 @@
 <template>
   <div
-    class="flex flex-col justify-center items-center border-2 rounded space-y-4 pb-8 max-w-sm"
+    class="flex flex-col justify-center items-center border-2 rounded space-y-4 pb-8 w-auto"
   >
     <img
       :src="props.items.src"
       :alt="props.items.car"
-      class="w-full h-60 object-cover mx-auto"
+      class="w-full h-60 object-cover rounded-t"
     />
     <p class="font-semibold text-lg lg:text-xl text-center">
       {{ props.items.car }}
@@ -14,13 +14,11 @@
       <router-link
         :to="props.items.href"
         class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-center"
-        >Plus d'infos</router-link
-      >
+        >Plus d'infos</router-link>
       <router-link
         to="/contact"
         class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-center"
-        >Réserver</router-link
-      >
+        >Réserver</router-link>
     </div>
   </div>
 </template>
