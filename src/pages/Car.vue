@@ -56,6 +56,11 @@ const summary = [
     href: "/vehicules/volkswagen-coccinelle",
   },
   {
+    car: "Citroën 2CV",
+    src: getVehiculeImage("citroen_2cv/2cv-8.jpg"),
+    href: "/vehicules/citroen-2CV",
+  },
+  {
     car: "Rolls Royce Phantom",
     src: getVehiculeImage("rolls_royce_phantom/rolls-14.jpg"),
     href: "/vehicules/rolls-royce-phantom",
