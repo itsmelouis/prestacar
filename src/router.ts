@@ -23,6 +23,7 @@ import FordCapri from "./pages/Cars/FordCapri.vue";
 import RollsRoyceCorniche from "./pages/Cars/RollsRoyceCorniche.vue";
 import FordMustang from "./pages/Cars/mustangBlanche.vue";
 import Maserati from "./pages/Cars/Maserati.vue";
+import Citroen from "./pages/Cars/2cv.vue";
 
 import Mariage from "./pages/prestations/Mariage.vue";
 import Anniversaire from "./pages/prestations/Anniversaire.vue";
@@ -127,6 +128,11 @@ const routes = [
         path: "maserati-ghibli",
         component: Maserati,
         meta: { title: "Maserati Ghibli - PrestaCar" },
+      },
+      {
+        path: "citroen-2CV",
+        component: Citroen,
+        meta: { title: "Citroën 2CV - PrestaCar" },
       },
     ],
     meta: { title: "Véhicules - PrestaCar" },
