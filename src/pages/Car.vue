@@ -57,7 +57,7 @@ const summary = [
   },
   {
     car: "Citroën 2CV",
-    src: getVehiculeImage("citroen_2cv/2cv-8.jpg"),
+    src: getVehiculeImage("citroen_2cv/2cv-2.jpg"),
     href: "/vehicules/citroen-2CV",
   },
   {
