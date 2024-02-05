@@ -2,19 +2,27 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <p class="text-base md:text-lg lg:text-xl">
-        La célèbre <span class="font-bold">coccinelle</span> de chez Volkswagen
-        imaginée par Ferdinand Porsche est à votre portée. Ce magnifique
-        véhicule de 1973 s'offre à vous pour tous types d'événements. Souvent
-        associée au Combi, les deux véhicules sont disponibles simultanément à
-        la location.
+        Découvrez la légendaire <span class="font-bold">Citroën 2CV</span> édition spéciale France 3,
+        une icône intemporelle au charme unique. Cette voiture emblématique, datant de 1983, incarne
+        le mariage parfait entre l'authenticité du design français et la simplicité élégante.
         <br />
         <br />
-        Capacité: 3 passagers. (2 recommandés)
+        À bord de cette 2CV, chaque instant devient une escapade rétro, avec un intérieur empreint
+        de nostalgie. L'atmosphère décontractée de cette voiture de collection se marie parfaitement
+        avec l'esprit des célébrations, faisant de chaque trajet une expérience mémorable.
         <br />
         <br />
-        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
-        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
-        adapter aisément.
+        Opter pour la location de cette Citroën 2CV pour votre mariage à Valenciennes. C'est bien
+        plus qu'un choix de transport, c'est une déclaration d'amour au style classique et à l'élégance
+        décontractée. Notre équipe dévouée veillera à ce que chaque détail soit parfait, ajoutant une note
+        d'originalité et d'authenticité à votre journée spéciale.
+        <br />
+        <br />
+        Choisissez l'élégance intemporelle, optez pour la location de la Citroën 2CV édition spéciale
+        France 3. Transformez votre mariage en un voyage à travers l'histoire automobile française,
+        mêlant charme, simplicité et sophistication. Rendez cette journée vraiment parfaite en ajoutant
+        une touche rétro-chic à votre cérémonie. Réservez dès maintenant pour créer des souvenirs uniques
+        au volant de cette voiture emblématique.
         <br />
         <br />
         Les expositions et visites sont sur devis. L'approche est de 30km autour
