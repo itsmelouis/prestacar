@@ -21,7 +21,6 @@ import AstonMartinVolante from "./pages/Cars/AstonMartinVolante.vue";
 import DodgeCharger from "./pages/Cars/DodgeCharger.vue";
 import FordCapri from "./pages/Cars/FordCapri.vue";
 import RollsRoyceCorniche from "./pages/Cars/RollsRoyceCorniche.vue";
-import FordMustang from "./pages/Cars/mustangBlanche.vue";
 import Maserati from "./pages/Cars/Maserati.vue";
 import Citroen from "./pages/Cars/2cv.vue";
 
@@ -97,7 +96,15 @@ const routes = [
       {
         path: "aston-martin-volante",
         component: AstonMartinVolante,
-        meta: { title: "Aston Martin Volante - PrestaCar" },
+        meta: {
+          title: "Location Aston Martin Volante avec chauffeur - Valenciennes - PrestaCar",
+          metaTags: [
+            {
+              name: 'description',
+              content: 'Louez une Aston Martin Volante avec chauffeur pour vos événements à Valenciennes. Luxe, élégance, et exclusivité garantie.'
+            }
+          ]
+        },
       },
       {
         path: "dodge-charger-rt",
@@ -113,11 +120,6 @@ const routes = [
         path: "rolls-royce-corniche",
         component: RollsRoyceCorniche,
         meta: { title: "Rolls Royce Corniche - PrestaCar" },
-      },
-      {
-        path: "ford-mustang",
-        component: FordMustang,
-        meta: { title: "Ford Mustang - PrestaCar" },
       },
       {
         path: "rolls-royce-corniche",

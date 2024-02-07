@@ -36,9 +36,9 @@ const summary = [
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
-    car: "Ford Mustang Cabriolet",
-    src: getVehiculeImage("mustang_blanche/mustang_blanche-6.jpg"),
-    href: "/vehicules/ford-mustang",
+    car: "Porsche 986",
+    src: getVehiculeImage("porsche_986/boxster-17.jpg"),
+    href: "/vehicules/porsche-986",
   },
   {
     car: "Cadillac Escalade",
@@ -74,11 +74,6 @@ const summary = [
     car: "Bentley Continental GT Sport",
     src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),
     href: "/vehicules/bentley-continental-gt-sport",
-  },
-  {
-    car: "Porsche 986",
-    src: getVehiculeImage("porsche_986/boxster-17.jpg"),
-    href: "/vehicules/porsche-986",
   },
   {
     car: "Ford Capri Crayford Cabriolet",
