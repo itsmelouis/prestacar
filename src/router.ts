@@ -33,7 +33,16 @@ import Trajet from "./pages/prestations/Trajet.vue"
 
 
 const routes = [
-  { path: "/", component: Home, meta: { title: "Accueil - PrestaCar" } },
+  { path: "/", component: Home, meta: {
+    title: "Accueil - PrestaCar",
+      metaTags: [
+        {
+          name: 'description',
+          content: "Location de véhicules de prestige pour tous types d'événements."
+        }
+      ]
+  }
+  },
   {
     path: "/vehicules",
     component: Car,
@@ -197,40 +206,91 @@ const routes = [
       {
         path: "dodge-charger-rt",
         component: DodgeCharger,
-        meta: { title: "Dodge Charger RT - PrestaCar" },
+        meta: {
+          title: "Dodge Charger RT - PrestaCar",
+          metaTags: [
+            {
+              name: 'description',
+              content: "Dominez la route avec la Dodge Charger RT, le muscle car par excellence. Disponible à la location"
+            }
+            ]
+        },
       },
       {
         path: "ford-capri",
         component: FordCapri,
-        meta: { title: "Ford Capri Crayford Cabriolet - PrestaCar" },
+        meta: {
+          title: "Location Ford Capri Crayford Cabriolet - PrestaCar",
+          metaTags: [
+            {
+              name: 'description',
+              content: "Saisissez l'occasion de voyager dans une Ford Capri Crayford Cabriolet, véhicule de collection unique en son genre. Parfait pour les connaisseurs et événements spéciaux."
+            }
+            ]
+        },
       },
       {
         path: "rolls-royce-corniche",
         component: RollsRoyceCorniche,
-        meta: { title: "Rolls Royce Corniche - PrestaCar" },
-      },
-      {
-        path: "rolls-royce-corniche",
-        component: RollsRoyceCorniche,
-        meta: { title: "Rolls Royce Corniche - PrestaCar" },
+        meta: {
+          title: "Location Rolls Royce Corniche - PrestaCar" ,
+          metaTags: [
+            {
+              name: 'description',
+              content: "Découvrez la Rolls Royce Corniche, cabriolet de luxe pour vos occasions spéciales. Élégance et prestige à chaque tournant."
+            }
+            ]
+        },
       },
       {
         path: "maserati-ghibli",
         component: Maserati,
-        meta: { title: "Maserati Ghibli - PrestaCar" },
+        meta: {
+          title: "Location Maserati Ghibli - PrestaCar",
+          metaTags: [
+            {
+              name: 'description',
+              content: "La Maserati Ghibli, symbole de performance et d'élégance italienne. Parfait pour tous ceux qui recherchent l'excellence."
+            }
+            ]
+        },
       },
       {
         path: "citroen-2CV",
         component: Citroen,
-        meta: { title: "Citroën 2CV - PrestaCar" },
+        meta: {
+          title: "Location Citroën 2CV - PrestaCar",
+          metaTags: [
+            {
+              name: 'description',
+              content: "Citroën 2CV classique. Parfaite pour vos événements vintage."
+            }
+            ]
+        },
       },
     ],
-    meta: { title: "Véhicules - PrestaCar" },
+    meta: {
+      title: "Véhicules - PrestaCar" ,
+      metaTags: [
+        {
+          name: 'description',
+          content: "Découvrez notre collection exclusive de véhicules disponibles à la location. Que vous recherchiez l'élégance d'une Rolls Royce, la puissance d'une Ford Mustang, ou le charme vintage d'une Volkswagen Coccinelle, notre sélection répondra à toutes vos attentes pour des moments inoubliables. Explorez dès maintenant pour trouver la voiture parfaite pour votre prochain événement spécial."
+        }
+        ]
+    },
   },
   {
     path: "/contact",
     component: Contact,
-    meta: { title: "Contact - PrestaCar" },
+    meta: {
+      title: "Contact - PrestaCar",
+      metaTags: [
+        {
+          name: 'description',
+          content: "Contactez-nous pour réserver la voiture de luxe de vos rêves. Notre équipe est à votre disposition pour répondre à toutes vos questions et vous accompagner dans le choix de votre véhicule idéal pour mariage, événements ou escapades. Faites le premier pas vers une expérience inoubliable en nous écrivant dès aujourd'hui."
+        }
+        ]
+    },
   },
   {
     path: "/prestation",
@@ -267,12 +327,27 @@ const routes = [
         meta: { title: "Trajet - PrestaCar" },
       },
     ],
-    meta: { title: "Presation - PrestaCar" },
+    meta: {
+      title: "Presation - PrestaCar",
+      metaTags: [
+        {
+          name: 'description',
+          content: "Découvrez nos prestations sur-mesure pour rendre chaque" +
+              " moment unique : location de voitures de luxe pour mariages, " +
+              "anniversaires, transferts aéroport et plus encore. Chez nous, " +
+              "chaque occasion est traitée avec le plus grand soin pour offrir " +
+              "une expérience mémorable et haut de gamme. Parcourez nos services " +
+              "pour planifier votre événement parfait."
+        }
+        ]
+    },
   },
   {
     path: "/conditions-generales",
     component: CGU,
-    meta: { title: "Conditions Générales - PrestaCar" },
+    meta: {
+      title: "Conditions Générales - PrestaCar"
+    },
   },
 ];
 
