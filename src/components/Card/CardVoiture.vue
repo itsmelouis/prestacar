@@ -14,11 +14,11 @@
       <router-link
         :to="props.items.href"
         class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-center"
-      >Plus d'infos</router-link>
+        >Plus d'infos</router-link>
       <router-link
         to="/contact"
         class="bg-yellow-400 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-center"
-      >Réserver</router-link>
+        >Réserver</router-link>
     </div>
   </div>
 </template>

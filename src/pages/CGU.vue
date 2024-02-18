@@ -16,8 +16,8 @@
         Code APE : 4932Z
       </p>
       <p class="text-base md:text-lg lg:text-xl">
-        Téléphone : 07 69 75 17 35 <br />
-        Adresse de courrier électronique : lbprestacar@gmail.com <br />
+        Téléphone : 06 52 74 34 05 <br />
+        Adresse de courrier électronique : contact@lb-prestacar.com <br />
         Directeur de la publication : Lou Baigneaux <br />
         Responsable du site : Lou Baigneaux
       </p>
