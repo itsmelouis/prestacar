@@ -1,12 +1,68 @@
-<template>
+<template xmlns="http://www.w3.org/1999/html">
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center"> Louez une Rolls-Royce Corniche Blanche pour un Mariage Inoubliable à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        Si l’élégance devait être une voiture, ça serais sûrement cette
-        <span class="font-bold">Rolls Royce Corniche</span> blanche décapotable
-        ! Les Rolls Royce n’ont plus besoin de faire leur preuve, luxe,
-        élégance, c’est le véhicule idéal, sa version décapotable s’acclimatera
-        très bien avec vos évènements d’été.
+        <br />
+        <br />
+        Rendez votre mariage absolument magique et inoubliable avec la quintessence du luxe et de l'élégance : notre <span class="font-bold">Rolls-Royce Corniche</span>,
+        disponible exclusivement chez LB-Prestacar 🌟, à Valenciennes. Cette pièce maîtresse de notre flotte de véhicules de luxe est le choix
+        préféré des couples cherchant à apporter une touche de grandeur et de raffinement à leur journée spéciale 💍✨.
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Rolls-Royce Corniche : Un Symbole d'Élégance et de Prestige 🚗💫</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Rolls-Royce Corniche est bien plus qu'une simple voiture ; c'est un symbole intemporel de sophistication et de prestige.
+        Avec sa silhouette emblématique, son intérieur luxueux et son allure majestueuse, la Corniche promet de transformer votre
+        arrivée en un moment spectaculaire et mémorable. 🌟
+        <br />
+        <br />
+        <span class="font-bold">Confort Incomparable:</span> À bord de cette merveille d'ingénierie, vous découvrirez le summum du confort et du luxe, avec des
+        sièges en cuir souple et un espace intérieur spacieux, parfait pour détendre et savourer chaque instant de votre trajet vers
+        le lieu de la cérémonie ou de la réception. ❤️
+        <br />
+        <br />
+        <span class="font-bold">Photographies Élégantes:</span> La Rolls-Royce Corniche blanche offre un arrière-plan exceptionnel pour vos photographies de mariage,
+        garantissant des images aussi majestueuses et élégantes que votre union. 📸💒
+        <br />
+        <br />
+        <span class="font-bold">Expérience de Conduite Royale:</span> Laissez-vous transporter dans le plus pur confort par nos chauffeurs professionnels et expérimentés, qui veilleront à ce que votre
+        voyage soit aussi fluide et agréable que possible, vous permettant de vous concentrer pleinement sur la célébration de votre amour. 👑🚘
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous comprenons que votre mariage est unique. C'est pourquoi nous offrons des services personnalisés
+        pour compléter votre expérience de location de la Rolls-Royce Corniche. Que vous souhaitiez des décorations florales spécifiques 🌸,
+        une sélection de musiques pour accompagner votre trajet 🎶, ou tout autre détail qui rendra votre journée encore plus spéciale,
+        notre équipe est à votre écoute pour répondre à vos désirs les plus précis.
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Pour garantir la disponibilité de la Rolls-Royce Corniche pour votre mariage à Valenciennes, nous vous invitons
+        à nous contacter bien à l'avance. Notre équipe dédiée est prête à discuter de vos besoins et à organiser chaque détail
+        pour que votre expérience soit parfaite. 📅
+        <br />
+        <br />
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via notre page de contact pour réserver cette icône du
+        luxe et de l'élégance pour votre mariage. Avec LB-Prestacar, faites le premier pas vers un moment inoubliable,
+        à la hauteur de vos rêves les plus somptueux. 🌈💖
         <br />
         <br />
         Capacité: 3 passagers (2 recommandés).
@@ -78,9 +134,9 @@ const options = [
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("rolls_royce_corniche/corniche1.jpg"),
-    avif: getVehiculeImageAvif("rolls_royce_corniche/corniche1.avif"),
-    webp: getVehiculeImageWebp("rolls_royce_corniche/corniche1.webp"),
+    src: getVehiculeImage("rolls_royce_corniche/corniche5.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_corniche/corniche5.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_corniche/corniche5.webp"),
   },
   {
     id: 2,
@@ -102,9 +158,9 @@ const images = [
   },
   {
     id: 5,
-    src: getVehiculeImage("rolls_royce_corniche/corniche5.jpg"),
-    avif: getVehiculeImageAvif("rolls_royce_corniche/corniche5.avif"),
-    webp: getVehiculeImageWebp("rolls_royce_corniche/corniche5.webp"),
+    src: getVehiculeImage("rolls_royce_corniche/corniche1.jpg"),
+    avif: getVehiculeImageAvif("rolls_royce_corniche/corniche1.avif"),
+    webp: getVehiculeImageWebp("rolls_royce_corniche/corniche1.webp"),
   },
   {
     id: 6,
@@ -150,12 +206,6 @@ const images = [
   },
   {
     id: 13,
-    src: getVehiculeImage("rolls_royce_corniche/corniche13.jpg"),
-    avif: getVehiculeImageAvif("rolls_royce_corniche/corniche13.avif"),
-    webp: getVehiculeImageWebp("rolls_royce_corniche/corniche13.webp"),
-  },
-  {
-    id: 14,
     src: getVehiculeImage("rolls_royce_corniche/corniche14.jpg"),
     avif: getVehiculeImageAvif("rolls_royce_corniche/corniche14.avif"),
     webp: getVehiculeImageWebp("rolls_royce_corniche/corniche14.webp"),

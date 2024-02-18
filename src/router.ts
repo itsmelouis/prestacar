@@ -64,7 +64,7 @@ const routes = [
         path: "limousine-lincoln-towncar",
         component: LincolnTowncar,
         meta: {
-          title: "Location Limousine Lincoln TownCar le luxe assurés - PrestaCar" ,
+          title: "Location Limousine Lincoln TownCar le luxe assurés à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -77,7 +77,7 @@ const routes = [
         path: "volkswagen-combi-t1",
         component: CombiT1,
         meta: {
-          title: "Location Volkswagen Combi T1 pour Événements Uniques - PrestaCar" ,
+          title: "Location Volkswagen Combi T1 à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -90,7 +90,7 @@ const routes = [
         path: "volkswagen-coccinelle",
         component: CoccinelleCox,
         meta: {
-          title: " Location Volkswagen Coccinelle Cox - Charme Vintage Assuré - Prestacar" ,
+          title: " Location Volkswagen Coccinelle Cox à Valenciennes - Charme Vintage Assuré - Prestacar" ,
           metaTags: [
             {
               name: 'description',
@@ -103,7 +103,7 @@ const routes = [
         path: "volkswagen-new-beetle-cabriolet",
         component: NewBeetleCabriolet,
         meta: {
-          title: "Location Volkswagen New Beetle Cabriolet - PrestaCar" ,
+          title: "Location Volkswagen New Beetle Cabriolet à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -116,7 +116,7 @@ const routes = [
         path: "mustang-legend-lime",
         component: MustangLegend,
         meta: {
-          title: "Location Mustang Legend Lime - PrestaCar" ,
+          title: "Location Mustang Legend Lime à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -129,7 +129,7 @@ const routes = [
         path: "audi-a4-allroad-blanche-quattro",
         component: AudiA4,
         meta: {
-          title: "Location Audi A4 Allroad blanche Quattro - PrestaCar" ,
+          title: "Location Audi A4 Allroad blanche Quattro à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -142,7 +142,7 @@ const routes = [
         path: "porsche-986",
         component: Porsche986,
         meta: {
-          title: "Location Porsche 986 - PrestaCar",
+          title: "Location Porsche Boxster 986 à Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -155,7 +155,7 @@ const routes = [
         path: "mustang-gt",
         component: MustangGT,
         meta: {
-          title: "Location Ford Mustang GT - PrestaCar" ,
+          title: "Location Ford Mustang GT à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -168,7 +168,7 @@ const routes = [
         path: "rolls-royce-phantom",
         component: RollsPhantom,
         meta: {
-          title: "Location Rolls Royce Phantom - Luxe et Prestige - PrestaCar" ,
+          title: "Location Rolls Royce Phantom à Valenciennes - Luxe et Prestige - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -181,7 +181,7 @@ const routes = [
         path: "bentley-continental-gt-sport",
         component: BentleyContinentalGTSport,
         meta: {
-          title: "Location Bentley Continental GT Sport - PrestaCar",
+          title: "Location Bentley Continental GT Sport à Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -194,7 +194,7 @@ const routes = [
         path: "aston-martin-volante",
         component: AstonMartinVolante,
         meta: {
-          title: "Location Aston Martin Volante avec chauffeur - Valenciennes - PrestaCar",
+          title: "Location Aston Martin Volante à Valenciennes - Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -207,7 +207,7 @@ const routes = [
         path: "dodge-charger-rt",
         component: DodgeCharger,
         meta: {
-          title: "Dodge Charger RT - PrestaCar",
+          title: "Location Dodge Charger RT à Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -220,7 +220,7 @@ const routes = [
         path: "ford-capri",
         component: FordCapri,
         meta: {
-          title: "Location Ford Capri Crayford Cabriolet - PrestaCar",
+          title: "Location Ford Capri Crayford Cabriolet à Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -233,7 +233,7 @@ const routes = [
         path: "rolls-royce-corniche",
         component: RollsRoyceCorniche,
         meta: {
-          title: "Location Rolls Royce Corniche - PrestaCar" ,
+          title: "Location Rolls Royce Corniche à Valenciennes - PrestaCar" ,
           metaTags: [
             {
               name: 'description',
@@ -246,7 +246,7 @@ const routes = [
         path: "maserati-ghibli",
         component: Maserati,
         meta: {
-          title: "Location Maserati Ghibli - PrestaCar",
+          title: "Location Maserati Ghibli à Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -259,7 +259,7 @@ const routes = [
         path: "citroen-2CV",
         component: Citroen,
         meta: {
-          title: "Location Citroën 2CV - PrestaCar",
+          title: "Location Citroën 2CV à Valenciennes - PrestaCar",
           metaTags: [
             {
               name: 'description',
@@ -270,7 +270,7 @@ const routes = [
       },
     ],
     meta: {
-      title: "Véhicules - PrestaCar" ,
+      title: "Location Véhicules avec chauffeur à Valenciennes - PrestaCar" ,
       metaTags: [
         {
           name: 'description',
