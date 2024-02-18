@@ -1,14 +1,71 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Votre Mariage avec le Charme Vintage de la Citroën 2CV France 3 chez LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        La célèbre <span class="font-bold">coccinelle</span> de chez Volkswagen
-        imaginée par Ferdinand Porsche est à votre portée. Ce magnifique
-        véhicule de 1973 s'offre à vous pour tous types d'événements. Souvent
-        associée au Combi, les deux véhicules sont disponibles simultanément à
-        la location.
         <br />
         <br />
+        Ajoutez une touche de charme rétro à votre mariage en choisissant la <span class="font-bold">Citroën 2CV France 3</span>, disponible
+        chez LB-Prestacar à Valenciennes. Cette édition spéciale de la légendaire 2CV, avec son allure iconique et son esprit d'aventure, est parfaite pour les couples
+        recherchant une expérience de mariage unique et mémorable, empreinte d'authenticité et de convivialité. 🚗🌼
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Citroën 2CV France 3 : Une Icône de l'Automobile Française</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Citroën 2CV France 3 n'est pas juste une voiture, c'est un symbole de liberté et de simplicité. Avec sa couleur blanche distinctive, ses lignes rondes et son toit décapotable,
+        elle incarne parfaitement l'esprit joyeux et l'élégance décontractée. Prête à faire de votre arrivée un moment plein de charme et d'originalité, la 2CV France 3 est une promesse de souvenirs inoubliables. 🌟🛣️
+        <br />
+        <br />
+        <span class="font-bold">Confort Authentique et Style Inimitable:</span> Profitez de l'ambiance conviviale et de l'intérieur simple mais accueillant de la Citroën 2CV France 3,
+        offrant une expérience de voyage pleine de caractère et d'authenticité pour vous et vos invités. 🛋️💐
+        <br />
+        <br />
+        <span class="font-bold">Des Photographies Pleines de Personnalité: </span> Capturez l'essence de votre amour avec la Citroën 2CV France 3 comme décor,
+        assurant des images vibrantes et pleines de vie qui se distinguent par leur originalité et leur charme vintage. 📸👰‍♂️🤵‍♀️
+        <br />
+        <br />
+        <span class="font-bold">Une Expérience de Conduite Mémorable:</span> Nos chauffeurs professionnels et amicaux vous garantiront une arrivée détendue et pleine de style,
+        vous permettant de savourer pleinement la joie et l'excitation de votre journée spéciale, sous le ciel ouvert de la 2CV. 🚘🌅
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Service Personnalisé pour un Mariage Inoubliable</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous croyons que votre mariage doit être une célébration de votre histoire unique. C'est pourquoi nous offrons un service sur mesure avec la Citroën 2CV France 3.
+        Notre équipe est engagée à personnaliser votre expérience selon vos souhaits,
+        faisant de votre mariage un événement véritablement exceptionnel et personnel. 🌸🎶
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Citroën 2CV France 3 Dès Aujourd'hui</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Pour assurer la disponibilité de la Citroën 2CV France 3 pour votre mariage à Valenciennes, contactez LB-Prestacar
+        sans attendre. Notre équipe passionnée est prête à écouter vos souhaits et à organiser chaque détail pour que votre expérience soit parfaitement en accord avec vos attentes. 📅💖
+        <br />
+        <br />
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+            to="/contact"
+            class="underline">notre page de contact
+        </router-link>
+        pour intégrer cette légende de l'automobile française à votre célébration. Avec LB-Prestacar, vivez un mariage d'exception,
+        sublimé par le charme unique et intemporel de la Citroën 2CV France 3. 💌🚗
+        <br />
+        <br />
+
         Capacité: 3 passagers. (2 recommandés)
         <br />
         <br />
