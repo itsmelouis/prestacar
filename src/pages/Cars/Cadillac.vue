@@ -5,7 +5,7 @@
       <p class="text-base md:text-lg lg:text-xl">
         <br />
         <br />
-        Faites de votre mariage un événement spectaculaire et inoubliable en choisissant le <sapn class="font-bold">Cadillac Escalade</sapn>, disponible exclusivement
+        Faites de votre mariage un événement spectaculaire et inoubliable en choisissant le <span class="font-bold">Cadillac Escalade</span>, disponible exclusivement
         chez LB-Prestacar à Valenciennes. Ce SUV emblématique, symbole de luxe et de puissance, est l'option parfaite pour les couples
         souhaitant ajouter une dimension de prestige et de confort exceptionnel à leur journée spéciale. 🚐✨
         <br />
