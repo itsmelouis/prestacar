@@ -1,11 +1,73 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center"> Louez la Majestueuse Rolls-Royce Phantom à Valenciennes pour Votre Mariage</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        La <span class="font-bold">Rolls Royce Phantom</span>
-        est le modèle emblématique de la marque anglaise mais aussi le summum du
-        luxe, parfait pour les mariages elle vous garantira une entrée
-        inoubliable.
+        <br />
+        <br />
+        Rendez votre mariage véritablement enchanteur et mémorable avec l'apogée du luxe et de l'élégance : notre <span class="font-bold">Rolls-Royce Phantom</span>,
+        disponible exclusivement chez LB-Prestacar, à Valenciennes. Ce joyau de notre collection de véhicules de luxe est le
+        choix idéal pour les couples désireux d'ajouter une dimension de majesté et de sophistication à leur grand jour. 🌟💍
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Rolls-Royce Phantom : Un Icône d'Excellence et de Grandeur</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Rolls-Royce Phantom est plus qu'une automobile ; elle représente un héritage d'excellence et de grandeur.
+        Avec sa présence imposante, son intérieur opulent et son design emblématique, la Phantom promet de faire de
+        votre arrivée un instant spectaculaire et inoubliable. 🚗✨
+        <br />
+        <br />
+        <span class="font-bold">Confort Royal:</span> À bord de cette merveille de l'ingénierie automobile, vous serez enveloppés dans le summum du confort
+        et du luxe. Les sièges en cuir fin et l'espace intérieur généreux offrent un sanctuaire parfait pour se détendre et
+        profiter pleinement de chaque moment de votre parcours vers la cérémonie ou la réception. 🛋️❤️
+        <br />
+        <br />
+        <span class="font-bold">Photographies Sublimes:</span> La Rolls-Royce Phantom crée un décor somptueux pour vos photos de mariage,
+        assurant des clichés aussi grandioses et élégants que votre union. 📸💑
+        <br />
+        <br />
+        Une Expérience de Conduite Divine: Confiez votre transport à nos chauffeurs professionnels et chevronnés, qui garantiront
+        un voyage tout en douceur et en élégance, vous laissant libre de savourer la célébration de votre amour. 👨‍✈️🌹
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Sur Mesure pour Votre Journée Extraordinaire</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous savons que votre mariage est un événement unique. C'est pourquoi nous proposons des services sur
+        mesure pour compléter votre expérience de location de la Rolls-Royce Phantom. Des décorations florales personnalisées à
+        une playlist sur mesure pour votre trajet, ou toute autre demande spéciale qui rendra votre journée encore plus exceptionnelle,
+        notre équipe est à votre disposition pour réaliser vos souhaits les plus détaillés. 🎵🌸
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Rolls-Royce Phantom Dès Aujourd'hui</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Pour assurer la disponibilité de la Rolls-Royce Phantom pour votre mariage à Valenciennes, nous vous encourageons à nous
+        contacter dès que possible. Notre équipe dévouée est prête à discuter de vos préférences et à orchestrer chaque détail afin
+        que votre expérience soit absolument parfaite. 🗓️💖
+        <br />
+        <br />
+        Contactez-nous aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+          to="/contact"
+          class="underline">notre page de contact
+        </router-link>
+        pour réserver cette icône de luxe et
+        d'élégance pour votre mariage. Avec LB-Prestacar, franchissez le seuil vers un instant magique, à la mesure de vos
+        rêves les plus fastueux. 💌✨
         <br />
         <br />
         Capacité: 4 passagers (2 recommandés).

@@ -60,7 +60,12 @@
         pour que votre expérience soit parfaite. 📅
         <br />
         <br />
-        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via notre page de contact pour réserver cette icône du
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+          to="/contact"
+          class="underline">notre page de contact
+        </router-link>
+        pour réserver cette icône du
         luxe et de l'élégance pour votre mariage. Avec LB-Prestacar, faites le premier pas vers un moment inoubliable,
         à la hauteur de vos rêves les plus somptueux. 🌈💖
         <br />
