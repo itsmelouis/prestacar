@@ -1,14 +1,75 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Apportez une Touche d'Adrénaline à Votre Mariage avec la Dodge Charger chez LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        Si vous aimez les voitures américaines puissantes et qui ont de
-        l’allure, alors la <span class="font-bold">Dodge Charger RT</span> est
-        le véhicule que vous cherchez ! Ce modèle récent de 2016 à tout pour
-        plaire, il est sportif mais reste spacieux et confortable avec son
-        sublime intérieur cuir rouge. Un moteur V8 qui sait se faire entendre et
-        une allure qui ne passe pas inaperçue, n’hésitez plus et laissez vous
-        embarquer dans une course folle !
+        <br />
+        <br />
+        Faites de votre mariage un événement mémorable et plein de caractère en choisissant la <span class="font-bold">Dodge Charger</span>, disponible chez LB-Prestacar
+        à Valenciennes. Cette icône de la puissance américaine est le choix idéal pour les couples désirant ajouter une dimension de force et d'audace
+        à leur célébration nuptiale. 🚗💥
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Dodge Charger : Un Symbole de Puissance et de Prestige</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Dodge Charger n'est pas simplement une voiture ; c'est une légende vivante qui incarne l'esprit
+        de performance et d'aventure. Avec son design musclé, son grondement profond et son intérieur luxueux,
+        la Charger promet de transformer votre arrivée en un moment d'exception et d'excitation. 🏁🔥
+        <br />
+        <br />
+        <span class="font-bold">Confort Suprême et Style Imposant:</span> Profitez de l'intérieur spacieux
+        et raffiné de la Charger, conçu pour offrir un confort de premier ordre tout en faisant tourner les
+        têtes. La Dodge Charger est l'assurance d'une entrée spectaculaire et élégante, qui reste fidèle à
+        votre esprit audacieux. 🛋️✨
+        <br />
+        <br />
+        <span class="font-bold">Photographies Dynamiques:</span> Utilisez l'allure imposante et le style
+        emblématique de la Dodge Charger comme toile de fond pour vos photos de mariage, garantissant des
+        souvenirs visuels puissants et captivants, à l'image de votre passion. 📸❤️
+        <br />
+        <br />
+        <span class="font-bold">Une Expérience de Conduite Exaltante:</span> Nos chauffeurs expérimentés et passionnés vous offriront
+        une conduite fluide et palpitante, vous permettant de profiter pleinement de l'instant présent et de la célébration de votre
+        amour, avec une pointe d'adrénaline. 🚘💨
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Services Personnalisés pour une Célébration Inoubliable</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous comprenons que votre mariage est une expression de votre amour unique.
+        C'est pourquoi nous offrons un service sur mesure avec la Dodge Charger. Que ce soit pour des décorations
+        qui reflètent votre style, une sélection musicale qui accompagne votre voyage, ou des demandes spéciales
+        pour rendre votre journée encore plus extraordinaire, notre équipe est dédiée à réaliser vos souhaits les plus ambitieux. 🌹🎶
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Dodge Charger Dès Maintenant</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Assurez-vous que la Dodge Charger soit présente pour marquer votre mariage en contactant LB-Prestacar
+        dès aujourd'hui. Notre équipe dévouée est prête à discuter de vos besoins et à organiser chaque détail pour que votre
+        expérience soit absolument parfaite. 📅💒
+        <br />
+        <br />
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+            to="/contact"
+            class="underline">notre page de contact
+        </router-link>
+        pour intégrer cette icône de puissance et d'élégance à votre mariage. Avec LB-Prestacar, vivez un moment exceptionnel
+        qui restera gravé dans les mémoires, sublimé par la présence de la Dodge Charger. 💌🚗
         <br />
         <br />
         Capacité: 3 passagers (2 recommandés).
