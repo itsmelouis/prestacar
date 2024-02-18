@@ -1,18 +1,83 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Incorporez l'Élégance Italienne à Votre Mariage avec la Maserati Ghibli chez LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        Découvrez cette sublime <span class="font-bold">Maserati Ghibli</span>.
-        Ce véhicule de 2017 est la représentation de l’élégance du luxe et de la sportivité Italienne.
         <br />
         <br />
-        Très confortable et dotée d’une sonorité très particulière, son intérieur cuir rouge vous
-        séduira à coup sûr.
+        Apportez une touche d'élégance et de raffinement italiens à votre mariage avec la Maserati Ghibli,
+        une exclusivité de LB-Prestacar à Valenciennes. Cette œuvre d'art sur roues, synonyme de luxe et
+        de performance, est idéale pour les couples souhaitant profiter leur journée spéciale avec une présence
+        spectaculaire et distinguée. 🇮🇹🚗
         <br />
         <br />
-        Le mariage se rapproche tout est presque prêt, la location d’une maserati à Valenciennes et
-        ses alentours est sûrement la touche finale qu’il manquait afin de rendre cette journée
-        vraiment parfaite !
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Maserati Ghibli : Un Chef-d'Œuvre d'Élégance et de Puissance</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Maserati Ghibli est plus qu'une simple voiture de luxe ; c'est une expression de l'artisanat italien,
+        combinant une esthétique magnifique avec une ingénierie exceptionnelle. Avec ses lignes fluides, son
+        intérieur somptueux et son moteur puissant, la Ghibli promet de faire de votre arrivée un moment d'élégance
+        inégalée et mémorable. 🌟💫
+        <br />
+        <br />
+        <span class="font-bold">Confort Absolu et Style Incomparable:</span> Profitez de sièges en cuir finement travaillés
+        et d'un espace intérieur conçu pour le summum du confort et du luxe. La Maserati Ghibli offre une expérience de
+        voyage qui allie parfaitement le style à la performance, assurant une entrée des plus remarquables. 🛋️✨
+        <br />
+        <br />
+        <span class="font-bold">Des Photos de Mariage Éblouissantes:</span> Avec son allure prestigieuse et son charme italien,
+        la Maserati Ghibli offre un arrière-plan idéal pour des photographies de mariage époustouflantes, garantissant
+        des images qui captureront la splendeur de votre union. 📸💍
+        <br />
+        <br />
+        <span class="font-bold">Une Conduite Douce et Puissante: </span> Nos chauffeurs experts vous offriront une expérience
+        de conduite à la fois douce et dynamique, vous permettant de vous détendre et de profiter pleinement de la célébration
+        de votre amour, enveloppés dans le luxe italien. 🏎️💒
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Personnalisation pour une Journée Unique</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous reconnaissons que chaque mariage est unique. C'est pourquoi nous proposons des services sur
+        mesure avec la Maserati Ghibli. Que vous désiriez une décoration spécifique, une playlist adaptée à votre goût, ou tout
+        autre détail pour rendre votre journée encore plus spéciale, notre équipe est dédiée à réaliser vos rêves les plus sophistiqués. 🎶🌹
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Maserati Ghibli Dès Aujourd'hui</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Assurez-vous que la Maserati Ghibli soit disponible pour votre mariage à Valenciennes en contactant LB-Prestacar
+        dès maintenant. Notre équipe passionnée est prête à discuter de vos préférences et à orchestrer chaque aspect de
+        votre expérience pour qu'elle soit absolument parfaite. 📆🕊️
+        <br />
+        <br />
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+            to="/contact"
+            class="underline">notre page de contact
+        </router-link>
+        pour ajouter cette touche d'élégance italienne à votre mariage. Avec LB-Prestacar, préparez-vous à vivre un moment
+        inoubliable, marqué par le luxe et la distinction de la Maserati Ghibli. 💌🚗
+        <br />
+        <br />
+        Capacité: 3 passagers.
+        <br />
+        <br />
+        Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
+        pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
+        adapter aisément.
         <br />
         <br />
         Les expositions et visites sont sur devis. L'approche est de 30km autour
