@@ -37,6 +37,7 @@
         une arrivée fluide et majestueuse, vous permettant de vous détendre et de profiter de chaque instant de votre
         journée spéciale, entourés par le luxe absolu de l'Escalade. 🚘🛣️
         <br />
+        <br />
       </p>
 
       <H2 class="font-bold text-xl md:text-2xl text-center">Service Personnalisé pour une Célébration Mémorable</H2>

@@ -34,6 +34,7 @@
         <span class="font-bold">Expérience de Conduite Exhilarante:</span> Nos chauffeurs experts vous offriront une arrivée fluide et impressionnante, vous permettant de vous immerger dans le bonheur de votre
         journée spéciale, entourés par le raffinement exceptionnel de la Continental GT Sport. 🚘✨
         <br />
+        <br />
       </p>
 
       <H2 class="font-bold text-xl md:text-2xl text-center">Service Personnalisé pour un Mariage Inoubliable</H2>
