@@ -1,15 +1,77 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Incorporez l'Iconique Volkswagen Coccinelle à Votre Mariage avec LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        La célèbre <span class="font-bold">coccinelle</span> de chez Volkswagen
-        imaginée par Ferdinand Porsche est à votre portée. Ce magnifique
-        véhicule de 1973 s'offre à vous pour tous types d'événements. Souvent
-        associée au Combi, les deux véhicules sont disponibles simultanément à
-        la location.
         <br />
         <br />
-        Capacité: 3 passagers. (2 recommandés)
+        Célébrez le plus beau jour de votre vie avec une touche d'élégance intemporelle et de charme en choisissant la Volkswagen
+        Coccinelle, disponible chez LB-Prestacar à Valenciennes. Cette voiture emblématique, synonyme de simplicité et
+        de joie, est l'option idéale pour les couples désirant apporter une note de nostalgie et de distinction à leur union. 🚗💕
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Volkswagen Coccinelle : Un Symbole d'Élégance Simple et de Bonheur</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La <span class="font-bold">Volkswagen Coccinelle</span> n'est pas seulement un véhicule, c'est une véritable icône culturelle qui évoque la joie de vivre et
+        l'authenticité. Avec ses courbes douces, son design charmant et son intérieur cosy, la Coccinelle promet d'ajouter une dimension
+        de tendresse et d'originalité à votre mariage, en faisant de chaque moment un souvenir inoubliable. 🌟🌹
+        <br />
+        <br />
+        <span class="font-bold">Confort Classique et Style Vintage:</span> Asseyez-vous dans le confort classique de la Coccinelle,
+        où chaque détail respire la convivialité et le style vintage. Parfaite pour les couples à la recherche d'une expérience authentique,
+        elle offre un cadre idéal pour arriver à votre cérémonie ou pour une escapade romantique. 🛋️🕊️
+        <br />
+        <br />
+        <span class="font-bold">Des Photos de Mariage Pleines de Charme:</span> Profitez de l'allure adorable et intemporelle
+        de la Volkswagen Coccinelle pour créer des souvenirs photographiques magnifiques et empreints de personnalité,
+        qui captureront l'essence joyeuse et romantique de votre journée spéciale. 📸❤️
+        <br />
+        <br />
+        <span class="font-bold">Un Voyage Mémorable vers le Bonheur:</span> Confiez votre parcours à nos chauffeurs professionnels
+        et attentionnés, qui vous assureront une arrivée et des déplacements tout en douceur et en élégance, permettant aux mariés
+        de se concentrer sur leur bonheur et leur amour, entourés de l'aura charmante de la Coccinelle. 🚘💒
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Personnalisé pour une Célébration Unique</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous reconnaissons l'importance de personnaliser chaque aspect de votre mariage.
+        C'est pourquoi nous offrons des services sur mesure avec la Volkswagen Coccinelle. Que ce soit pour
+        des décorations spéciales, ou tout autre détail qui rendra votre journée encore plus spéciale,
+        notre équipe est là pour réaliser vos rêves. 🎶🌼
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Volkswagen Coccinelle Dès Aujourd'hui</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Pour assurer la présence de la Volkswagen Coccinelle à votre mariage à Valenciennes, n'hésitez pas
+        à contacter LB-Prestacar dès maintenant. Notre équipe passionnée est prête à écouter vos souhaits et
+        à organiser chaque détail pour que votre expérience soit absolument parfaite. 📅💖
+        <br />
+        <br />
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+            to="/contact"
+            class="underline">notre page de contact
+        </router-link>
+        pour ajouter cette icône de bonheur et de style à votre mariage. Avec LB-Prestacar, profitez d'une ambiance joyeuse et élégante, sublimée
+        par le charme unique de la Volkswagen Coccinelle. 💌🚗
+        <br />
+        <br />
+        Capacité: 3 passagers (2 recommandés).
         <br />
         <br />
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
