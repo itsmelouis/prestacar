@@ -1,12 +1,69 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Votre Mariage avec l'Élégance de la Bentley Continental GT Sport chez LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        Offrez-vous l'élégance ultime avec notre
-        <span class="font-bold">Bentley Continental GT Sport</span>, le choix
-        parfait pour sublimer vos mariages. Louez ce symbole de luxe et de
-        style, accompagné d'un chauffeur professionnel pour une expérience
-        inoubliable.
+        <br />
+        <br />
+        Faites de votre mariage une célébration du luxe et de la performance en choisissant la <span class="font-bold">Bentley Continental GT Sport</span>, offerte exclusivement
+        par LB-Prestacar à Valenciennes. Ce coupé de grand luxe, alliant sophistication et puissance, est l'option idéale pour les couples
+        aspirant à incorporer une touche d'exclusivité et d'élégance dynamique à leur union. 🚗💨
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Bentley Continental GT Sport : Un Synonyme de Luxe et de Performance</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Bentley Continental GT Sport n'est pas seulement un véhicule, c'est une affirmation de style et de puissance. Avec sa silhouette élégante,
+        son intérieur artisanal raffiné, et ses capacités dynamiques hors pair, la Continental GT Sport est promise à faire de votre arrivée
+        un moment d'exception et de prestige, captivant l'admiration de tous vos invités. 🌟🛣️
+        <br />
+        <br />
+        <span class="font-bold">Confort de Luxe et Finitions Exquises:</span> Savourez le confort ultime offert par les sièges en cuir somptueux, l'espace accueillant pour vos invités, et les détails minutieux
+        qui caractérisent l'intérieur de la Bentley Continental GT Sport. Parfaite pour une expérience de voyage relaxante et sophistiquée,
+        elle assure une présence remarquable et des déplacements tout en élégance. 🛋️🍾
+        <br />
+        <br />
+        <span class="font-bold">Photographies Magnifiques: </span> Mettez en valeur l'élégance et le caractère sportif de la Bentley Continental GT Sport dans vos photos de mariage, créant des souvenirs visuels
+        luxueux et emblématiques. Sa prestance indéniable enrichira vos clichés d'une touche de grandeur. 📸💍
+        <br />
+        <br />
+        <span class="font-bold">Expérience de Conduite Exhilarante:</span> Nos chauffeurs experts vous offriront une arrivée fluide et impressionnante, vous permettant de vous immerger dans le bonheur de votre
+        journée spéciale, entourés par le raffinement exceptionnel de la Continental GT Sport. 🚘✨
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Service Personnalisé pour un Mariage Inoubliable</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, nous croyons que votre mariage doit refléter votre personnalité unique. C'est pourquoi nous proposons un service sur mesure avec la Bentley Continental GT Sport. Que ce soit pour des arrangements floraux sophistiqués ou une playlist qui accompagne élégamment vos déplacements, notre équipe est engagée
+        à personnaliser votre expérience selon vos souhaits, rendant votre célébration véritablement exceptionnelle. 🌸🎵
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Bentley Continental GT Sport Dès Aujourd'hui</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Pour assurer la disponibilité de la Bentley Continental GT Sport pour votre mariage à Valenciennes, contactez LB-Prestacar
+        sans plus tarder. Notre équipe passionnée est à votre écoute pour planifier chaque aspect de votre expérience afin qu'elle corresponde parfaitement à vos attentes. 📅🖤
+        <br />
+        <br />
+        Contactez-nous dès maintenant au 06 52 74 34 05 ou via
+        <router-link
+            to="/contact"
+            class="underline">notre page de contact
+        </router-link>
+        pour faire de cette merveille de luxe et de sportivité une partie de votre grand jour. Avec LB-Prestacar,
+        embrassez un mariage d'élégance suprême, sublimé par la grâce et la puissance de la Bentley Continental GT Sport. 💌🚗
+        <br />
         <br />
         Capacité: 3 passagers (1 recommandé).
         <br />
