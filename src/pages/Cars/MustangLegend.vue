@@ -1,14 +1,75 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Faites Vibrer Votre Mariage avec la Mustang Legend Lime chez LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl">
-        La <span class="font-bold">Mustang Legend Lime</span> en millésime 2006
-        est rare, lumineuse grâce à sa teinte brillante et changeante au fil de
-        la lumière naturelle. Strictement d'origine, intérieur sport avec volant
-        cuir, novatrice et motorisée par un V6 mais au son légendaire de Ford
-        Mustang, on croirait entendre un V8 ! Préservée dans sa condition
-        originale de sortie d'usine de Flat Rock dans le Michigan (USA), c'est
-        un véritable plaisir pour les yeux et les sens !
+        <br />
+        <br />
+        Donnez à votre mariage une allure audacieuse et emblématique avec la <span class="font-bold">Mustang Legend Lime</span>, exclusivement disponible chez LB-Prestacar
+        à Valenciennes. Cette incarnation de puissance et d'élégance américaine est parfaite pour les couples désirant apporter une touche
+        de caractère à leur célébration nuptiale. 🐎💚
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">La Mustang Legend Lime : Une Icône de Puissance et de Style</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        La Mustang Legend Lime n'est pas juste une voiture, c'est un symbole de liberté et de puissance, enveloppé
+        dans une teinte verte vibrante qui ne manquera pas d'attirer tous les regards. Avec son design musclé, son
+        intérieur sophistiqué et ses performances époustouflantes, la Mustang Legend Lime promet de transformer
+        chaque trajet en une expérience mémorable et électrisante. 🚗💨
+        <br />
+        <br />
+        <span class="font-bold">Élégance et Performance:</span> Asseyez-vous dans le luxe des sièges en cuir premium et laissez-vous emporter
+        par la puissance sous le capot. La Mustang offre un confort exceptionnel tout en garantissant une arrivée
+        spectaculaire à votre lieu de cérémonie ou de réception. 🛣️✨
+        <br />
+        <br />
+        <span class="font-bold">Séances Photo Épiques:</span> Avec sa silhouette imposante et sa couleur unique, la Mustang Legend Lime crée
+        un décor parfait pour des photos de mariage audacieuses et mémorables, capturant l'essence de votre amour
+        avec autant de force et de passion. 📸❤️
+        <br />
+        <br />
+        <span class="font-bold">Une Conduite à Couper le Souffle:</span> Laissez notre équipe de chauffeurs experts prendre le volant,
+        vous assurant une expérience de conduite à la fois fluide et exaltante, et vous permettant de vous immerger
+        complètement dans le bonheur de votre journée spéciale. 🏁👨‍✈️
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Services Personnalisés pour un Événement Extraordinaire</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Chez LB-Prestacar, chaque mariage est une occasion unique de briller. C'est pourquoi nous proposons des options
+        personnalisées avec la Mustang Legend Lime. Que ce soit pour des décorations qui captent l'esprit de votre journée,
+        une playlist qui accompagne votre style, ou des itinéraires spécifiques pour maximiser l'impact de votre arrivée,
+        notre équipe est à votre service pour personnaliser votre expérience. 🌟🎶
+        <br />
+        <br />
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Mustang Legend Lime Aujourd'hui</H2>
+
+      <p class="text-base md:text-lg lg:text-xl">
+        <br />
+        <br />
+        Assurez-vous que la Mustang Legend Lime soit présente pour ajouter une touche de magie à votre mariage à Valenciennes
+        en contactant LB-Prestacar dès que possible. Notre équipe passionnée est prête à discuter de vos préférences et à
+        organiser tous les détails pour que votre journée soit absolument parfaite. 📆💑
+        <br />
+        <br />
+        Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
+        <router-link
+            to="/contact"
+            class="underline">notre page de contact
+        </router-link>
+        pour faire de la Mustang Legend Lime l'étoile de votre mariage. Choisissez LB-Prestacar pour une entrée
+        qui marquera les esprits et rendra votre célébration inoubliable. 💌🚘
         <br />
         <br />
         Capacité: 3 passagers.

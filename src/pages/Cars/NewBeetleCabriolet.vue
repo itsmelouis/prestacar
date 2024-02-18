@@ -67,7 +67,7 @@
             to="/contact"
             class="underline">notre page de contact
         </router-link>
-        pour faire de la Porsche Boxster le témoin privilégié de votre union. Avec LB-Prestacar, optez pour une entrée pleine
+        pour faire de la New Beatle le témoin privilégié de votre union. Avec LB-Prestacar, optez pour une entrée pleine
         de charme et d'originalité, transformant votre mariage en un événement exceptionnellement joyeux et inoubliable. 💌🚘
         <br />
         <br />
