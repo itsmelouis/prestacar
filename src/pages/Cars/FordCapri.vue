@@ -12,6 +12,9 @@
         <br />
       </p>
 
+      <Carousel :items="images" />
+      <br />
+      <br />
       <H2 class="font-bold text-xl md:text-2xl text-center">La Ford Capri Crayford Cabriolet : Une Rare Beauté sur Roues</H2>
 
       <p class="text-base md:text-lg lg:text-xl">
@@ -88,7 +91,7 @@
         <br />
       </p>
     </div>
-    <Carousel :items="images" />
+
     <div
       class="flex flex-col md:flex-row md:justify-around items-center mt-20 space-y-10 md:space-y-0"
     >

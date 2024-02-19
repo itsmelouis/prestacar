@@ -11,6 +11,10 @@
         <br />
         <br />
       </p>
+      <Carousel :items="images" />
+
+      <br />
+      <br />
 
       <H2 class="font-bold text-xl md:text-2xl text-center">La Rolls-Royce Corniche : Un Symbole d'Élégance et de Prestige 🚗💫</H2>
 
@@ -84,7 +88,6 @@
         <br />
       </p>
     </div>
-    <Carousel :items="images" />
     <div
       class="flex flex-col md:flex-row md:justify-around items-center mt-20 space-y-10 md:space-y-0"
     >

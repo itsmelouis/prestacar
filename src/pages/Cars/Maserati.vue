@@ -13,6 +13,10 @@
         <br />
       </p>
 
+      <Carousel :items="images" />
+      <br />
+      <br />
+
       <H2 class="font-bold text-xl md:text-2xl text-center">La Maserati Ghibli : Un Chef-d'Œuvre d'Élégance et de Puissance</H2>
 
       <p class="text-base md:text-lg lg:text-xl">
@@ -86,7 +90,7 @@
         <br />
       </p>
     </div>
-    <Carousel :items="images" />
+
     <div
         class="flex flex-col md:flex-row md:justify-around items-center mt-20 space-y-10"
     >
