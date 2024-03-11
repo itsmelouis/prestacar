@@ -110,7 +110,15 @@
         ou à l’occasion de l’évolution des collections de LB Prestacar.
       </p>
       <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
-        Art. 5 Droit applicable
+        Art. 5 Conditions de Location
+      </h3>
+      <p class="text-base md:text-lg lg:text-xl">
+        LB Prestacar se réserve le droit d'annuler toutes prestations jusqu'à 1
+        mois avant la date prévue en cas d'incident ou de problèmes techniques.
+        Dans le cas où un acompte aurait été versé. Il sera remboursé.
+      </p>
+      <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
+        Art. 6 Droit applicable
       </h3>
       <p class="text-base md:text-lg lg:text-xl">
         Les présentes Conditions Générales d'utilisation sont soumises au droit
