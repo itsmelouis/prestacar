@@ -150,39 +150,39 @@ const options = [
 const images = [
   {
     id: 1,
-    src: getVehiculeImage("cadillac_escalade/cadillac1.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac1.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac1.webp"),
+    src: getVehiculeImage("cadillac_escalade/cadillac.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac.webp"),
   },
   {
     id: 2,
-    src: getVehiculeImage("cadillac_escalade/cadillac2.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac2.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac2.webp"),
-  },
-  {
-    id: 3,
-    src: getVehiculeImage("cadillac_escalade/cadillac3.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac3.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac3.webp"),
-  },
-  {
-    id: 4,
-    src: getVehiculeImage("cadillac_escalade/cadillac4.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac4.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac4.webp"),
-  },
-  {
-    id: 5,
-    src: getVehiculeImage("cadillac_escalade/cadillac5.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac5.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac5.webp"),
-  },
-  {
-    id: 6,
     src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("cadillac_escalade/_MG_0038.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/_MG_0038.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/_MG_0038.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("cadillac_escalade/_MG_1237.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/_MG_1237.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/_MG_1237.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("cadillac_escalade/_MG_1246.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/_MG_1246.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/_MG_1246.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("cadillac_escalade/_MG_1251.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/_MG_1251.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/_MG_1251.webp"),
   },
   {
     id: 7,
@@ -210,15 +210,27 @@ const images = [
   },
   {
     id: 11,
+    src: getVehiculeImage("cadillac_escalade/cadillac13.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac13.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac13.webp"),
+  },
+  {
+    id: 12,
     src: getVehiculeImage("cadillac_escalade/cadillac11.jpg"),
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac11.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac11.webp"),
   },
   {
-    id: 12,
-    src: getVehiculeImage("cadillac_escalade/cadillac13.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac13.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac13.webp"),
+    id: 13,
+    src: getVehiculeImage("cadillac_escalade/cadillac15.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac15.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/cadillac15.webp"),
+  },
+  {
+    id: 14,
+    src: getVehiculeImage("cadillac_escalade/DJI_0162.jpg"),
+    avif: getVehiculeImageAvif("cadillac_escalade/DJI_0162.avif"),
+    webp: getVehiculeImageWebp("cadillac_escalade/DJI_0162.webp"),
   },
 ];
 
