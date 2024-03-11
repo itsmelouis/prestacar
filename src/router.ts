@@ -23,6 +23,7 @@ import FordCapri from "./pages/Cars/FordCapri.vue";
 import RollsRoyceCorniche from "./pages/Cars/RollsRoyceCorniche.vue";
 import Maserati from "./pages/Cars/Maserati.vue";
 import Citroen from "./pages/Cars/2cv.vue";
+import Mini from "./pages/Cars/mini.vue"
 
 import Mariage from "./pages/prestations/Mariage.vue";
 import Anniversaire from "./pages/prestations/Anniversaire.vue";
@@ -266,6 +267,19 @@ const routes = [
               content: "Citroën 2CV classique. Parfaite pour vos événements vintage."
             }
             ]
+        },
+      },
+      {
+        path: "mini-cooper",
+        component: Mini,
+        meta: {
+          title: "Location Mini Cooper à Valenciennes - PrestaCar",
+          metaTags: [
+            {
+              name: 'description',
+              content: "Mini Cooper. Parfait pour vos événements vintage."
+            }
+          ]
         },
       },
     ],

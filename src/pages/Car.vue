@@ -61,6 +61,11 @@ const summary = [
     href: "/vehicules/citroen-2CV",
   },
   {
+    car: "Mini Cooper",
+    src: getVehiculeImage("mini/mini-1.jpg"),
+    href: "/vehicules/mini-cooper",
+  },
+  {
     car: "Rolls Royce Phantom",
     src: getVehiculeImage("rolls_royce_phantom/rolls-14.jpg"),
     href: "/vehicules/rolls-royce-phantom",
