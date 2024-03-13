@@ -1,74 +1,57 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
-      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Votre Mariage Sublimé par l'Audi A4 Allroad chez LB-Prestacar à Valenciennes</h1>
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center mb-8">Votre Mariage Sublimé par l'Audi A4 Allroad chez LB-Prestacar à Valenciennes</h1>
+      <p class="text-base md:text-lg lg:text-xl mb-8">
         Célébrez votre union en choisissant l'<span class="font-bold">Audi A4 Allroad</span>, disponible
         chez LB-Prestacar à Valenciennes. Ce modèle, parfait mélange de sophistication et de polyvalence, est l'option idéale
         pour les couples cherchant à combiner élégance et capacité d'adaptation pour leur journée spéciale. 🚙💨
-        <br />
-        <br />
       </p>
 
       <Carousel :items="images" />
 
-      <br />
-      <br />
+      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">L'Audi A4 Allroad : Synonyme de Confort et d'Élégance</H2>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">L'Audi A4 Allroad : Synonyme de Confort et d'Élégance</H2>
-
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         L'Audi A4 Allroad n'est pas seulement une voiture, c'est une invitation à vivre une expérience de luxe et de
         confort. Avec son allure raffinée, son intérieur haut de gamme et sa capacité tout-terrain, l'A4 Allroad est
         conçue pour transformer votre arrivée en un moment d'élégance et de distinction, captant l'attention de tous
         vos invités. 🌟🌲
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         <span class="font-bold">Confort Supérieur et Finitions de Haute Qualité:</span> Bénéficiez d'un confort
         exceptionnel avec les sièges ergonomiques, l'espace ample pour vos invités et les finitions luxueuses qui
         caractérisent l'intérieur de l'Audi A4 Allroad. Parfaite pour assurer une expérience relaxante et élégante,
         elle promet une entrée remarquable et des déplacements tout en douceur. 🛋️🌄
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         <span class="font-bold">Des Photographies Élégantes: </span> L'Audi A4 Allroad offre un cadre magnifique
         pour vos photos de mariage, assurant des souvenirs visuels élégants et sophistiqués. Sa présence ajoute une
         touche de raffinement inégalable à vos clichés. 📸💑
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         <span class="font-bold">Une Expérience de Conduite Incomparable:</span> Nos chauffeurs professionnels vous
         garantiront une arrivée fluide et élégante, vous permettant de vous détendre et de savourer chaque instant
         de votre journée spéciale, entourés par le luxe de l'A4 Allroad. 🚘🛤️
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Service Personnalisé pour un Mariage Mémorable</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Personnalisé pour un Mariage Mémorable</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Chez LB-Prestacar, nous savons que votre mariage est l'expression de votre parcours unique. C'est pourquoi
         nous offrons un service sur mesure avec l'Audi A4 Allroad. Qu'il s'agisse de décorations personnalisées ou
         d'une playlist adaptée pour le trajet, notre équipe est engagée à personnaliser votre expérience selon
         vos préférences, rendant votre célébration véritablement exceptionnelle. 🌹🎵
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Audi A4 Allroad Dès Aujourd'hui</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Réservez Votre Audi A4 Allroad Dès Aujourd'hui</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Pour assurer la disponibilité de l'Audi A4 Allroad pour votre mariage à Valenciennes, contactez LB-Prestacar
         sans attendre. Notre équipe passionnée est à votre écoute pour planifier chaque détail de votre expérience
         afin qu'elle soit en parfaite harmonie avec vos attentes. 📅💖
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Contactez-nous dès maintenant au 06 52 74 34 05 ou via
         <router-link
             to="/contact"
@@ -76,20 +59,18 @@
         </router-link>
         pour intégrer cette alliance de confort et d'aventure à votre journée spéciale. Avec LB-Prestacar,
         embarquez pour un mariage exceptionnel, magnifié par le charme et la polyvalence de l'Audi A4 Allroad. 💌🚙
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Capacité: 4 passagers.
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
         pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
         adapter aisément.
-        <br />
-        <br />
+      </p>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Les expositions et visites sont sur devis. L'approche est de 30km autour
         de Valenciennes, au-delà un supplément sera demandé.
-        <br />
-        <br />
       </p>
     </div>
     <div

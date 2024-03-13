@@ -1,72 +1,60 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
-      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Ajoutez une Note de Charme Vintage à Votre Mariage avec le Volkswagen Combi T1 chez LB-Prestacar à Valenciennes</h1>
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center mb-8">Ajoutez une Note de Charme Vintage à Votre Mariage avec le Volkswagen Combi T1 chez LB-Prestacar à Valenciennes</h1>
+      <p class="text-base md:text-lg lg:text-xl mb-4">
         Rendez votre mariage unique et inoubliable en intégrant le Volkswagen Combi T1, disponible
         chez LB-Prestacar à Valenciennes. Ce véhicule emblématique, symbole de liberté et d'aventure, est le choix
         parfait pour les couples à la recherche d'une touche de nostalgie et d'originalité pour leur grand jour. 🚌💐
-        <br />
-        <br />
       </p>
 
       <Carousel :items="images" />
-      <br />
-      <br />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Le Volkswagen Combi T1 : Un Icône de Convivialité et d'Originalité</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Le Volkswagen Combi T1 : Un Icône de Convivialité et d'Originalité</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Le <span class="font-bold">Volkswagen Combi T1</span> n'est pas juste un moyen de transport ; c'est une invitation au voyage dans le temps,
         évoquant des souvenirs d'époques révolues avec son design unique et sa silhouette reconnaissable. Avec son
         intérieur spacieux et convivial, le Combi T1 promet de faire de votre arrivée et de vos déplacements des moments
         joyeux et pleins de charme. 🌼🚐
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Confort Rétro et Atmosphère Accueillante:</span> Profitez de l'espace intérieur du Combi T1,
         parfait pour partager des moments privilégiés avec vos témoins ou votre famille proche, tout en créant une ambiance
         chaleureuse et détendue. Son intérieur authentiquement vintage est idéal pour ajouter une dimension de convivialité
         à votre célébration. 🛋️🎉
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Photographies Pleines de Caractère:</span> Le Volkswagen Combi T1 offre un cadre idyllique et
         plein de personnalité pour vos photos de mariage, garantissant des clichés uniques qui captureront l'esprit joyeux et
         insouciant de votre union. 📸💞
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Une Expérience de Voyage Mémorable:</span> Laissez-vous transporter avec style et originalité
         par nos chauffeurs professionnels, qui sauront faire de vos trajets en Combi T1 une partie intégrante de la célébration
         de votre amour, ajoutant une note de conte de fées à votre journée spéciale. 🚍💫
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Service Sur Mesure pour un Jour Inoubliable</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Sur Mesure pour un Jour Inoubliable</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est le reflet de votre histoire d'amour. C'est pourquoi nous proposons
         des services personnalisés avec le Volkswagen Combi T1. Notre équipe est à votre écoute pour adapter chaque détail à vos
         préférences, rendant votre expérience véritablement unique. 🌸🎵
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Volkswagen Combi T1 Dès Aujourd'hui</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Volkswagen Combi T1 Dès Aujourd'hui</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour que le Volkswagen Combi T1 soit à vos côtés lors de votre mariage à Valenciennes, contactez LB-Prestacar
         sans attendre. Notre équipe dévouée est prête à discuter de vos idées et à tout mettre en œuvre pour que votre
         journée soit parfaitement mémorable. 📅❤️
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
         <router-link
             to="/contact"
@@ -74,15 +62,15 @@
         </router-link>
         pour apporter cette touche de charme vintage à votre mariage. Avec LB-Prestacar, offrez-vous un cadre festif
         et original qui enrichira votre célébration d'une ambiance authentique et chaleureuse, grâce à la présence du Volkswagen Combi T1. 💌🚌
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Capacité: 3 passagers.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Les expositions et visites sont sur devis. L'approche est de 30km autour
         de Valenciennes, au-delà un supplément sera demandé.
-        <br />
-        <br />
       </p>
     </div>
 

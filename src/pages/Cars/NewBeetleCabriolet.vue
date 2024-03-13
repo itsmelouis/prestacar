@@ -2,69 +2,58 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Ajoutez une Touche de Charme Rétro à Votre Mariage avec la New Beetle Cabriolet chez LB-Prestacar à Valenciennes</h1>
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl my-8">
         Offrez à votre mariage une note de fantaisie et d'originalité avec la <span class="font-bold">New Beetle Cabriolet</span>, disponible
         chez LB-Prestacar à Valenciennes. Cette icône du design, alliant charme rétro et modernité, est le choix idéal pour
         les couples recherchant à marquer leur journée spéciale d'une empreinte mémorable et joyeuse. 🌸🚗
-        <br />
-        <br />
       </p>
 
       <Carousel :items="images" />
-      <br />
-      <br />
-      <H2 class="font-bold text-xl md:text-2xl text-center">La New Beetle Cabriolet : Un Symbole de Joie et de Liberté</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La New Beetle Cabriolet : Un Symbole de Joie et de Liberté</H2>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         La New Beetle Cabriolet est bien plus qu'une voiture décapotable ; c'est une célébration de la joie de vivre,
         mêlant esthétique rétro à la performance moderne. Avec sa silhouette arrondie emblématique, ses couleurs vives
         et son toit ouvrable, la New Beetle promet de rendre votre arrivée et vos déplacements un moment de pur bonheur
         et d'inoubliable élégance. 🎈🛣️
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Confort et Style:</span> Profitez du confort des sièges moelleux et de
         l'intérieur de la New Beetle Cabriolet, parfait pour se détendre et apprécier le trajet vers
         le lieu de votre cérémonie ou de votre réception sous le ciel bleu. 🌞💑
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Photos de Mariage Uniques:</span>  La New Beetle Cabriolet offre un arrière-plan idyllique et original
         pour vos photos de mariage, assurant des souvenirs visuels empreints de caractère et de gaieté. 📷💖
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Expérience de Conduite Enjouée:</span> Confiez votre parcours à nos chauffeurs professionnels,
         qui vous accompagneront avec enthousiasme et soin, vous permettant de vivre pleinement l’expérience joyeuse
         que propose cette voiture exceptionnelle. 👩‍✈️🌼
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Personnalisé pour une Journée Inoubliable</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour une Journée Inoubliable</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est unique et mérite une attention toute particulière. C'est pourquoi
         nous offrons des services personnalisés avec la location de la New Beetle Cabriolet. Des fleurs décoratives assorties
         à votre thème, à une playlist qui vous ressemble pour le trajet, nous sommes à votre écoute pour personnaliser chaque
         détail selon vos désirs. 🎵🌹
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre New Beetle Cabriolet dès Maintenant</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre New Beetle Cabriolet dès Maintenant</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour que la New Beetle Cabriolet soit la vôtre pour le grand jour à Valenciennes, n'hésitez pas à contacter
         LB-Prestacar bien à l'avance. Notre équipe passionnée est prête à discuter de vos envies et à mettre en place
         tous les éléments pour que votre expérience soit parfaitement à la hauteur de vos attentes. 📅💒
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
         <router-link
             to="/contact"
@@ -72,26 +61,28 @@
         </router-link>
         pour faire de la New Beatle le témoin privilégié de votre union. Avec LB-Prestacar, optez pour une entrée pleine
         de charme et d'originalité, transformant votre mariage en un événement exceptionnellement joyeux et inoubliable. 💌🚘
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Capacité: 3 passagers. (2 recommandés) Avec chauffeur 4 personnes sans
         chauffeur.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
         pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
         adapter aisément.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Les expositions et visites sont sur devis. L'approche est de 30km autour
         de Valenciennes, au-delà un supplément sera demandé.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Louez cette voiture sans chauffeur pour 60€ / jour avec 250km inclus
         (0,50 centimes facturés par km supplémentaire). L'âge de 23 ans minimum
         et 5 ans de permis sont requis. (caution de 3000€)
-        <br />
-        <br />
       </p>
     </div>
 

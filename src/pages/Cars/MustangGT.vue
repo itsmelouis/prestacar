@@ -2,88 +2,78 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Élevez Votre Mariage avec la Puissance de la Mustang GT chez LB-Prestacar à Valenciennes</h1>
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl my-8">
         Offrez à votre mariage une dose d'adrénaline et de sophistication avec la Mustang GT, disponible exclusivement chez LB-Prestacar à Valenciennes.
         Ce monument de la performance automobile américaine est le choix parfait pour les couples cherchant à infuser leur journée spéciale d'un
         esprit de liberté et d'aventure. 🐎💨
-        <br />
-        <br />
       </p>
 
       <Carousel :items="images" />
-      <br />
-      <br />
-      <H2 class="font-bold text-xl md:text-2xl text-center">La Mustang GT : Synonyme de Puissance et d'Élégance</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Mustang GT : Synonyme de Puissance et d'Élégance</H2>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         La Mustang GT n'est pas seulement une voiture ; c'est une légende vivante qui incarne la puissance, la vitesse et le style.
         Avec son allure agressive, son rugissement caractéristique et son intérieur luxueux, la Mustang GT est prête à transformer
         votre arrivée en un moment épique et inoubliable. 🚗🔥
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Confort et Prestige:</span> Asseyez-vous dans le confort suprême des sièges en cuir,
         entourés par un design intérieur alliant modernité et élégance. La Mustang GT offre une expérience de conduite
         sans pareil, garantissant une entrée remarquable à votre cérémonie ou réception. 🛣️✨
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Photographies Spectaculaires:</span> La Mustang GT, avec son design iconique et sa stature imposante,
         fournit un cadre magnifique pour des séances photo de mariage, capturant l'intensité et la passion de votre union avec une
         puissance visuelle frappante. 📸💖
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Une Conduite à Couper le Souffle:</span> Nos chauffeurs professionnels et passionnés
         sont à votre disposition pour vous offrir une conduite fluide et excitante, vous permettant de savourer
         chaque instant de votre voyage vers le bonheur conjugal. 🏁👨‍✈️
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Service Sur Mesure pour une Célébration Mémorable</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Service Sur Mesure pour une Célébration Mémorable</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous comprenons que votre mariage est une expression de votre personnalité unique.
         C'est pourquoi nous offrons des services personnalisés avec la Mustang GT. Des décorations élégantes
         à une sélection musicale qui accompagne votre style, ou même des parcours spécialement choisis pour
         maximiser votre expérience, notre équipe est là pour adapter chaque détail à vos désirs. 🌹🎵
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Mustang GT Aujourd'hui</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Mustang GT Aujourd'hui</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour garantir la présence de la Mustang GT à votre mariage à Valenciennes, contactez LB-Prestacar sans attendre.
         Notre équipe dédiée est prête à vous aider à planifier chaque aspect de votre expérience pour que celle-ci soit parfaite. 📅❤️
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
         <router-link
             to="/contact"
             class="underline">notre page de contact
         </router-link>
         pour placer cette icône de la performance et du style au cœur de votre mariage. Avec LB-Prestacar, prenez le départ vers un moment exceptionnel qui restera gravé dans les mémoires. 💌🚘
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Capacité: 3 passagers.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
         pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
         adapter aisément.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Les expositions et visites sont sur devis. L'approche est de 30km autour
         de Valenciennes, au-delà un supplément sera demandé.
-        <br />
-        <br />
       </p>
     </div>
 
