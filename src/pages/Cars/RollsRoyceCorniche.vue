@@ -2,68 +2,56 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center"> Louez une Rolls-Royce Corniche Blanche pour un Mariage Inoubliable à Valenciennes</h1>
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl my-8">
         Rendez votre mariage absolument magique et inoubliable avec la quintessence du luxe et de l'élégance : notre <span class="font-bold">Rolls-Royce Corniche</span>,
         disponible exclusivement chez LB-Prestacar 🌟, à Valenciennes. Cette pièce maîtresse de notre flotte de véhicules de luxe est le choix
         préféré des couples cherchant à apporter une touche de grandeur et de raffinement à leur journée spéciale 💍✨.
-        <br />
-        <br />
       </p>
+
       <Carousel :items="images" />
 
-      <br />
-      <br />
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Rolls-Royce Corniche : Un Symbole d'Élégance et de Prestige 🚗💫</H2>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">La Rolls-Royce Corniche : Un Symbole d'Élégance et de Prestige 🚗💫</H2>
-
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         La Rolls-Royce Corniche est bien plus qu'une simple voiture ; c'est un symbole intemporel de sophistication et de prestige.
         Avec sa silhouette emblématique, son intérieur luxueux et son allure majestueuse, la Corniche promet de transformer votre
         arrivée en un moment spectaculaire et mémorable. 🌟
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Confort Incomparable:</span> À bord de cette merveille d'ingénierie, vous découvrirez le summum du confort et du luxe, avec des
         sièges en cuir souple et un espace intérieur spacieux, parfait pour détendre et savourer chaque instant de votre trajet vers
         le lieu de la cérémonie ou de la réception. ❤️
-        <br />
-        <br />
-        <span class="font-bold">Photographies Élégantes:</span> La Rolls-Royce Corniche blanche offre un arrière-plan exceptionnel pour vos photographies de mariage,
-        garantissant des images aussi majestueuses et élégantes que votre union. 📸💒
-        <br />
-        <br />
-        <span class="font-bold">Expérience de Conduite Royale:</span> Laissez-vous transporter dans le plus pur confort par nos chauffeurs professionnels et expérimentés, qui veilleront à ce que votre
-        voyage soit aussi fluide et agréable que possible, vous permettant de vous concentrer pleinement sur la célébration de votre amour. 👑🚘
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+      <p class="text-base md:text-lg lg:text-xl mb-6">
+        <span class="font-bold">Photographies Élégantes:</span> La Rolls-Royce Corniche blanche offre un arrière-plan exceptionnel pour vos photographies de mariage,
+        garantissant des images aussi majestueuses et élégantes que votre union. 📸💒
+      </p>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
+        <span class="font-bold">Expérience de Conduite Royale:</span> Laissez-vous transporter dans le plus pur confort par nos chauffeurs professionnels et expérimentés, qui veilleront à ce que votre
+        voyage soit aussi fluide et agréable que possible, vous permettant de vous concentrer pleinement sur la célébration de votre amour. 👑🚘
+      </p>
+
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous comprenons que votre mariage est unique. C'est pourquoi nous offrons des services personnalisés
         pour compléter votre expérience de location de la Rolls-Royce Corniche. Que vous souhaitiez des décorations florales spécifiques 🌸,
         une sélection de musiques pour accompagner votre trajet 🎶, ou tout autre détail qui rendra votre journée encore plus spéciale,
         notre équipe est à votre écoute pour répondre à vos désirs les plus précis.
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour garantir la disponibilité de la Rolls-Royce Corniche pour votre mariage à Valenciennes, nous vous invitons
         à nous contacter bien à l'avance. Notre équipe dédiée est prête à discuter de vos besoins et à organiser chaque détail
         pour que votre expérience soit parfaite. 📅
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
         <router-link
           to="/contact"
@@ -72,20 +60,21 @@
         pour réserver cette icône du
         luxe et de l'élégance pour votre mariage. Avec LB-Prestacar, faites le premier pas vers un moment inoubliable,
         à la hauteur de vos rêves les plus somptueux. 🌈💖
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Capacité: 3 passagers (2 recommandés).
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
         pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
         adapter aisément.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Les expositions et visites sont sur devis. L'approche est de 30km autour
         de Valenciennes, au-delà un supplément sera demandé.
-        <br />
-        <br />
       </p>
     </div>
     <div

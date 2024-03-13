@@ -2,64 +2,52 @@
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
       <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center">Transformez Votre Mariage avec la Sportive Porsche Boxster chez LB-Prestacar à Valenciennes</h1>
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl my-8">
         Rendez votre célébration unique et mémorable en optant pour l'élégance sportive et le luxe : la <span class="font-bold">Porsche Boxster</span>, disponible en exclusivité chez LB-Prestacar,
         à Valenciennes. Cette perle rare de notre gamme de véhicules de luxe constitue le choix parfait pour les couples désirant insuffler une dynamique de modernité
         et d'élégance à leur journée exceptionnelle. 🌟🚗
-        <br />
-        <br />
       </p>
 
       <Carousel :items="images" />
-      <br />
-      <br />
-      <H2 class="font-bold text-xl md:text-2xl text-center">La Porsche Boxster : Synonyme de Liberté et d'Élégance</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Porsche Boxster : Synonyme de Liberté et d'Élégance</H2>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         La Porsche Boxster n'est pas qu'une simple voiture de sport ; c'est un véhicule qui incarne la liberté,
         l'élégance et la performance. Avec ses lignes fluides, son intérieur raffiné et ses capacités dynamiques
         hors normes, la Boxster est promise à transformer votre arrivée en un moment vibrant d'émotion et d'exception. 🏎️💨
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Séances Photos Inoubliables:</span> La Porsche Boxster, avec son allure sportive et élégante, offre un cadre idéal
         pour des séances photos de mariage uniques, garantissant des souvenirs visuels aussi intenses et passionnants
         que votre amour. 📸❤️
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         <span class="font-bold">Service de Chauffeur Professionnel:</span> Laissez-vous guider par l'un de nos chauffeurs experts et
         passionnés, qui s'assurera que votre parcours soit aussi exaltant et agréable que possible, vous permettant de vous
         immerger entièrement dans la joie de votre union. 👨‍✈️🌹
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Une Offre Personnalisée pour un Jour Inoubliable</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Une Offre Personnalisée pour un Jour Inoubliable</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous reconnaissons l'unicité de chaque mariage. C'est pourquoi nous proposons des services
         personnalisés pour accompagner votre location de la Porsche Boxster. Que vous envisagiez une décoration
         spécifique pour la voiture, une playlist personnalisée pour le trajet, ou tout autre élément qui rendra votre journée
         encore plus spéciale, notre équipe est à votre écoute pour faire de vos rêves une réalité. 🎶💐
-        <br />
-        <br />
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center">Réservez Votre Porsche Boxster dès Aujourd'hui</H2>
+      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Porsche Boxster dès Aujourd'hui</H2>
 
-      <p class="text-base md:text-lg lg:text-xl">
-        <br />
-        <br />
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour vous assurer que la Porsche Boxster soit disponible pour votre mariage à Valenciennes, nous vous invitons
         à prendre contact avec nous bien en avance. Notre équipe dévouée est prête à échanger sur vos attentes et à
         organiser chaque aspect pour que votre expérience soit exceptionnelle. 🗓️💕
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Contactez-nous dès aujourd'hui au 06 52 74 34 05 ou via
         <router-link
             to="/contact"
@@ -67,20 +55,21 @@
         </router-link>
         pour faire de la Porsche Boxster le témoin privilégié de votre union. Avec LB-Prestacar, faites le choix d'une entrée
         remarquable et d'un moment inoubliable, à la hauteur de vos aspirations les plus exaltantes. 💌🚗
-        <br />
-        <br />
+        </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Capacité: 1 passager.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Si votre souhait ne se trouve pas dans la grille tarifaire, n'hésitez
         pas à nous contacter pour obtenir rapidement un devis. Nous saurons nous
         adapter aisément.
-        <br />
-        <br />
+      </p>
+
+      <p class="text-base md:text-lg lg:text-xl mb-6">
         Les expositions et visites sont sur devis. L'approche est de 30km autour
         de Valenciennes, au-delà un supplément sera demandé.
-        <br />
-        <br />
       </p>
     </div>
     <div
