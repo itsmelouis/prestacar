@@ -13,7 +13,14 @@
         </Slide>
 
         <template #addons>
-          <Navigation class="mt-4" />
+          <navigation>
+            <template #next>
+              <right-arrow></right-arrow>
+            </template>
+            <template #prev>
+              <LeftArrow></LeftArrow>
+            </template>
+          </navigation>
           <Pagination class="mt-4" />
         </template>
       </Carousel>
@@ -25,6 +32,8 @@
 import { PropType } from "vue";
 import { Carousel, Navigation, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
+import RightArrow from "../components/Icons/RightArrow.vue";
+import LeftArrow from '../components/Icons/LeftArrow.vue';
 
 type CarouselImg = {
   id: number;
@@ -44,5 +53,9 @@ const props = defineProps({
 <style scoped>
 .carousel__slide {
   padding: 10px;
+}
+
+.carousel-next:hover{
+  color:black;
 }
 </style>
