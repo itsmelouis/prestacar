@@ -35,26 +35,24 @@
       </div>
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col my-1 mx-5 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-base md:text-lg lg:text-xl"
-      >
+        class="flex-col my-1 mx-5 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-base md:text-lg lg:text-xl">
         <router-link
           to="/vehicules"
           class="text-gray-100 hover:text-yellow-400 transition duration-300"
           :class="{ 'text-yellow-400': $route.path.includes('/vehicules') }"
-          ><li>Véhicules</li></router-link
-        >
+          ><li>Véhicules</li></router-link>
+
         <router-link
             to="/prestation"
             class="text-gray-100 hover:text-yellow-400 transition duration-300"
             :class="{ 'text-yellow-400': $route.path.includes('/prestation') }"
-        ><li>Prestations</li></router-link
-        >
+        ><li>Prestations</li></router-link>
+
         <router-link
           to="/contact"
           class="text-gray-100 hover:text-yellow-400 transition duration-300"
           :class="{ 'text-yellow-400': $route.path.includes('/contact') }"
-          ><li>Contact</li></router-link
-        >
+          ><li>Contact</li></router-link>
       </ul>
     </nav>
   </div>
