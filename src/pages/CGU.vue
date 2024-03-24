@@ -2,7 +2,7 @@
   <div class="bg-slate-50">
     <Header></Header>
     <div
-      class="flex flex-col items-start space-y-5 md:space-y-10 mt-10 mb-10 ml-5 md:ml-40 rounded-md min-h-[50vh]"
+      class="flex flex-col items-start space-y-5 md:space-y-10 mt-10 mb-10 ml-5 md:ml-40 rounded-md min-h-[50vh] mr-8"
     >
       <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold">
         Ce site est édité par :
@@ -61,7 +61,7 @@
         données ainsi que d’un droit de vous opposer à ce que ces données
         fassent l'objet d'un traitement en nous contactant par courrier à
         l’adresse suivante : 8 rue du maréchal leclerc - 59880 Saint-Saulve ou
-        par e-mail à l’adresse lbprestacar@gmail.com. <br />
+        par e-mail à l’adresse contact@lb-prestacar.com <br />
         <br />
         Vos demandes devront être signées et accompagnées de la photocopie d’un
         titre d’identité portant la signature du titulaire. La demande devra
@@ -73,7 +73,7 @@
         vous aurez à tout moment la faculté de revenir sur cette décision, soit
         en cliquant sur le lien prévu à cet effet en bas des mails que vous
         recevez, soit en envoyant un mail avec pour objet « désabonnement » à
-        l’adresse suivante : lbprestacar@gmail.com. <br />
+        l’adresse suivante : contact@lb-prestacar.com <br />
         <br />
         2.2 Conformément à l’article 6 de la Loi du 21 juin 2004 pour la
         confiance en l’économie numérique, l'hébergeur conservera vos données de
@@ -118,7 +118,50 @@
         Dans le cas où un acompte aurait été versé. Il sera remboursé.
       </p>
       <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
-        Art. 6 Droit applicable
+        Art. 6 Modalités de Paiement et Prestation de Service
+      </h3>
+      <p class="text-base md:text-lg lg:text-xl">
+        Le paiement final pour la location de véhicule doit être effectué à l'arrivée du chauffeur,
+        avant le début de la prestation de service. Cette condition s'applique à toutes les réservations
+        effectuées auprès de LB Prestacar.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        LB Prestacar accepte uniquement les paiements en espèces ou par virement bancaire.
+        Les détails nécessaires pour effectuer un virement bancaire seront fournis au client lors
+        de la confirmation de la réservation.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        Tout paiement effectué est considéré comme un accord final entre le client et LB Prestacar
+        concernant les termes de la location de véhicule et les services associés.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        Sauf indication contraire au moment de la réservation, tous les véhicules proposés à la location
+        par LB Prestacar sont fournis avec un chauffeur.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        Les véhicules spécifiés sans chauffeur lors de la réservation seront clairement
+        indiqués dans l'offre de service et les communications de confirmation. Pour ces
+        véhicules, les conditions et les modalités de location peuvent différer et seront
+        spécifiées dans le contrat de location.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        En cas d'annulation de la réservation par le client, un acompte préalablement
+        versé à LB Prestacar au moment de la réservation sera retenu comme frais d'annulation.
+        Cet acompte est non-remboursable et vise à couvrir les préparatifs et les pertes
+        potentielles encourues par LB Prestacar en prévision de la prestation de service.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        Les modifications de réservation sont sujettes à la disponibilité et peuvent entraîner
+        des frais supplémentaires. Le client sera informé de tout ajustement de prix ou de toute
+        autre condition avant que la modification ne soit confirmée.
+      </p>
+      <p class="text-base md:text-lg lg:text-xl">
+        En cas d'annulation tardive (définie selon les politiques d'annulation de LB Prestacar),
+        ou de non-présentation du client au lieu et à l'heure convenus sans notification préalable,
+        l'acompte sera retenu et des frais supplémentaires pourront être facturés au client.
+      </p>
+      <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
+        Art. 7 Droit applicable
       </h3>
       <p class="text-base md:text-lg lg:text-xl">
         Les présentes Conditions Générales d'utilisation sont soumises au droit

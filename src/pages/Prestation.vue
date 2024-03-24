@@ -35,7 +35,7 @@ import { getVehiculeImage } from "../utils/importImages";
 const summary = [
   {
     car: "Mariage",
-    src: getVehiculeImage("prestations/mariage.jpg"),
+    src: getVehiculeImage("mini/mini-15.jpg"),
     href: "/prestation/mariage",
   },
   {
