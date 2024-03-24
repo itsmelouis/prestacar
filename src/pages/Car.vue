@@ -62,7 +62,7 @@ const summary = [
   },
   {
     car: "Mini Cooper",
-    src: getVehiculeImage("mini/mini-1.jpg"),
+    src: getVehiculeImage("mini/mini-15.jpg"),
     href: "/vehicules/mini-cooper",
   },
   {
