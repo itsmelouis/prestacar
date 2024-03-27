@@ -288,7 +288,11 @@ const routes = [
       metaTags: [
         {
           name: 'description',
-          content: "Découvrez notre collection exclusive de véhicules disponibles à la location. Que vous recherchiez l'élégance d'une Rolls Royce, la puissance d'une Ford Mustang, ou le charme vintage d'une Volkswagen Coccinelle, notre sélection répondra à toutes vos attentes pour des moments inoubliables. Explorez dès maintenant pour trouver la voiture parfaite pour votre prochain événement spécial."
+          content: "Découvrez notre collection exclusive de véhicules disponibles à la location." +
+              " Que vous recherchiez l'élégance d'une Rolls Royce, la puissance d'une Ford Mustang," +
+              " ou le charme vintage d'une Volkswagen Coccinelle, notre sélection répondra à toutes " +
+              "vos attentes pour des moments inoubliables. Explorez dès maintenant pour trouver la voiture " +
+              "parfaite pour votre prochain événement spécial."
         }
         ]
     },
