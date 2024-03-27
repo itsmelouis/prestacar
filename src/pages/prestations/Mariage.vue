@@ -121,9 +121,9 @@ const images = [
   },
   {
     id: 8,
-    src: getVehiculeImage("mustang_blanche/mustang_blanche-5.jpg"),
-    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-5.avif"),
-    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
+    src: getVehiculeImage("mini/mini-13.jpg"),
+    avif: getVehiculeImageAvif("mini/mini-13.avif"),
+    webp: getVehiculeImageWebp("mini/mini-13.webp"),
   },
   {
     id: 9,

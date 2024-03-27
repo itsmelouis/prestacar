@@ -102,30 +102,24 @@ const images = [
   },
   {
     id: 4,
-    src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
-  },
-  {
-    id: 5,
     src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
   {
-    id: 6,
+    id: 5,
     src: getVehiculeImage("audi_a4/audiA4_3.jpg"),
     avif: getVehiculeImageAvif("audi_a4/audiA4_3.avif"),
     webp: getVehiculeImageWebp("audi_a4/audiA4_3.webp"),
   },
   {
-    id: 7,
+    id: 6,
     src: getVehiculeImage("audi_a4/audiA4_4.jpg"),
     avif: getVehiculeImageAvif("audi_a4/audiA4_4.avif"),
     webp: getVehiculeImageWebp("audi_a4/audiA4_4.webp"),
   },
   {
-    id: 10,
+    id: 7,
     src: getVehiculeImage("audi_a4/audiA4_11.jpg"),
     avif: getVehiculeImageAvif("audi_a4/audiA4_11.avif"),
     webp: getVehiculeImageWebp("audi_a4/audiA4_11.webp"),

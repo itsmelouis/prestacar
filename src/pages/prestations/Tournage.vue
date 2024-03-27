@@ -95,30 +95,12 @@ const images = [
   },
   {
     id: 3,
-    src: getVehiculeImage("mustang_blanche/mustang_blanche-5.jpg"),
-    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-5.avif"),
-    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
-  },
-  {
-    id: 4,
-    src: getVehiculeImage("mustang_blanche/mustang_blanche-2.jpg"),
-    avif: getVehiculeImageAvif("mustang_blanche/mustang_blanche-2.avif"),
-    webp: getVehiculeImageWebp("mustang_gt/mustang-4.webp"),
-  },
-  {
-    id: 5,
     src: getVehiculeImage("cadillac_escalade/cadillac6.jpg"),
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac6.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac6.webp"),
   },
   {
-    id: 6,
-    src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
-    webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
-  },
-  {
-    id: 7,
+    id: 4,
     src: getVehiculeImage("cadillac_escalade/cadillac7.jpg"),
     avif: getVehiculeImageAvif("cadillac_escalade/cadillac7.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),

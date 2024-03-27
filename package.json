@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.47",
+    "meta": "^2.2.25",
+    "vue": "^3.4.21",
+    "vue-meta": "^2.4.0",
     "vue-router": "4",
     "vue3-carousel": "^0.3.1"
   },
