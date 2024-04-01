@@ -1,7 +1,7 @@
 <template>
   <div ref="el" class="my-20">
     <div class="my-10 mx-10 sm:my-20 md:mx-40">
-      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center mt-8">Votre Mariage avec le Luxe du Cadillac Escalade chez LB-Prestacar à Valenciennes</h1>
+      <h1 class="text-xl md:text-2xl lg:text-3xl font-semibold text-center mya-8">Votre Mariage avec le Luxe du Cadillac Escalade chez LB-Prestacar à Valenciennes</h1>
       <p class="text-base md:text-lg lg:text-xl mb-8">
         Faites de votre mariage un événement spectaculaire et inoubliable en choisissant le <span class="font-bold">Cadillac Escalade</span>, disponible exclusivement
         chez LB-Prestacar à Valenciennes. Ce SUV emblématique, symbole de luxe et de puissance, est l'option parfaite pour les couples

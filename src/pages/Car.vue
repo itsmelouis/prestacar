@@ -86,6 +86,11 @@ const summary = [
     href: "/vehicules/ford-capri",
   },
   {
+    car: "Mercedes Classe E Cabriolet",
+    src: getVehiculeImage("mercedes/mercedes.jpg"),
+    href: "/vehicules/mercedes-classe-e",
+  },
+  {
     car: "Aston Martin Volante",
     src: getVehiculeImage("aston_martin_volante/aston-cab-10.jpg"),
     href: "/vehicules/aston-martin-volante",
