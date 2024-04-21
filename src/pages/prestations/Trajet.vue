@@ -108,6 +108,12 @@ const images = [
   },
   {
     id: 5,
+    src: getVehiculeImage("prestations/nouvel-an.jpg"),
+    avif: getVehiculeImageAvif("prestations/nouvel-an.avif"),
+    webp: getVehiculeImageWebp("prestations/nouvel-an.webp"),
+  },
+  {
+    id: 5,
     src: getVehiculeImage("audi_a4/audiA4_3.jpg"),
     avif: getVehiculeImageAvif("audi_a4/audiA4_3.avif"),
     webp: getVehiculeImageWebp("audi_a4/audiA4_3.webp"),

@@ -45,13 +45,17 @@ import { getVehiculeImage } from "../utils/importImages";
 const images = [
   { id: 1, src: getVehiculeImage("cadillac_escalade/cadillac14.jpg") },
   { id: 2, src: getVehiculeImage("combi_t1/combi9.jpg") },
-  { id: 3, src: getVehiculeImage("mini/mini-15.jpg") },
-  { id: 4, src: getVehiculeImage("lincoln_towncar/limo.jpg") },
-  { id: 5, src: getVehiculeImage("rolls_royce_phantom/rolls-14.jpg") },
-  { id: 6, src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),},
-  { id: 7, src: getVehiculeImage("maserati/maserati-2.jpg") },
-  { id: 8, src: getVehiculeImage("ford_capri/capri.jpg") },
-  { id: 9, src: getVehiculeImage("porsche_986/boxster-17.jpg") },
+  { id: 3, src: getVehiculeImage("prestations/salon-mariage.jpg") },
+  { id: 4, src: getVehiculeImage("mini/mini-15.jpg") },
+  { id: 5, src: getVehiculeImage("lincoln_towncar/limo.jpg") },
+  { id: 6, src: getVehiculeImage("rolls_royce_phantom/rolls-14.jpg") },
+  { id: 7, src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),},
+  { id: 8, src: getVehiculeImage("porsche_986/boxster-17.jpg") },
+  { id: 9, src: getVehiculeImage("maserati/maserati-2.jpg") },
+  { id: 10, src: getVehiculeImage("ford_capri/capri.jpg") },
+  { id: 11, src: getVehiculeImage("mercedes/mercedes.jpg") },
+  { id: 12, src: getVehiculeImage("new_beetle/new-beetle21.jpg") },
+  { id: 13, src: getVehiculeImage("mustang_gt/mustang-15.jpg") },
 ];
 </script>
 

@@ -158,18 +158,24 @@ const images = [
   },
   {
     id: 3,
+    src: getVehiculeImage("prestations/limo-mariage.jpg"),
+    avif: getVehiculeImageAvif("prestations/limo-mariage.avif"),
+    webp: getVehiculeImageWebp("prestations/limo-mariage.webp"),
+  },
+  {
+    id: 4,
     src: getVehiculeImage("lincoln_towncar/limo-8.jpg"),
     avif: getVehiculeImageAvif("lincoln_towncar/limo-9.avif"),
     webp: getVehiculeImageWebp("lincoln_towncar/limo-9.webp"),
   },
   {
-    id: 4,
+    id: 5,
     src: getVehiculeImage("lincoln_towncar/limo-2.jpg"),
     avif: getVehiculeImageAvif("lincoln_towncar/limo-1.avif"),
     webp: getVehiculeImageWebp("lincoln_towncar/limo-1.webp"),
   },
   {
-    id: 5,
+    id: 6,
     src: getVehiculeImage("lincoln_towncar/limo-11.jpg"),
     avif: getVehiculeImageAvif("lincoln_towncar/limo-10.avif"),
     webp: getVehiculeImageWebp("lincoln_towncar/limo-10.webp"),
