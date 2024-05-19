@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black">
+  <div class="bg-black ">
     <nav class="container mx-auto md:flex md:justify-between md:items-center">
       <div class="flex items-center justify-between">
         <router-link to="/"

@@ -32,7 +32,7 @@ import { getVehiculeImage } from "../utils/importImages";
 const summary = [
   {
     car: "Limousine Lincoln TownCar",
-    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
+    src: getVehiculeImage("lincoln_towncar/limo-home.jpg"),
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {

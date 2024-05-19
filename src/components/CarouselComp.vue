@@ -1,13 +1,16 @@
 <template>
-  <div class="w-full">
-    <Carousel :autoplay="2000" :wrap-around="true">
-      <Slide v-for="prop in props.items" :key="prop.id">
-        <div class="max-h-80 w-full flex justify-center items-center">
-          <img :src="prop.src" class="w-full h-auto" />
-        </div>
-      </Slide>
-    </Carousel>
-  </div>
+  <router-link to="/vehicules" >
+    <div class="w-full">
+      <Carousel :autoplay="2000" :wrap-around="true">
+        <Slide v-for="prop in props.items" :key="prop.id">
+          <div class="max-h-80 w-full flex justify-center items-center">
+            <img :src="prop.src" class="w-full h-auto" />
+          </div>
+        </Slide>
+      </Carousel>
+    </div>
+  </router-link>
+
 </template>
 
 <script setup lang="ts">
