@@ -35,7 +35,7 @@
       </div>
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col my-1 mx-5 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-base md:text-lg lg:text-xl">
+        class="flex-col my-1 mx-5 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-base md:text-lg lg:text-xl p-2">
         <router-link
           to="/vehicules"
           class="text-gray-100 hover:text-yellow-400 transition duration-300"
