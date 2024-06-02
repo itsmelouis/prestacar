@@ -161,7 +161,27 @@
         l'acompte sera retenu et des frais supplémentaires pourront être facturés au client.
       </p>
       <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
-        Art. 7 Droit applicable
+        Art. 7 Conditions Météorologiques Impraticables
+      </h3>
+      <p class="text-base md:text-lg lg:text-xl">
+        Chez LB Prestacar, la sécurité de nos clients et de nos chauffeurs est notre priorité absolue.
+        Nous comprenons que certaines conditions météorologiques peuvent rendre la conduite dangereuse
+        et impraticable. Par conséquent, nous nous réservons le droit de modifier les termes de votre
+        location de véhicule afin de garantir la sécurité de tous.
+      </p>
+      <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
+        Changement de Véhicule en Cas de Mauvaises Conditions Météorologiques
+      </h3>
+      <p class="text-base md:text-lg lg:text-xl">
+        En cas de conditions météorologiques impraticables (par exemple, fortes chutes de neige, verglas,
+        tempêtes violentes, inondations, fortes pluies, etc.), LB Prestacar peut imposer un changement de
+        véhicule, voire une annulation (dans les cas les plus extrêmes). Cette décision sera prise pour assurer
+        votre sécurité et celle de nos chauffeurs. Nous nous efforcerons de vous fournir un véhicule adapté aux conditions
+        routières actuelles, pouvant inclure des options mieux équipées pour gérer les conditions météorologiques
+        extrêmes, comme des véhicules tout-terrain ou munis de pneus neige.
+      </p>
+      <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold">
+        Art. 8 Droit applicable
       </h3>
       <p class="text-base md:text-lg lg:text-xl">
         Les présentes Conditions Générales d'utilisation sont soumises au droit
