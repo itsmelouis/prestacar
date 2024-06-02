@@ -36,6 +36,11 @@ const summary = [
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
+    car: "Limousine Chrysler 300c",
+    src: getVehiculeImage("limo-chrysler/limo-chrysler.jpg"),
+    href: "/vehicules/limousine-chrysler-300c",
+  },
+  {
     car: "Porsche 986",
     src: getVehiculeImage("porsche_986/boxster-17.jpg"),
     href: "/vehicules/porsche-986",
@@ -57,7 +62,7 @@ const summary = [
   },
   {
     car: "Citroën 2CV",
-    src: getVehiculeImage("citroen_2cv/2cv-8.jpg"),
+    src: getVehiculeImage("citroen_2cv/2cv-10.jpg"),
     href: "/vehicules/citroen-2CV",
   },
   {

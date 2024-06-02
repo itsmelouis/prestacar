@@ -128,39 +128,51 @@ const options = [
 const images = [
   {
     id: 1,
+    src: getVehiculeImage("citroen_2cv/2cv-2-2.jpg"),
+    avif: getVehiculeImageAvif("citroen_2cv/2cv-2-2.avif"),
+    webp: getVehiculeImageWebp("citroen_2cv/2cv-2-2.webp"),
+  },
+  {
+    id: 2,
     src: getVehiculeImage("citroen_2cv/2cv-2.jpg"),
     avif: getVehiculeImageAvif("citroen_2cv/2cv-2.avif"),
     webp: getVehiculeImageWebp("citroen_2cv/2cv-2.webp"),
   },
   {
-    id: 2,
+    id: 3,
     src: getVehiculeImage("citroen_2cv/2cv-3.jpg"),
     avif: getVehiculeImageAvif("citroen_2cv/2cv-3.avif"),
     webp: getVehiculeImageWebp("citroen_2cv/2cv-3.webp"),
   },
   {
-    id: 3,
-    src: getVehiculeImage("citroen_2cv/2cv-1.jpg"),
-    avif: getVehiculeImageAvif("citroen_2cv/2cv-1.avif"),
-    webp: getVehiculeImageWebp("citroen_2cv/2cv-1.webp"),
+    id: 4,
+    src: getVehiculeImage("citroen_2cv/2cv-7.jpg"),
+    avif: getVehiculeImageAvif("citroen_2cv/2cv-7.avif"),
+    webp: getVehiculeImageWebp("citroen_2cv/2cv-7.webp"),
   },
   {
-    id: 4,
+    id: 5,
     src: getVehiculeImage("citroen_2cv/2cv-4.jpg"),
     avif: getVehiculeImageAvif("citroen_2cv/2cv-4.avif"),
     webp: getVehiculeImageWebp("citroen_2cv/2cv-4.webp"),
   },
   {
-    id: 5,
+    id: 6,
     src: getVehiculeImage("citroen_2cv/2cv-5.jpg"),
     avif: getVehiculeImageAvif("citroen_2cv/2cv-5.avif"),
     webp: getVehiculeImageWebp("citroen_2cv/2cv-5.webp"),
   },
   {
     id: 7,
-    src: getVehiculeImage("citroen_2cv/2cv-7.jpg"),
-    avif: getVehiculeImageAvif("citroen_2cv/2cv-7.avif"),
-    webp: getVehiculeImageWebp("citroen_2cv/2cv-7.webp"),
+    src: getVehiculeImage("citroen_2cv/2cv-8.jpg"),
+    avif: getVehiculeImageAvif("citroen_2cv/2cv-8.avif"),
+    webp: getVehiculeImageWebp("citroen_2cv/2cv-8.webp"),
+  },
+  {
+    id: 8,
+    src: getVehiculeImage("citroen_2cv/2cv-9.jpg"),
+    avif: getVehiculeImageAvif("citroen_2cv/2cv-9.avif"),
+    webp: getVehiculeImageWebp("citroen_2cv/2cv-9.webp"),
   },
 ];
 
