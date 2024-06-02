@@ -4,11 +4,13 @@
       <Carousel class="overflow-hidden">
         <Slide v-for="prop in props.items" :key="prop.id">
           <div class="flex justify-center items-center">
-            <picture>
-              <source :srcset="prop.avif" type="image/avif" />
-              <source :srcset="prop.webp" type="image/webp" />
-              <img :src="prop.src" class="w-full h-auto object-cover" />
-            </picture>
+            <a :href="prop.src" target="_blank">
+              <picture>
+                <source :srcset="prop.avif" type="image/avif" />
+                <source :srcset="prop.webp" type="image/webp" />
+                <img :src="prop.src" class="w-full h-auto object-cover" />
+              </picture>
+            </a>
           </div>
         </Slide>
 
