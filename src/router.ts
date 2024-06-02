@@ -25,6 +25,7 @@ import Maserati from "./pages/Cars/Maserati.vue";
 import Citroen from "./pages/Cars/2cv.vue";
 import Mini from "./pages/Cars/mini.vue";
 import Mercedes from "./pages/Cars/mercedes.vue";
+import Chrysler from "./pages/Cars/chrysler.vue";
 
 import Mariage from "./pages/prestations/Mariage.vue";
 import Anniversaire from "./pages/prestations/Anniversaire.vue";
@@ -211,6 +212,14 @@ const routes = [
         meta: {
           title: "Location Mercedes Classe E décapotable à Valenciennes - PrestaCar",
           content: "Mercedes classe E. Parfait pour vos événements."
+        },
+      },
+      {
+        path: "limousine-chrysler-300c",
+        component: Chrysler,
+        meta: {
+          title: "Location limousine chrysler à Valenciennes - PrestaCar",
+          content: "Limousine Chrysler 300c. Parfait pour vos événements."
         },
       },
     ],

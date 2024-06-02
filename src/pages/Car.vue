@@ -36,9 +36,9 @@ const summary = [
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
-    car: "Limousine Lincoln TownCar",
+    car: "Limousine Chrysler 300c",
     src: getVehiculeImage("limo-chrysler/limo-chrysler.jpg"),
-    href: "/vehicules/limousine-lincoln-towncar",
+    href: "/vehicules/limousine-chrysler-300c",
   },
   {
     car: "Porsche 986",
