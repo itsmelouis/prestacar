@@ -107,7 +107,7 @@ const images = [
   {
     id: 4,
     src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
   {
@@ -129,7 +129,7 @@ const images = [
     webp: getVehiculeImageWebp("audi_a4/audiA4_4.webp"),
   },
   {
-    id: 10,
+    id: 8,
     src: getVehiculeImage("audi_a4/audiA4_11.jpg"),
     avif: getVehiculeImageAvif("audi_a4/audiA4_11.avif"),
     webp: getVehiculeImageWebp("audi_a4/audiA4_11.webp"),

@@ -32,7 +32,7 @@ import { getVehiculeImage } from "../utils/importImages";
 const summary = [
   {
     car: "Limousine Lincoln TownCar",
-    src: getVehiculeImage("lincoln_towncar/limo.jpg"),
+    src: getVehiculeImage("lincoln_towncar/limo-6.jpg"),
     href: "/vehicules/limousine-lincoln-towncar",
   },
   {
@@ -47,7 +47,7 @@ const summary = [
   },
   {
     car: "Volkswagen Combi T1",
-    src: getVehiculeImage("combi_t1/combi.jpg"),
+    src: getVehiculeImage("combi_t1/combi10.jpg"),
     href: "/vehicules/volkswagen-combi-t1",
   },
   {
@@ -84,6 +84,11 @@ const summary = [
     car: "Ford Capri Crayford Cabriolet",
     src: getVehiculeImage("ford_capri/capri.jpg"),
     href: "/vehicules/ford-capri",
+  },
+  {
+    car: "Mercedes Classe E Cabriolet",
+    src: getVehiculeImage("mercedes/mercedes.jpg"),
+    href: "/vehicules/mercedes-classe-e",
   },
   {
     car: "Aston Martin Volante",

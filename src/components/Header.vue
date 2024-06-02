@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black">
+  <div class="bg-black ">
     <nav class="container mx-auto md:flex md:justify-between md:items-center">
       <div class="flex items-center justify-between">
         <router-link to="/"
@@ -35,7 +35,7 @@
       </div>
       <ul
         :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col my-1 mx-5 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-base md:text-lg lg:text-xl">
+        class="flex-col my-1 mx-5 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 text-base md:text-lg lg:text-xl p-2">
         <router-link
           to="/vehicules"
           class="text-gray-100 hover:text-yellow-400 transition duration-300"
