@@ -107,7 +107,7 @@ const images = [
   {
     id: 4,
     src: getVehiculeImage("cadillac_escalade/cadillac-2.jpg"),
-    avif: getVehiculeImageAvif("cadillac_escalade/cadillac-1.avif"),
+    avif: getVehiculeImageAvif("cadillac_escalade/cadillac.avif"),
     webp: getVehiculeImageWebp("cadillac_escalade/cadillac7.webp"),
   },
   {
