@@ -37,7 +37,7 @@ import Trajet from "./pages/prestations/Trajet.vue"
 const routes = [
   {
     path: "/", component: Home, meta: {
-      title: "Accueil - PrestaCar",
+      title: "Location de véhicules de prestige pour tous types d'événements - PrestaCar",
       content: "Location de véhicules de prestige pour tous types d'événements."
     },
   },
@@ -49,7 +49,7 @@ const routes = [
         path: "cadillac-escalade",
         component: Cadillac,
         meta: {
-          title: "Location Cadillac Escalade à Valenciennes - Confort et Luxe Assurés- PrestaCar",
+          title: "Location Cadillac Escalade à Valenciennes - Confort et Luxe Assurés - PrestaCar",
           content: "Louez un Cadillac Escalade et profitez d'un véhicule spacieux et luxueux pour tous vos événements."
         },
       },
