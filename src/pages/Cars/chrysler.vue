@@ -110,9 +110,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 import {
-  getVehiculeImage,
-  getVehiculeImageAvif,
-  getVehiculeImageWebp,
+  getVehiculeImage, getVehiculeImageAvif, getVehiculeImageWebp,
 } from "../../utils/importImages";
 import Carousel from "../../components/Carousel.vue";
 import Table from "../../components/Table.vue";
@@ -147,6 +145,44 @@ const images = [
   {
     id: 1,
     src: getVehiculeImage("limo-chrysler/limo-chrysler.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler.webp"),
   },
+  {
+    id: 2,
+    src: getVehiculeImage("limo-chrysler/limo-chrysler-6.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler-6.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler-6.webp"),
+  },
+  {
+    id: 3,
+    src: getVehiculeImage("limo-chrysler/limo-chrysler-4.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler-4.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler-4.webp"),
+  },
+  {
+    id: 4,
+    src: getVehiculeImage("limo-chrysler/limo-chrysler-5.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler-5.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler-5.webp"),
+  },
+  {
+    id: 5,
+    src: getVehiculeImage("limo-chrysler/limo-chrysler-1.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler-1.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler-1.webp"),
+  },
+  {
+    id: 6,
+    src: getVehiculeImage("limo-chrysler/limo-chrysler-3.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler-3.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler-3.webp"),
+  },
+  {
+    id: 7,
+    src: getVehiculeImage("limo-chrysler/limo-chrysler-2.jpg"),
+    avif: getVehiculeImageAvif("limo-chrysler/limo-chrysler-2.avif"),
+    webp: getVehiculeImageWebp("limo-chrysler/limo-chrysler-2.webp"),
+  }
 ];
 </script>

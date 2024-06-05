@@ -117,9 +117,7 @@ const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Aller Simple", "Sur devis"],
   ["Aller Retour", "Sur devis"],
-  ["1h", "200€"],
-  ["3h", "400€"],
-  ["Forfait Mariage", "500€"],
+  ["Forfait Mariage", "600€"],
 ];
 
 const options = [
