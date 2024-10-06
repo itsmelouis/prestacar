@@ -125,11 +125,9 @@ const el = ref<HTMLDivElement>();
 
 const grille_tarifiaire = [
   ["Temps", "Prix"],
-  ["Aller Simple", "Sur devis"],
-  ["Aller Retour", "Sur devis"],
-  ["3h", "350€"],
-  ["4h", "450€"],
-  ["Forfait Mariage", "500€"],
+  ["3h", "300€"],
+  ["4h", "400€"],
+  ["Forfait Mariage", "450€"],
 ];
 
 const options = [
@@ -140,106 +138,46 @@ const options = [
 
 const images = [
   {
-    id: 3,
-    src: getVehiculeImage("ford_capri/capri-3.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-3.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-3.webp"),
+    id: 1,
+    src: getVehiculeImage("ford_capri/capri-4.jpg"),
+    avif: getVehiculeImageAvif("ford_capri/capri-4.avif"),
+    webp: getVehiculeImageWebp("ford_capri/capri-4.webp"),
   },
   {
-    id: 5,
+    id: 2,
     src: getVehiculeImage("ford_capri/capri-5.jpg"),
     avif: getVehiculeImageAvif("ford_capri/capri-5.avif"),
     webp: getVehiculeImageWebp("ford_capri/capri-5.webp"),
   },
   {
-    id: 6,
-    src: getVehiculeImage("ford_capri/capri-6.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-6.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-6.webp"),
+    id: 3,
+    src: getVehiculeImage("ford_capri/capri-17.jpg"),
+    avif: getVehiculeImageAvif("ford_capri/capri-17.avif"),
+    webp: getVehiculeImageWebp("ford_capri/capri-17.webp"),
   },
   {
-    id: 7,
-    src: getVehiculeImage("ford_capri/capri-7.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-7.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-7.webp"),
-  },
-  {
-    id: 9,
-    src: getVehiculeImage("ford_capri/capri-9.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-9.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-9.webp"),
-  },
-  {
-    id: 24,
-    src: getVehiculeImage("ford_capri/capri-2-2.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-2-2.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-2-2.webp"),
-  },
-  {
-    id: 10,
-    src: getVehiculeImage("ford_capri/capri-10.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-10.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-10.webp"),
-  },
-  {
-    id: 11,
-    src: getVehiculeImage("ford_capri/capri-11.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-11.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-11.webp"),
-  },
-  {
-    id: 12,
-    src: getVehiculeImage("ford_capri/capri-12.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-12.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-12.webp"),
-  },
-  {
-    id: 13,
-    src: getVehiculeImage("ford_capri/capri-13.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-13.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-13.webp"),
-  },
-  {
-    id: 14,
-    src: getVehiculeImage("ford_capri/capri-14.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-14.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-14.webp"),
-  },
-  {
-    id: 15,
-    src: getVehiculeImage("ford_capri/capri-15.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-15.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-15.webp"),
-  },
-  {
-    id: 16,
-    src: getVehiculeImage("ford_capri/capri-16.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-16.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-16.webp"),
-  },
-  {
-    id: 19,
+    id: 4,
     src: getVehiculeImage("ford_capri/capri-19.jpg"),
     avif: getVehiculeImageAvif("ford_capri/capri-19.avif"),
     webp: getVehiculeImageWebp("ford_capri/capri-19.webp"),
   },
   {
-    id: 20,
+    id: 5,
     src: getVehiculeImage("ford_capri/capri-20.jpg"),
     avif: getVehiculeImageAvif("ford_capri/capri-20.avif"),
     webp: getVehiculeImageWebp("ford_capri/capri-20.webp"),
   },
   {
-    id: 21,
-    src: getVehiculeImage("ford_capri/capri-21.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-21.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-21.webp"),
+    id: 6,
+    src: getVehiculeImage("ford_capri/capri-2-2.jpg"),
+    avif: getVehiculeImageAvif("ford_capri/capri-2-2.avif"),
+    webp: getVehiculeImageWebp("ford_capri/capri-2-2.webp"),
   },
   {
-    id: 23,
-    src: getVehiculeImage("ford_capri/capri-23.jpg"),
-    avif: getVehiculeImageAvif("ford_capri/capri-23.avif"),
-    webp: getVehiculeImageWebp("ford_capri/capri-23.webp"),
+    id: 7,
+    src: getVehiculeImage("ford_capri/capri-11.jpg"),
+    avif: getVehiculeImageAvif("ford_capri/capri-11.avif"),
+    webp: getVehiculeImageWebp("ford_capri/capri-11.webp"),
   },
 ];
 
