@@ -71,6 +71,11 @@ const summary = [
     href: "/vehicules/citroen-2CV",
   },
   {
+    car: "Ford Capri Crayford Cabriolet",
+    src: getVehiculeImage("ford_capri/capri-6.jpg"),
+    href: "/vehicules/ford-capri",
+  },
+  {
     car: "Mini Cooper",
     src: getVehiculeImage("mini/mini-15.jpg"),
     href: "/vehicules/mini-cooper",
@@ -89,11 +94,6 @@ const summary = [
     car: "Bentley Continental GT Sport",
     src: getVehiculeImage("bentley_continental_gt_sport/bentley-2-1.jpg"),
     href: "/vehicules/bentley-continental-gt-sport",
-  },
-  {
-    car: "Ford Capri Crayford Cabriolet",
-    src: getVehiculeImage("ford_capri/capri.jpg"),
-    href: "/vehicules/ford-capri",
   },
   {
     car: "Mercedes Classe E Cabriolet",
