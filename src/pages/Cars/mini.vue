@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Mini Cooper : Une Icône de Style et de Fun</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La Mini Cooper : Une Icône de Style et de Fun</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Mini Cooper n'est pas juste une voiture, c'est une véritable expression de joie de vivre et d'élégance. Avec son allure compacte,
@@ -33,7 +33,7 @@
         vous permettant de vous immerger dans le bonheur et l'excitation de votre journée. 🚘🌈
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Service Personnalisé pour un Mariage Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Service Personnalisé pour un Mariage Inoubliable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est une célébration unique de votre amour. C'est pourquoi nous proposons un service sur mesure avec la Mini Cooper.
@@ -41,7 +41,7 @@
         notre équipe est dédiée à personnaliser votre expérience pour qu'elle soit véritablement exceptionnelle. 🌸🎵
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Mini Cooper Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Mini Cooper Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour garantir la présence de la Mini Cooper à votre mariage à Valenciennes, contactez LB-Prestacar

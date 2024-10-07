@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Le Cadillac Escalade : Une Déclaration de Luxe et d'Espace</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Le Cadillac Escalade : Une Déclaration de Luxe et d'Espace</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Le Cadillac Escalade n'est pas juste un véhicule, c'est une véritable expérience de luxe sur roues. Avec son design imposant,
@@ -37,7 +37,7 @@
         journée spéciale, entourés par le luxe absolu de l'Escalade. 🚘🛣️
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Personnalisé pour une Célébration Mémorable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Personnalisé pour une Célébration Mémorable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Chez LB-Prestacar, nous comprenons que votre mariage est l'expression de votre individualité.
@@ -46,7 +46,7 @@
         à personnaliser votre expérience selon vos désirs, rendant votre mariage véritablement unique. 🌹🎶
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Cadillac Escalade Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Cadillac Escalade Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Pour garantir la présence du Cadillac Escalade à votre mariage à Valenciennes, contactez LB-Prestacar

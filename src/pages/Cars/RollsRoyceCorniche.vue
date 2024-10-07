@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Rolls-Royce Corniche : Un Symbole d'Élégance et de Prestige 🚗💫</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La Rolls-Royce Corniche : Un Symbole d'Élégance et de Prestige 🚗💫</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Rolls-Royce Corniche est bien plus qu'une simple voiture ; c'est un symbole intemporel de sophistication et de prestige.
@@ -34,7 +34,7 @@
         voyage soit aussi fluide et agréable que possible, vous permettant de vous concentrer pleinement sur la célébration de votre amour. 👑🚘
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous comprenons que votre mariage est unique. C'est pourquoi nous offrons des services personnalisés
@@ -43,7 +43,7 @@
         notre équipe est à votre écoute pour répondre à vos désirs les plus précis.
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour Votre Journée Exceptionnelle</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour garantir la disponibilité de la Rolls-Royce Corniche pour votre mariage à Valenciennes, nous vous invitons

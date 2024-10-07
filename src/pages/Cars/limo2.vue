@@ -12,7 +12,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Limousine Lincoln TownCar : L'Élégance à l'État Pur</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La Limousine Lincoln TownCar : L'Élégance à l'État Pur</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Limousine Lincoln TownCar n'est pas juste une voiture ; c'est une expérience de luxe inégalée.
@@ -38,7 +38,7 @@
         totalement dans la magie de votre journée spéciale. 🎩🚪
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Service Sur Mesure pour une Célébration Mémorable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Service Sur Mesure pour une Célébration Mémorable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous comprenons l'importance de personnaliser votre expérience de mariage. C'est pourquoi
@@ -47,7 +47,7 @@
         moment un événement unique et à votre image. 🌸🎶
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Limousine Lincoln Town Car Dès Maintenant</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Limousine Lincoln Town Car Dès Maintenant</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour garantir la disponibilité de la Limousine Lincoln Town Car pour votre grand jour,

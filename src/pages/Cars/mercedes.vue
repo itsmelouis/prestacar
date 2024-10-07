@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Mercedes Classe E Cabriolet : Synonyme de Raffinement et d'Ouverture</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Mercedes Classe E Cabriolet : Synonyme de Raffinement et d'Ouverture</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         La Mercedes Classe E Cabriolet n'est pas juste un véhicule, c'est une expérience de luxe à ciel ouvert. Avec son design élégant,
@@ -34,7 +34,7 @@
         vous permettant de profiter pleinement de votre journée spéciale, enveloppés dans le luxe de la Classe E Cabriolet. 🚘🎉
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Personnalisé pour une Célébration Mémorable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Personnalisé pour une Célébration Mémorable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Chez LB-Prestacar, nous savons que chaque mariage est unique. C'est pourquoi nous proposons un service sur mesure avec la Mercedes Classe E Cabriolet. Que vous désiriez
@@ -42,7 +42,7 @@
         et rendre votre mariage véritablement inoubliable. 🌸🎵
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Mercedes Classe E Cabriolet Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Mercedes Classe E Cabriolet Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Pour assurer la présence de la Mercedes Classe E Cabriolet à votre mariage à Valenciennes, contactez LB-Prestacar sans tarder. Notre équipe passionnée est prête à écouter

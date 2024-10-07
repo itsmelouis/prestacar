@@ -28,6 +28,8 @@ import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import CardVoiture from "../components/Card/CardVoiture.vue";
 import { getVehiculeImage } from "../utils/importImages";
+import { getVehiculeImageAvif } from "../utils/importImages";
+import { getVehiculeImageWebp } from "../utils/importImages";
 
 const summary = [
   {
@@ -68,11 +70,15 @@ const summary = [
   {
     car: "Citroën 2CV",
     src: getVehiculeImage("citroen_2cv/2cv-10.jpg"),
+    avif: getVehiculeImageAvif("citroen_2cv/2cv-10.avif"),
+    webp: getVehiculeImageWebp("citroen_2cv/2cv-10.webp"),
     href: "/vehicules/citroen-2CV",
   },
   {
     car: "Ford Capri Crayford Cabriolet",
     src: getVehiculeImage("ford_capri/capri-6.jpg"),
+    avif: getVehiculeImageAvif("ford_capri/capri-6.avif"),
+    webp: getVehiculeImageWebp("ford_capri/capri-6.webp"),
     href: "/vehicules/ford-capri",
   },
   {

@@ -12,7 +12,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Ford Capri Crayford Cabriolet : Une Rare Beauté sur Roues</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Ford Capri Crayford Cabriolet : Une Rare Beauté sur Roues</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Ford Capri Crayford est bien plus qu'une voiture décapotable ; c'est une véritable pièce de collection,
@@ -42,7 +42,7 @@
         vous permettant de vous immerger pleinement dans la magie de votre journée spéciale, avec une touche de nostalgie. 🚘💨
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Sur Mesure pour une Moment Exceptionnel</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Sur Mesure pour une Moment Exceptionnel</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est l'expression de votre personnalité unique. C'est pourquoi
@@ -50,7 +50,7 @@
         vos désirs, faisant de votre expérience un moment véritablement sur mesure. 🌸
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Ford Capri Crayford Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Ford Capri Crayford Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour garantir la disponibilité de cette voiture exceptionnelle pour votre mariage à Valenciennes, contactez LB-Prestacar sans tarder.
