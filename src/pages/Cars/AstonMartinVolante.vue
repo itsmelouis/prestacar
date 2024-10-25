@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">L'Aston Martin Volante : Un Chef-d'Œuvre d'Élégance et de Performance</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">L'Aston Martin Volante : Un Chef-d'Œuvre d'Élégance et de Performance</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         L'Aston Martin Volante n'est pas juste une voiture, c'est une véritable expression de luxe et de raffinement. Avec son design iconique,
@@ -31,14 +31,14 @@
         et de savourer chaque instant de votre journée spéciale, entourés par le luxe absolu de la Volante. 🚘🛣️
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Service Personnalisé pour un Mariage Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Service Personnalisé pour un Mariage Inoubliable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Chez LB-Prestacar, nous comprenons que votre mariage doit refléter votre histoire unique. C'est pourquoi nous offrons un service sur mesure avec l'Aston Martin Volante. Des arrangements
         floraux raffinés à une ambiance musicale qui accompagne votre voyage, notre équipe est engagée à personnaliser votre expérience selon vos désirs, rendant votre mariage véritablement exceptionnel. 🌸🎵
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Réservez Votre Aston Martin Volante Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Réservez Votre Aston Martin Volante Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Pour garantir la disponibilité de l'Aston Martin Volante pour votre mariage à Valenciennes, contactez LB-Prestacar

@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Porsche Boxster : Synonyme de Liberté et d'Élégance</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La Porsche Boxster : Synonyme de Liberté et d'Élégance</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Porsche Boxster n'est pas qu'une simple voiture de sport ; c'est un véhicule qui incarne la liberté,
@@ -30,7 +30,7 @@
         immerger entièrement dans la joie de votre union. 👨‍✈️🌹
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Une Offre Personnalisée pour un Jour Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Une Offre Personnalisée pour un Jour Inoubliable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous reconnaissons l'unicité de chaque mariage. C'est pourquoi nous proposons des services
@@ -39,7 +39,7 @@
         encore plus spéciale, notre équipe est à votre écoute pour faire de vos rêves une réalité. 🎶💐
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Porsche Boxster dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Porsche Boxster dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour vous assurer que la Porsche Boxster soit disponible pour votre mariage à Valenciennes, nous vous invitons

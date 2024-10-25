@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Le Volkswagen Combi T1 : Un Icône de Convivialité et d'Originalité</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Le Volkswagen Combi T1 : Un Icône de Convivialité et d'Originalité</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Le <span class="font-bold">Volkswagen Combi T1</span> n'est pas juste un moyen de transport ; c'est une invitation au voyage dans le temps,
@@ -38,7 +38,7 @@
         de votre amour, ajoutant une note de conte de fées à votre journée spéciale. 🚍💫
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Sur Mesure pour un Jour Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Service Sur Mesure pour un Jour Inoubliable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est le reflet de votre histoire d'amour. C'est pourquoi nous proposons
@@ -46,7 +46,7 @@
         préférences, rendant votre expérience véritablement unique. 🌸🎵
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Volkswagen Combi T1 Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Volkswagen Combi T1 Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour que le Volkswagen Combi T1 soit à vos côtés lors de votre mariage à Valenciennes, contactez LB-Prestacar
@@ -117,9 +117,7 @@ const grille_tarifiaire = [
   ["Temps", "Prix"],
   ["Aller Simple", "Sur devis"],
   ["Aller Retour", "Sur devis"],
-  ["1h", "200€"],
-  ["3h", "400€"],
-  ["Forfait Mariage", "500€"],
+  ["Forfait Mariage", "600€"],
 ];
 
 const options = [
@@ -132,48 +130,54 @@ const options = [
 const images = [
   {
     id: 1,
+    src: getVehiculeImage("combi_t1/combi10.jpg"),
+    avif: getVehiculeImageAvif("combi_t1/combi10.avif"),
+    webp: getVehiculeImageWebp("combi_t1/combi10.webp"),
+  },
+  {
+    id: 2,
     src: getVehiculeImage("combi_t1/combi1.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi1.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi1.webp"),
   },
   {
-    id: 2,
+    id: 3,
     src: getVehiculeImage("combi_t1/combi2.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi2.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi2.webp"),
   },
   {
-    id: 3,
+    id: 4,
     src: getVehiculeImage("combi_t1/combi3.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi3.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi3.webp"),
   },
   {
-    id: 4,
+    id: 5,
     src: getVehiculeImage("combi_t1/combi4.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi4.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi4.webp"),
   },
   {
-    id: 5,
+    id: 6,
     src: getVehiculeImage("combi_t1/combi5.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi5.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi5.webp"),
   },
   {
-    id: 6,
+    id: 7,
     src: getVehiculeImage("combi_t1/combi6.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi6.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi6.webp"),
   },
   {
-    id: 7,
+    id: 8,
     src: getVehiculeImage("combi_t1/combi7.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi7.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi7.webp"),
   },
   {
-    id: 8,
+    id: 9,
     src: getVehiculeImage("combi_t1/combi8.jpg"),
     avif: getVehiculeImageAvif("combi_t1/combi8.avif"),
     webp: getVehiculeImageWebp("combi_t1/combi8.webp"),

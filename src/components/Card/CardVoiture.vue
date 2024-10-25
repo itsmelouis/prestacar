@@ -4,11 +4,15 @@
     <div
         class="flex flex-col justify-center items-center border-2 rounded space-y-4 pb-8 w-auto"
     >
-      <img
-          :src="props.items.src"
-          :alt="props.items.car"
-          class="w-full h-60 object-cover rounded-t"
-      />
+      <picture class="h60 w-full">
+          <source :srcset="props.items.avif" type="image/avif" />
+          <source :srcset="props.items.webp" type="image/webp" />
+          <img
+            :src="props.items.src"
+            :alt="props.items.car"
+            class="w-full object-cover h-60 rounded-t"
+          />
+      </picture>
       <p class="font-semibold text-lg lg:text-xl text-center">
         {{ props.items.car }}
       </p>
@@ -31,6 +35,8 @@ import { PropType } from "vue";
 
 type CardVoiture = {
   car: string;
+  avif?: string;
+  webp?: string;
   src: string;
   href: string;
 };

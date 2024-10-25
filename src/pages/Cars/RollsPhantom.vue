@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Rolls-Royce Phantom : Un Icône d'Excellence et de Grandeur</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La Rolls-Royce Phantom : Un Icône d'Excellence et de Grandeur</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Rolls-Royce Phantom est plus qu'une automobile ; elle représente un héritage d'excellence et de grandeur.
@@ -34,7 +34,7 @@
         un voyage tout en douceur et en élégance, vous laissant libre de savourer la célébration de votre amour. 👨‍✈️🌹
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Sur Mesure pour Votre Journée Extraordinaire</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Sur Mesure pour Votre Journée Extraordinaire</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est un événement unique. C'est pourquoi nous proposons des services sur
@@ -43,7 +43,7 @@
         notre équipe est à votre disposition pour réaliser vos souhaits les plus détaillés. 🎵🌸
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Rolls-Royce Phantom Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Rolls-Royce Phantom Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour assurer la disponibilité de la Rolls-Royce Phantom pour votre mariage à Valenciennes, nous vous encourageons à nous

@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La New Beetle Cabriolet : Un Symbole de Joie et de Liberté</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La New Beetle Cabriolet : Un Symbole de Joie et de Liberté</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La New Beetle Cabriolet est bien plus qu'une voiture décapotable ; c'est une célébration de la joie de vivre,
@@ -36,7 +36,7 @@
         que propose cette voiture exceptionnelle. 👩‍✈️🌼
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour une Journée Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Un Service Personnalisé pour une Journée Inoubliable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous savons que votre mariage est unique et mérite une attention toute particulière. C'est pourquoi
@@ -45,7 +45,7 @@
         détail selon vos désirs. 🎵🌹
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre New Beetle Cabriolet dès Maintenant</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre New Beetle Cabriolet dès Maintenant</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Pour que la New Beetle Cabriolet soit la vôtre pour le grand jour à Valenciennes, n'hésitez pas à contacter

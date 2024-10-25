@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Volkswagen Coccinelle : Un Symbole d'Élégance Simple et de Bonheur</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Volkswagen Coccinelle : Un Symbole d'Élégance Simple et de Bonheur</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         La <span class="font-bold">Volkswagen Coccinelle</span> n'est pas seulement un véhicule, c'est une véritable icône culturelle qui évoque la joie de vivre et
@@ -36,7 +36,7 @@
         de se concentrer sur leur bonheur et leur amour, entourés de l'aura charmante de la Coccinelle. 🚘💒
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Un Service Personnalisé pour une Célébration Unique</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Un Service Personnalisé pour une Célébration Unique</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Chez LB-Prestacar, nous reconnaissons l'importance de personnaliser chaque aspect de votre mariage.
@@ -45,7 +45,7 @@
         notre équipe est là pour réaliser vos rêves. 🎶🌼
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Volkswagen Coccinelle Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Volkswagen Coccinelle Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Pour assurer la présence de la Volkswagen Coccinelle à votre mariage à Valenciennes, n'hésitez pas

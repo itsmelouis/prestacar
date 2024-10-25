@@ -12,7 +12,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Dodge Charger : Un Symbole de Puissance et de Prestige</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">La Dodge Charger : Un Symbole de Puissance et de Prestige</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Dodge Charger n'est pas simplement une voiture ; c'est une légende vivante qui incarne l'esprit
@@ -39,7 +39,7 @@
         amour, avec une pointe d'adrénaline. 🚘💨
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Services Personnalisés pour une Célébration Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Services Personnalisés pour une Célébration Inoubliable</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, nous comprenons que votre mariage est une expression de votre amour unique.
@@ -48,7 +48,7 @@
         pour rendre votre journée encore plus extraordinaire, notre équipe est dédiée à réaliser vos souhaits les plus ambitieux. 🌹🎶
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Dodge Charger Dès Maintenant</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Dodge Charger Dès Maintenant</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Assurez-vous que la Dodge Charger soit présente pour marquer votre mariage en contactant LB-Prestacar

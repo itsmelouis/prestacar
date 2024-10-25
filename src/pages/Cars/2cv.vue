@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">La Citroën 2CV France 3 : Une Icône de l'Automobile Française</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">La Citroën 2CV France 3 : Une Icône de l'Automobile Française</H2>
 
       <p class="text-base md:text-lg lg:text-x mb-8 mt-8">
         La Citroën 2CV France 3 n'est pas juste une voiture, c'est un symbole de liberté et de simplicité. Avec sa couleur blanche distinctive, ses lignes rondes et son toit décapotable,
@@ -32,7 +32,7 @@
         vous permettant de savourer pleinement la joie et l'excitation de votre journée spéciale, sous le ciel ouvert de la 2CV. 🚘🌅
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Service Personnalisé pour un Mariage Inoubliable</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mb-8 mt-8">Service Personnalisé pour un Mariage Inoubliable</h2>
 
       <p class="text-base md:text-lg lg:text-xl">
         Chez LB-Prestacar, nous croyons que votre mariage doit être une célébration de votre histoire unique. C'est pourquoi nous offrons un service sur mesure avec la Citroën 2CV France 3.
@@ -40,7 +40,7 @@
         faisant de votre mariage un événement véritablement exceptionnel et personnel. 🌸🎶
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Citroën 2CV France 3 Dès Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center mt-8 mb-8">Réservez Votre Citroën 2CV France 3 Dès Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-4">
         Pour assurer la disponibilité de la Citroën 2CV France 3 pour votre mariage à Valenciennes, contactez LB-Prestacar

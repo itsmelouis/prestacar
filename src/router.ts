@@ -26,6 +26,7 @@ import Citroen from "./pages/Cars/2cv.vue";
 import Mini from "./pages/Cars/mini.vue";
 import Mercedes from "./pages/Cars/mercedes.vue";
 import Chrysler from "./pages/Cars/chrysler.vue";
+import Lincoln from "./pages/Cars/limo2.vue";
 
 import Mariage from "./pages/prestations/Mariage.vue";
 import Anniversaire from "./pages/prestations/Anniversaire.vue";
@@ -220,6 +221,14 @@ const routes = [
         meta: {
           title: "Location limousine chrysler à Valenciennes - PrestaCar",
           content: "Limousine Chrysler 300c. Parfait pour vos événements."
+        },
+      },
+      {
+        path: "limousine-lincoln",
+        component: Lincoln,
+        meta: {
+          title: "Location limousine chrysler à Valenciennes - PrestaCar",
+          content: "Limousine Lincoln TownCar. Parfait pour vos événements."
         },
       },
     ],

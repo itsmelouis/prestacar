@@ -10,7 +10,7 @@
 
       <Carousel :items="images" />
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">La Mustang Legend Lime : Une Icône de Puissance et de Style</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">La Mustang Legend Lime : Une Icône de Puissance et de Style</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         La Mustang Legend Lime n'est pas juste une voiture, c'est un symbole de liberté et de puissance, enveloppé
@@ -37,7 +37,7 @@
         complètement dans le bonheur de votre journée spéciale. 🏁👨‍✈️
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Services Personnalisés pour un Événement Extraordinaire</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Services Personnalisés pour un Événement Extraordinaire</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Chez LB-Prestacar, chaque mariage est une occasion unique de briller. C'est pourquoi nous proposons des options
@@ -46,7 +46,7 @@
         notre équipe est à votre service pour personnaliser votre expérience. 🌟🎶
       </p>
 
-      <H2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Mustang Legend Lime Aujourd'hui</H2>
+      <h2 class="font-bold text-xl md:text-2xl text-center my-8">Réservez Votre Mustang Legend Lime Aujourd'hui</H2>
 
       <p class="text-base md:text-lg lg:text-xl mb-6">
         Assurez-vous que la Mustang Legend Lime soit présente pour ajouter une touche de magie à votre mariage à Valenciennes
